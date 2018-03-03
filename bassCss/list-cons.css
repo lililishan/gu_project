@@ -43,7 +43,7 @@ con-list
     background: url('../images/arrow.gif') no-repeat 0;
 }
 .list-cons ul.cons-main-box li.li-down {
-    background: url('./../index/images/download.gif') no-repeat 0;
+    background: url('../portalsIndex/images/download.gif') no-repeat 0;
 }
 
 .list-cons ul.cons-main-box li a {
