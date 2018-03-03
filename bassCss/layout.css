@@ -1,0 +1,117 @@
+/*
+头部
+*/
+header#header {
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+#header .header-logo-box {
+    margin: 0 auto;
+    /*padding: 35px 0;*/
+    height: 170px;
+    width: 1200px;
+    line-height:170px;
+    box-sizing: border-box;
+}
+#header .header-logo-box .logo-img {
+    float: left;
+}
+#header .header-logo-box .logo-img img {
+    /*width: 360px;*/
+}
+#header .header-logo-box .search-box {
+    position: relative;
+    float: right;
+}
+#header .header-logo-box .search-box input.search {
+    padding-left: 20px;
+    margin-top: 9px;
+    width: 305px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e3e8e9;
+    border-radius: 25px;
+}
+#header .header-logo-box .search-box img {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    margin: auto;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+#header #nav {
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    box-sizing: border-box;
+    background: #59c3bc;
+}
+#header #nav ul.nav-bar {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+#header #nav ul.nav-bar li.bar-con {
+    float: left;
+}
+#header #nav ul.nav-bar li.bar-con a {
+    padding: 0 12px 0 18px;
+    font-size: 16px;
+    color: #fff;
+    border-right: 1px solid #4fb7b1;
+}
+#header #nav ul.nav-bar li.bar-con:first-child a {
+    padding-left: 0;
+}
+#header #nav ul.nav-bar li.bar-con:last-child a {
+    padding-right: 0;
+    border-right: none;
+}
+/*#header #nav ul.nav-bar li.bar-con .bar-line {*/
+/*width: 1px;*/
+/*height: 13px;*/
+/*display: inline-block;*/
+/*vertical-align: middle;*/
+/*background: #4fb7b1;*/
+/*!*color: #4fb7b1;*!*/
+/*}*/
+
+/*
+内容
+*/
+.content-main-box {
+    width: 100%;
+    min-height: calc(100vh - 210px);
+    background: #f3f8f9;
+}
+
+
+
+/*
+footer
+*/
+footer#footer {
+    height: 140px;
+    width: 100%;
+    background: #27262c;
+    box-sizing: border-box;
+}
+footer#footer ul.footer-main {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    box-sizing: border-box;
+}
+footer#footer ul.footer-main li {
+    width: 100%;
+    float: left;
+    line-height: 1.8;
+    color: #87898e;
+}
