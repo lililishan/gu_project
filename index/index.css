@@ -36,6 +36,7 @@ con-list
 .list-cons .cons-top .title {
     float: left;
     font-size: 16px;
+    font-weight: 600;
     color: #181d1e;
 }
 .list-cons .cons-top .more {
@@ -64,6 +65,7 @@ con-list
     padding-left: 20px;
     width: 80%;
     float:left;
+    font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -99,6 +101,8 @@ con-list
 .list-cons .cons-main-box table.regime-table thead tr {
     height: 50px;
     line-height: 50px;
+    font-size: 14px;
+    font-weight: 600;
     color: #282828;
 }
 .list-cons .cons-main-box table.regime-table tbody tr {
