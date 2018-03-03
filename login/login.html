@@ -27,11 +27,10 @@
                             <input class="input"  placeholder="请输入密码" required="required">
                         </div>
                         <div class="inputBox">
-                            <div class="selects select-mwid active" >
+                            <div class="selects active" >
 
                                 <label class="se-label" >2015</label>
                                 <img class="img-down" src="./../images/down@2x.gif" alt="">
-                                <i class="iconFont icon-drop-down active" ></i>
                                 <ul class="se-item">
                                     <li class="once"> 2015 </li>
                                     <li class="once"> 2016 </li>
@@ -45,12 +44,21 @@
                 </div>
             </div>
             <div class="login-footer">
-                <span>国土资源部内控系统平台由真内控科技集团承建   |    服务热线：0571-88903243</span>
+                <span>国土资源部内控系统平台由真内控科技集团承建&nbsp;&nbsp;&nbsp;&nbsp;   |&nbsp;&nbsp;&nbsp;&nbsp;    服务热线：0571-88903243</span>
             </div>
         </div>
     </div>
 </body>
-<script>
-
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.se-label').click(function () {
+            $('.se-item').show();
+            $('.se-item li').click(function () {
+                $('.se-label').html($(this).text());
+                $('.se-item').hide();
+            });
+        });
+    });
 </script>
 </html>

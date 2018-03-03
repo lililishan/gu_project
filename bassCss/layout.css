@@ -1,7 +1,7 @@
 /*
 头部
 */
-header#header {
+#header {
     margin: 0 auto;
     height: auto;
     width: 100%;
@@ -97,7 +97,7 @@ header#header {
 /*
 footer
 */
-footer#footer {
+#footer {
     height: 55px;
     width: 100%;
     line-height: 55px;
@@ -105,7 +105,7 @@ footer#footer {
     color: #919199;
     box-sizing: border-box;
 }
-footer#footer span.txt {
+#footer span.txt {
     display: inline-block;
     width: 100%;
     text-align: center;
