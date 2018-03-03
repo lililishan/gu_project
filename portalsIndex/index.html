@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../bassCss/bar.css">
     <link rel="stylesheet" href="../bassCss/list-cons.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./swiper.min.css">
 </head>
 <body>
     <!--header--->
@@ -276,7 +277,24 @@
             <!---right-->
             <div class="content-right">
                 <div class="swiper-box">
-
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/lunbo.jpg" alt="">
+                                <div class="mask-txt">国土资源工作会议在京召开</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/lunbo2.jpg" alt="">
+                                <div class="mask-txt">国土资源工作会议在京召开</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/lunbo.jpg" alt="">
+                                <div class="mask-txt">国土资源工作会议在京召开</div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
                 <div class="login-box">
                     <div class="login-head">
@@ -330,4 +348,14 @@
         </ul>
     </footer>
 </body>
+<script src="./swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
 </html>
