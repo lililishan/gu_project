@@ -13,7 +13,36 @@
     /*float: left;*/
     /*box-sizing: border-box;*/
 /*}*/
-
+/*
+header
+*/
+#header .portals-header {
+    height: 170px;
+    line-height:170px;
+}
+#header .portals-header .search-box {
+    position: relative;
+    float: right;
+}
+#header .portals-header .search-box input.search {
+    padding-left: 20px;
+    margin-top: 9px;
+    width: 305px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e3e8e9;
+    border-radius: 25px;
+}
+#header .portals-header .search-box img {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    margin: auto;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
 /*
 右侧部分
 */
@@ -83,9 +112,11 @@
     height: 35px;
     line-height: 35px;
     text-align: center;
-    color: #fff;
     background: #59c3bc;
     cursor: pointer;
+}
+.content-main-box .content .content-right .login-box form.form .login-btn a{
+    color: #fff;
 }
 .content-main-box .content .content-right .login-box form.form .btn-list {
     margin-top: 20px;
@@ -104,4 +135,23 @@
 }
 .content-main-box .content .content-right .login-box form.form .btn-list a:last-child{
     border-right: 0;
+}
+
+/*
+footer
+*/
+footer#footer.portals-footer {
+    height: 140px;
+}
+footer#footer.portals-footer ul.footer-main {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    box-sizing: border-box;
+}
+footer#footer.portals-footer ul.footer-main li {
+    width: 100%;
+    float: left;
+    line-height: 1.8;
 }
