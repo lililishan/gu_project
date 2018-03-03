@@ -32,6 +32,7 @@ header
     line-height: 40px;
     border: 1px solid #e3e8e9;
     border-radius: 25px;
+    font-size: 14px;
 }
 #header .portals-header .search-box img {
     position: absolute;
