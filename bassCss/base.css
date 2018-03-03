@@ -98,5 +98,9 @@ acronym {
     font-variant: normal;
 }
 
-
+.clearfix:after {
+    content:"";
+    display: block;
+    clear:both;
+}
 
