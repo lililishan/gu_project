@@ -93,6 +93,10 @@ input.input{
     border-radius: 2px;
     cursor: pointer;
 }
+.login-btn:hover {
+    background: #68d0ca;
+}
+
 .login-btn a{
     color: #fff;
 }
@@ -110,8 +114,26 @@ input.input{
     border-radius: 2px;
     cursor: pointer;
 }
+/*.btns:hover {*/
+    /*background: #68d0ca;*/
+/*}*/
 .btns.whiteBths {
     border: 1px solid #b9bbbc;
     color: #717475;
     background: #fff;
+}
+/*.btns.whiteBths:hover {*/
+    /*background: #fff;*/
+/*}*/
+.radio {
+    display: inline-block;
+    cursor: pointer;
+}
+.radio img.radio-img {
+    margin-top: -3px;
+    height: 17px;
+}
+.radio span {
+    padding: 0 10px 0 6px;
+    color: #959595;
 }

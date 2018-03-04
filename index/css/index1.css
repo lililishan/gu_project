@@ -23,13 +23,13 @@
 .beforehand-mian{
 	width: 148px;
 	height: 111px;
-	border-radius: 45px;
+	border-radius: 20px;
 	border: 1px solid #7ebafd;
 	margin-top: 50px;
 	position: relative;
 }
 .beforehand-mian .add-bills{
-	background: url(./images/danju.png) no-repeat;
+	background: url(../images/danju.png) no-repeat;
 	width: 80px;
 	height: 45px;
 	position: absolute;
@@ -59,7 +59,7 @@
 }
 .beforehand-mian .beforehand-mian-top{
 	background: #7ebafd;
-	border-radius: 43px 43px 0 0;
+	border-radius: 19px 19px 0 0;
 	height: 55px;
 }
 .beforehand-mian .beforehand-mian-top li{
@@ -183,6 +183,7 @@
 	border: 1px solid #e2e7eb;
 	margin-top: 83px;
 	border-radius: 30px;
+	font-size: 14px;
 }
 .content-main-box .statistics-container ul{
 	width: 100%;

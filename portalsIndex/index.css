@@ -146,6 +146,7 @@ header
     display: inline-block;
     text-align: left;
     font-size: 14px;
+    font-weight: 600;
 }
 .content-main-box .content .content-right .login-box form.form {
     margin: 0 auto;

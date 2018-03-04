@@ -1,0 +1,150 @@
+.route-content-box .route-man-box {
+    padding: 30px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e6eaec;
+    border-bottom: none;
+    background: #fff;
+}
+.route-man-box .route-top {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+.route-top .tit-line {
+    left: -40px;
+}
+.route-top span.tit-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.route-top .operate-btns {
+    font-size: 14px;
+    color: #5ec2bc;
+}
+.route-top .operate-btns .operate-line {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #d9d9d9;
+}
+.route-lists .trip-people {
+    margin-top: 40px;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    background: #fbfbfb;
+    border: 1px solid #ececec;
+}
+.route-lists .trip-people span.people-col {
+    color: #e3aa37;
+}
+.route-lists .routing-box {
+    padding: 35px 0;
+}
+.routing-box .routing-top {
+    height: 26px;
+    width: 100%;
+    text-align: center;
+}
+.routing-box .routing-top img {
+    height: 100%;
+}
+.routing-box .routing-top span {
+    padding-left: 25px;
+    font-size: 14px;
+}
+.routing-box .routing-lists {
+    padding: 30px 93px;
+}
+.routing-box .routing-lists .routing-row {
+    width: 130px;
+    height: 82px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid #edbc53;
+    background: #fff9e6;
+}
+.routing-box .routing-lists .routing-row span {
+    display: inline-block;
+    width: 100%;
+    color: #b8b19e;
+}
+.routing-box .routing-lists .routing-row span.city {
+    padding-top: 17px;
+    font-size: 18px;
+    color: #daa444;
+}
+.routing-box .routing-lists .routing-row.get-routing-row span.city {
+    padding-top:10px;
+}
+
+.routing-lists .vehicle{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    padding: 0 15px;
+}
+.routing-lists .vehicle img {
+    height: 100%;
+}
+/**/
+
+.rout-detail-list ul.route-ul-con{
+    float: left;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: #3a3a3a;
+    box-sizing: border-box;
+}
+.rout-detail-list ul.route-ul-con li {
+    padding-left: 20px;
+    float: left;
+    box-sizing: border-box;
+
+}
+.rout-detail-list ul.route-ul-con li input.input {
+    text-align: right;
+    background: none;
+}
+.rout-detail-list ul.route-ul-con li.date  {
+    padding-top: 12px;
+    line-height: normal;
+}
+.rout-detail-list ul.route-ul-con li.date span {
+    display: inline-block;
+    width: 100%;
+}
+.rout-detail-list ul.route-ul-con li.date span.city{
+    color: #5ec1bc;
+}
+
+.rout-detail-list ul.route-ul-con:nth-child(2n+1) {
+    background: #f3f7fa;
+    border-top: 1px solid #e3eaf0;
+    border-bottom: 1px solid #e3eaf0;
+}
+.rout-detail-list ul.route-ul-con.head {
+    height:35px;
+    line-height: 35px;
+    background: #5ec2bc;
+    color: #fff;
+}
+.rout-detail-list ul.route-ul-con li:first-child { width: 11% }
+.rout-detail-list ul.route-ul-con li:nth-child(2){ width: 12% }
+.rout-detail-list ul.route-ul-con li:nth-child(3){ width: 12% }
+.rout-detail-list ul.route-ul-con li:nth-child(4){ width: 9% }
+.rout-detail-list ul.route-ul-con li:nth-child(5){ width: 9%; text-align: right }
+.rout-detail-list ul.route-ul-con li:nth-child(6){ width: 8%;  text-align: right }
+.rout-detail-list ul.route-ul-con li:nth-child(7){ width: 8%;  text-align: right }
+.rout-detail-list ul.route-ul-con li:nth-child(8){ width: 8%;  text-align: right }
+.rout-detail-list ul.route-ul-con li:nth-child(9){ width: 8%; text-align: right }
+.rout-detail-list ul.route-ul-con li:nth-child(10){ width: 5%;  }

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>资金申请单</title>
+    <link rel="stylesheet" href="./../bassCss/base.css">
+    <link rel="stylesheet" href="../bassCss/layout.css">
+    <link rel="stylesheet" href="../bassCss/bar.css">
+    <link rel="stylesheet" href="css/steps.css">
+    <link rel="stylesheet" href="css/fund.css">
+</head>
+<body>
+    <div id="header">
+        <div class="header-logo-box fund-header clearfix">
+            <div class="logo-img">
+                <!--<img src="./../images/logo_small.png" alt="">-->
+                资金申请单
+            </div>
+        </div>
+
+    </div>
+    <!--内容--->
+    <div class="content-main-box fund-content-box">
+
+        <div class="content">
+            <div class="info-step-box">
+                <div class="step-absolute">
+                    <!--already 已填写的状态，这个状态下显示 对勾 --->
+                    <div class="step-list already">
+                        <span class="circle"><img class="done-img" src="images/duigou.png" alt=""></span>
+                        <span>填写基本信息</span>
+                    </div>
+                    <div class="step-list active">
+                        <span class="circle">2</span>
+                        <span>选择指标及支出事项</span>
+                    </div>
+                    <div class="step-list">
+                        <span class="circle">3</span>
+                        <span>进行费用测算</span>
+                    </div>
+                    <div class="step-list">
+                        <span class="circle">4</span>
+                        <span>是否需借款</span>
+                    </div>
+                    <div class="step-list">
+                        <span class="circle">5</span>
+                        <span>上传附件和工作提示</span>
+                    </div>
+                    <div class="step-list step-last">
+                        <span class="circle">6</span>
+                        <span>要素确认和退回处理</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="done-progress"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="info-main-box">
+                <!--填写基本信息--->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>填写基本信息</span>
+                    </div>
+                    <div class="info-list clearfix">
+                        <div class="list">
+                            <span>申请单号</span>
+                            <input class="input input-line" type="text" value="123456789">
+                        </div>
+                        <div class="list">
+                            <span>申请人</span>
+                            <input class="input input-line" type="text">
+                        </div>
+                        <div class="list">
+                            <span>申请部门</span>
+                            <input class="input input-line" type="text" value="">
+                        </div>
+                        <div class="list">
+                            <span>申请日期</span>
+                            <input class="input input-line" type="text">
+                        </div>
+                        <div class="list">
+                            <span>联系电话</span>
+                            <input class="input input-line" type="text" value="">
+                        </div>
+                        <div class="list">
+                            <span>报销人</span>
+                            <input class="input input-line" type="text">
+                        </div>
+                        <div class="list">
+                            <span>关联单据</span>
+                            <input class="input input-line" type="text" value="">
+                        </div>
+                        <div class="list full-list">
+                            <span>报销是由</span>
+                            <input class="input input-line" type="text">
+                        </div>
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+                <!--视频帮助-->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>视频帮助</span>
+                    </div>
+                    <div class="info-list video-help">
+                        <div class="write-video">
+                            <img src="./images/video-01.svg" alt="">
+                            <span>如何填写各项内容</span>
+                        </div>
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+                <!--帮助-->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>帮助</span>
+                    </div>
+                    <div class="info-list help-box">
+                        <ol class="ol-list">
+                            <li>该单据为资金呈批，不需要事先申请。直接报销的费用和金额有限制。</li>
+                            <li>单据一旦提交，将从指定的指标扣除该笔费用，而暂存状态不会扣除</li>
+                            <li>联系电话、标题和内容是必须录入的。</li>
+                            <li>填写完毕后点下一步骤，选择【预算指标】和【费用】。</li>
+                            <li>点“预览”可以随时看到全部填写的数据。</li>
+                        </ol>
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+                <!--是否需借款-->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>是否需借款</span>
+                    </div>
+                    <div class="info-list isBorrow-list">
+                        <div class="radio">
+                            <img class="radio-img" src="../images/radio-01.svg" alt="">
+                            <span>无需借款</span>
+                        </div>
+                        <div class="radio">
+                            <img class="radio-img" src="../images/radio-02.svg" alt="">
+                            <span>需进行借款</span>
+                        </div>
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+                <!--结项-->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>结项</span>
+                    </div>
+                    <div class="info-list bond-list">
+                        <!--一-->
+                        <div class="bond-cons">
+                            <div class="num-tit">一、本次报销后，剩余请款预算信息</div>
+                            <ul class="steps-ul">
+                                <li class="head">
+                                    <span>序号</span>
+                                    <span>预算指标名称</span>
+                                    <span>申请总额</span>
+                                    <span>累计报销额（含本次）</span>
+                                    <span>已结项金额</span>
+                                    <span>后续可报销余额</span>
+                                    <span>操作</span>
+                                </li>
+                                <li>
+                                    <span>001</span>
+                                    <span>团建费用</span>
+                                    <span>234,233</span>
+                                    <span>2343,233</span>
+                                    <span>3,333 </span>
+                                    <span>45，455</span>
+                                    <span class="operate">删除</span>
+                                </li>
+                                <li>
+                                    <span>001</span>
+                                    <span>团建费用</span>
+                                    <span>234,233</span>
+                                    <span>2343,233</span>
+                                    <span>3,333 </span>
+                                    <span>45，455</span>
+                                    <span class="operate">删除</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--二-->
+                        <div class="bond-cons">
+                            <div class="num-tit">二、请确认本次报销后，后续可报销余额的释放情况（请单选）</div>
+                            <ul class="radio-list">
+                                <li class="radio">
+                                    <img class="radio-img" src="../images/radio-01.svg" alt="">
+                                    <span>本次为资金申请之后的最后一次报销，单据完成审批后，将释放后续可报销预算余额，之后不再进行后续报销。</span>
+                                </li>
+                                <li class="radio">
+                                    <img class="radio-img" src="../images/radio-02.svg" alt="">
+                                    <span>后续资金仍需报销，单据完成审批后，不自动释放后续可报销的预算余额，以后仍需继续报销，直至余额用完。</span>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+                <!--请确认本次提交要素-->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>请确认本次提交要素</span>
+                    </div>
+                    <div class="info-list ele-list">
+                        <ul class="steps-ul ele-ul">
+                            <li class="head">
+                                <span><img src="../images/check-01-fff.svg" alt=""></span>
+                                <span>序号</span>
+                                <span>要素</span>
+                            </li>
+                            <li>
+                                <span><img src="../images/check-01.svg" alt=""></span>
+                                <span>001</span>
+                                <span>确认申请事项的真实性、必要性</span>
+                            </li>
+                            <li>
+                                <span><img src="../images/check_select-01.svg" alt=""></span>
+                                <span>002</span>
+                                <span>对制单内容、额度、附件的真实性负责</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+
+                <!--申请呈批提示-->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>申请呈批提示</span>
+                    </div>
+                    <div class="info-list hint-list">
+                        <span>本次为资金申请之后的最后一次报销，单据完成审批后，将释放后续可报销预算余额，之后不再进行后续报销。</span>
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+                <!--本次申请附件清单-->
+                <div class="info-con-box">
+                    <div class="info-con-title">
+                        <div class="tit-line"></div>
+                        <span>本次申请附件清单</span>
+                    </div>
+                    <div class="info-list repertoire-list">
+                        <ul class="steps-ul repert-ul">
+                            <li class="head">
+                                <span>序号</span>
+                                <span>附件名称</span>
+                                <span>提交要求</span>
+                                <span>上传文件</span>
+                                <span>文件名/如无法提供线上必传附件，需进行缺少说明</span>
+
+                            </li>
+                            <li>
+                                <span>001</span>
+                                <span class="operate">完成审批的资金申请单</span>
+                                <span>线上必传</span>
+                                <span class="operate">上传</span>
+                                <span>缺少说明：<input class='input explain-input' type="text"></span>
+
+                            </li>
+                            <li>
+                                <span>001</span>
+                                <span class="operate">完成审批的资金申请单</span>
+                                <span >线上必传</span>
+                                <span class="operate">上传</span>
+                                <span>缺少说明：<input class='input explain-input' type="text"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info-bg"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--底部按钮--->
+    <div class="btn-gathers">
+        <div class="step-btn">上一步</div>
+        <div class="step-btn">下一步</div>
+        <div class="step-btn temporary-btn">暂存</div>
+        <div class="step-btn submit-btn">提交</div>
+        <div class="step-btn">预览</div>
+        <div class="step-btn step-last-btn">关闭</div>
+    </div>
+
+</body>
+</html>

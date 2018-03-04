@@ -1,0 +1,177 @@
+
+
+/*步骤详情
+基本信息
+*/
+.fund-content-box .info-main-box {
+    padding: 20px 20px 35px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+.info-bg {
+    width: 100%;
+    height:5px;
+    background: #f6f5f5;
+}
+.fund-content-box .info-con-box {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.fund-content-box .info-con-title {
+    position: relative;
+    padding-left: 50px;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4c4f51;
+    background: url("../../images/title_bg.jpg") repeat-x;
+}
+
+.fund-content-box .info-list {
+    padding: 0 20px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #fff;
+    border-bottom: 1px solid #e6eaec;
+}
+
+/* 通用ul-li*/
+.steps-ul li{
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.steps-ul li:nth-child(2n+1) {  background: #f3f7fa;  }
+.steps-ul li.head {
+    background: #5ec2bc;
+    color: #fff;
+}
+.steps-ul li span { padding-left: 20px; float: left; box-sizing: border-box;}
+.steps-ul li span img {
+    height: 20px;
+    cursor: pointer;
+}
+.steps-ul li span .explain-input {
+    width: 292px;
+    background: none;
+}
+
+.steps-ul li span:first-child { width: 10% }
+.steps-ul li span:nth-child(2){ width: 15% }
+.steps-ul li span:nth-child(3){ width: 12% }
+.steps-ul li span:nth-child(4){ width: 20% }
+.steps-ul li span:nth-child(5){ width: 12% }
+.steps-ul li span:nth-child(6){ width: 20% }
+.steps-ul li span:nth-child(7){ width: 11%;  }
+.steps-ul li span.operate {color: #5ec2bc;}
+/**/
+.fund-content-box .info-list .list {
+    padding-top: 30px;
+    width: 50%;
+    float:left;
+    box-sizing: border-box;
+    vertical-align: bottom;
+
+}
+
+.fund-content-box .info-list .list.full-list {
+    width: 100%;
+}
+.fund-content-box .info-list .list.full-list .input-line {
+    width: 986px;
+}
+.fund-content-box .info-list .list span {
+    padding-right: 20px;
+    color: #383838;
+    line-height: inherit;
+}
+.fund-content-box .info-list .list .input-line{
+    padding: 0;
+    width: 390px;
+    font-size: 16px;
+}
+/*视频帮助*/
+.fund-content-box .info-list.video-help {
+    padding: 100px 0 85px 0;
+}
+.fund-content-box .write-video {
+    margin: auto;
+    width: 194px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #4eb4ae;
+    border: 1px solid #4eb4ae;
+    cursor: pointer;
+}
+.fund-content-box .write-video img {
+    margin-top: -4px;
+    height: 23px;
+}
+.fund-content-box .info-list.isBorrow-list {
+    padding: 33px 20px;
+}
+/*帮助*/
+.fund-content-box .info-list.help-box {
+    padding: 35px 20px;
+}
+.fund-content-box .info-list.help-box ol.ol-list {
+    list-style-type: decimal;
+}
+.fund-content-box .info-list.help-box ol.ol-list li{
+    color: #4c4f51;
+    list-style-position:inside;
+}
+/*申请呈批提示*/
+.fund-content-box .info-list.hint-list {
+    padding: 43px 20px;
+}
+.fund-content-box .info-list.hint-list span {
+    font-size: 14px;
+    color: #e72e2e;
+}
+/*结项*/
+.fund-content-box .info-list.bond-list {
+    padding: 0 20px 30px;
+}
+.fund-content-box .info-list.bond-list .bond-cons {padding-top: 30px;}
+.fund-content-box .info-list.bond-list .bond-cons .num-tit {
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+.fund-content-box .info-list.bond-list .bond-cons .radio-list .radio {
+    line-height: 28px;
+}
+/*请确认本次提交要素*/
+.fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 30px 20px;}
+.info-list.ele-list .steps-ul.ele-ul span:nth-child(1) {width:5%;}
+.info-list.ele-list .steps-ul.ele-ul span:nth-child(2) {width:10%;}
+.info-list.ele-list .steps-ul.ele-ul span:nth-child(3) {width:85%;}
+/*清单*/
+.info-list.repertoire-list .steps-ul.repert-ul li{
+    height: 55px;
+    line-height: 55px;
+}
+.info-list.repertoire-list .steps-ul.repert-ul li.head{
+    height: 35px;
+    line-height: 35px;
+}
+.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(1) {width:5%;}
+.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(2) {width:15%;}
+.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(3) {width:10%;}
+.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(4) {width:10%;}
+.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(5) {width:60%;}
+

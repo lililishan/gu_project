@@ -83,17 +83,8 @@
     /*background: linear-gradient(to bottom, #f6f6f6, #fff);*/
     background: url("./../images/title_bg.jpg") repeat-x;
 }
-.approve-content .content .content-left .tab-main .tab-title .line {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 25px;
-    margin: auto;
-    width: 4px;
-    height: 20px;
-    background: #5ec2bc;
-}
-.approve-content .content .content-left .tab-main .tab-title .line + span {
+
+.approve-content .content .content-left .tab-main .tab-title .tit-line + span {
     padding-left: 45px;
     font-size: 16px;
     font-weight: 600;
@@ -184,9 +175,13 @@ ul.tab-list.end-tab-list li:first-child .txt:nth-child(2) {
     font-size: 24px;
     color: #3d3d3d;
 }
-ul.tab-list.end-tab-list li:first-child .txt:last-child span{
+ul.tab-list.end-tab-list li:first-child .txt.impower-txt span{
+    cursor: pointer;
     color: #1aa79f;
     border-bottom: 1px solid #7ececa;
+}
+ul.tab-list.end-tab-list li:first-child .txt.impower-txt span:hover {
+    border-bottom: none;
 }
 ul.tab-list.end-tab-list li:nth-child(2) {
     font-size: 14px;
@@ -236,6 +231,7 @@ ul.tab-list.end-tab-list li:nth-child(3) .status.feel-incline {
     color: #fff
 }
 ul.tab-list.end-tab-list li:nth-child(3) .status img {
+    margin-top: -3px;
     height: 12px;
 }
 /*
@@ -278,6 +274,7 @@ ul.tab-list.alter-tab-list li:first-child {
     box-sizing: border-box;
     text-align: center;
     font-size: 14px;
+    font-weight: 600;
     color: #151a1f;
     border-bottom: 1px solid #e6eaec;
     background: #fafafa;
@@ -305,7 +302,8 @@ ul.work-area li.work-con .ele-checke {
     width: 100%;
     box-sizing: border-box;
     font-size: 12px;
-    background: url("images/check_select-01.svg") no-repeat;
+    background: url("../images/check_select-01.svg") no-repeat;
+    /*background: url("../images/check-01.svg") no-repeat;*/
 }
 ul.work-area li.work-con.unbor {
     border-bottom: none;
@@ -326,16 +324,8 @@ ul.work-area li.work-con .opinion {
 .approve-content .content-right .work-bottom .radio:first-child {
     margin-right: 25px;
 }
-.approve-content .content-right .work-bottom .radio {
-    display: inline-block;
-}
-.approve-content .content-right .work-bottom img.radio-img {
-    height: 17px;
-}
-.approve-content .content-right .work-bottom .radio span {
-    padding: 0 10px 0 6px;
-    color: #959595;
-}
+
+
 .approve-content .content-right .work-bottom .selects{
     height: 23px;
     width: 94px;
