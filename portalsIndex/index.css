@@ -226,13 +226,13 @@ footer
     color: white;
 }
 #section0 {
-    background-image: url('./images/lunbo.jpg');
+    background: url('./images/lunbo.jpg') no-repeat;
 }
 #section1 {
-    background-image: url('images/lunbo2.jpg');
+    background: url('images/lunbo2.jpg') no-repeat;
 }
 #section2 {
-    background-image: url('images/lunbo.jpg');
+    background: url('images/lunbo.jpg') no-repeat;
 }
 .swiper-box .pages.horizontal {
     left: auto;

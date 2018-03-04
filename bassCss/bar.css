@@ -96,4 +96,22 @@ input.input{
 .login-btn a{
     color: #fff;
 }
-
+.btns {
+    margin-right: 25px;
+    min-width: 110px;
+    height: 33px;
+    display: inline-block;
+    line-height: 33px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #5ec2bc;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btns.whiteBths {
+    border: 1px solid #b9bbbc;
+    color: #717475;
+    background: #fff;
+}

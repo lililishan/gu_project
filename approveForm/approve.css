@@ -17,6 +17,7 @@
     width: 1060px;
 
 }
+
 .approve-content .content .content-left .approve-top {
     position:relative;
     width: 100%;
@@ -79,7 +80,8 @@
     line-height: 70px;
     box-sizing: border-box;
     border-bottom: 1px solid #e6eaec;
-    background: linear-gradient(to bottom, #f6f6f6, #fff);
+    /*background: linear-gradient(to bottom, #f6f6f6, #fff);*/
+    background: url("./../images/title_bg.jpg") repeat-x;
 }
 .approve-content .content .content-left .tab-main .tab-title .line {
     position: absolute;
@@ -292,7 +294,86 @@ ul.work-area li.work-con span.edit-cost {
     padding-left: 22px;
     display: inline-block;
     width: 100%;
+    box-sizing: border-box;
     font-size: 12px;
     color: #49c4bd;
     cursor: pointer;
+}
+ul.work-area li.work-con .ele-checke {
+    padding-left: 25px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    background: url("images/check_select-01.svg") no-repeat;
+}
+ul.work-area li.work-con.unbor {
+    border-bottom: none;
+}
+ul.work-area li.work-con .opinion {
+    margin-top: 20px;
+    width: 100%;
+    height: 123px;
+    border: 1px solid #e6eaec;
+}
+.approve-content .content-right .work-bottom {
+    padding: 0 20px 25px;
+    margin-top: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 23px;
+}
+.approve-content .content-right .work-bottom .radio:first-child {
+    margin-right: 25px;
+}
+.approve-content .content-right .work-bottom .radio {
+    display: inline-block;
+}
+.approve-content .content-right .work-bottom img.radio-img {
+    height: 17px;
+}
+.approve-content .content-right .work-bottom .radio span {
+    padding: 0 10px 0 6px;
+    color: #959595;
+}
+.approve-content .content-right .work-bottom .selects{
+    height: 23px;
+    width: 94px;
+    line-height: 23px;
+    font-size: 12px;
+
+}
+.approve-content .content-right .work-bottom .selects .se-item {
+    top: 22px;
+}
+.approve-content .content-right .work-bottom .selects .se-item .once{
+   height: 25px;
+    line-height: 25px;
+}
+.approve-content .content-right .work-bottom .selects.disabled{
+    background: #f3f7fa;
+    color: #959595;
+}
+.approve-content .content-right .work-bottom .selects .img-down {
+    width: 10px;
+}
+.approve-content .content-right .work-btns {
+    margin-bottom: 5px;
+    height: 65px;
+    width: 100%;
+    line-height: 65px;
+    text-align: center;
+    background: #fafafa;
+}
+.approve-content .content-right .work-btns .whiteBths {
+    margin-right: 0;
+}
+/*
+
+*/
+.approve-content .screen-content .content-left {
+    width: 100%;
+}
+.approve-content .screen-content .content-right {
+    width: 100%;
 }

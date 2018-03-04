@@ -24,52 +24,64 @@
         </div>
         <div id="nav">
             <ul class="nav-bar">
-                <li class="bar-con">
+                <li class="bar-con active">
                     <a href="">预算管理</a>
-                    <!--<span class="bar-line"></span>-->
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">收入管理</a>
-                </li>
+                    <span class="bar-line"></span>
                 <li class="bar-con">
                     <a href="">支出管理</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">采购管理</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">合同管理</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">资产管理</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">项目管理</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con disabled">
                     <a href="">支付与核算</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">内部审计</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">工资</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">信息发布</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con">
                     <a href="">效能监察</a>
+                    <span class="bar-line"></span>
                 </li>
                 <li class="bar-con last-con">
                     <a href="">后台配置</a>
+                    <span class="bar-line"></span>
                 </li>
             </ul>
 
         </div>
     </div>
     <div class="content-main-box approve-content">
-        <div class="content clearfix">
+        <!--小于1440，使用 screen-content 类名-->
+        <div class="content clearfix  screen-content">
             <div class="content-left">
                 <div class="approve-top">
                     <div class="title">合同用印申请单</div>
@@ -232,6 +244,7 @@
                     </div>
                 </div>
             </div>
+            <!--小于1440，使用 screen-content 类名-->
             <div class="content-right">
                 <div class="right-top">审批工作区</div>
                 <ul class="work-area">
@@ -241,14 +254,41 @@
                         <span class="edit-cost">点这里修改预算</span>
                     </li>
                     <li class="work-con">
-                        <span>2、本岗位相关操作</span>
-                        <span>点这里修改预算</span>
+                        <span>3、审批要素</span>
+                        <span class="ele-checke">请勾选审批要素，确认本次审批责任</span>
                     </li>
-                    <li class="work-con">
+                    <li class="work-con unbor">
                         <span>4、我的意见</span>
-
+                        <textarea class="opinion" ></textarea>
                     </li>
+
                 </ul>
+                <div class="work-bottom">
+                    <div class="radio">
+                        <img class="radio-img" src="images/radio-02.svg" alt="">
+                        <span>我同意</span>
+                    </div>
+                    <div class="radio">
+                        <img class="radio-img" src="./images/radio-01.svg" alt="">
+                        <span>我退回至</span>
+                        <div class="selects disabled" >
+                            <label class="se-label" >完成审批</label>
+                            <img class="img-down" src="./../images/down@2x.gif" alt="">
+                            <ul class="se-item">
+                                <li class="once"> 待处理 </li>
+                                <li class="once"> 完成审批 </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="work-btns">
+                    <div class="btns">确定审批</div>
+                    <div class="btns whiteBths">关闭</div>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -257,4 +297,16 @@
         <span class="txt">国土资源部内控系统平台由真内控科技集团承建</span>
     </div>
 </body>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.se-label').click(function () {
+            $('.se-item').show();
+            $('.se-item li').click(function () {
+                $('.se-label').html($(this).text());
+                $('.se-item').hide();
+            });
+        });
+    });
+</script>
 </html>
