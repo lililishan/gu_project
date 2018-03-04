@@ -1,0 +1,244 @@
+
+/* main 财务通知 */
+.content{
+	display: table;
+}
+.content-left{
+	display: table-cell;
+}
+.content-main-box .content-inform{
+	width: 100%;
+	height: 45px;
+	border: 1px solid #e2e7eb;
+	background: #fff;
+	color: #565656;
+}
+.content-main-box .content-inform ul{
+	padding: 0 15px;
+	height: 45px;
+}
+.content-main-box .content-inform ul li{
+	float: left;
+	height: 100%;
+	line-height: 45px;
+}
+.content-main-box .content-inform ul .inform-title i{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: url(./images/inform_icon.png) no-repeat;
+	vertical-align: middle;
+}
+.content-main-box .content-inform ul .inform-title span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #151a1f;
+	display: inline-block;
+	margin-left: 10px;
+}
+.content-main-box .content-inform ul .inform-title .arrow-icons{
+	width: 8px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.content-main-box .content-inform ul .inform-title .arrow-icons i{
+	display: inline-block;
+	width: 8px;
+	height: 4px;
+	float: left;
+	cursor: pointer;
+}
+.content-inform ul .arrow-icons i.up-arrow-icon{
+	background: url(./images/up_arrow.png) no-repeat;
+}
+.content-inform ul .arrow-icons i.down-arrow-icon{
+	background: url(./images/down_arrow.png) no-repeat;
+	margin-top: 4px;
+}
+.content-inform ul .inform-msg{
+	margin-left: 22px;
+	color: #6e6e6e;
+}
+.content-inform ul .inform-msg span{
+	color: #bdc2c7;
+}
+.content-inform ul li.more{
+	float: right;
+}
+/* main 代办事项 */
+.content-main-box .backlog-main{
+	width: 100%;
+	height: 134px;
+	border: 1px solid #e2e7eb;
+	background: #fff;
+	margin-top: 20px;
+}
+.backlog-main ul{
+	width: 100%;
+	height: 100%;
+}
+.backlog-main ul li{
+	float: left;
+	width: 19%;
+	height: 100%;
+}
+.backlog-main ul li:nth-of-type(5){
+	width: 24%;
+}
+.backlog-main ul li .backlog-img{
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	margin-top: 32px;
+	margin-left: 20px; 
+	display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+    line-height: 68px;
+}
+.backlog-main ul li .backlog-img1{
+	background: #77dcd6;
+}
+.backlog-main ul li .backlog-img2{
+	background: #a7d279;
+}
+.backlog-main ul li .backlog-img3{
+	background: #f5cf4b;
+}
+.backlog-main ul li .backlog-img4{
+	background: #f5874b;
+}
+.backlog-main ul li .backlog-img5{
+	background: #63c2ee;
+}
+.backlog-main ul li .backlog-msg{
+	margin-left: 18px;
+	margin-top: 23px;
+}
+.backlog-main ul li .backlog-msg5{
+	margin-left: 10px;
+}
+.backlog-main ul li .backlog-msg p strong{
+	font-size: 40px;
+	color: #26262c;
+}
+.backlog-main ul li .backlog-msg p span{
+	font-size: 12px;
+	color: #9b9b9b;
+	margin-top: 14px;
+}
+
+/* main 内控新闻，制度库 */
+.content-main-box .list-container{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.content-main-box .list-container .list-cons{
+	width: 48%;
+}
+.list-cons-left{
+	float: left;
+}
+.list-cons-right{
+	float: right;
+}
+/* 统计 */
+.content-main-box .statistics-container{
+	width: 100%;
+	height: 196px;
+	border: 1px solid #e2e7eb;
+	background: #fff;
+}
+.content-main-box .statistics-container ul{
+	width: 100%;
+	height: 196px;
+}
+.content-main-box .statistics-container ul li{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.content-main-box .statistics-container li .statistics-list{
+	width: 148px;
+	height: 111px;
+	border-radius: 45px;
+	border: 1px solid #d9e0e5;
+	margin-top: 43px;
+	margin-left: 64px; 
+    vertical-align: middle;
+    text-align: center;
+    line-height: 68px;
+}
+.statistics-list-top,
+.statistics-list-bot{
+	width: 100%;
+	height: 55px;
+}
+.statistics-list-bot{
+	margin-top: -20px;
+}
+.statistics-list img{
+	width: 30px;
+	height: 24px;
+}
+.statistics-list span{
+	float: left;
+	width: 100%;
+	display: inline-block;
+	font-size: 12px;
+	height: 15px;
+	color: #4f4f4f;
+	padding: 2px 0;
+}
+
+/* main right */
+.content-right{
+	border: 1px solid #d9e0e5;
+	background: #fff;
+	width: 100%;
+	height: auto;
+	display: table-cell;
+}
+.content-right .content-right-title{
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid #d9e0e5;
+	line-height: 44px;
+	color: #151a1f;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 1em;
+	background: #fafafa;
+}
+.content-right .budget-plan{
+	height: 196px;
+	border-bottom: 1px solid #d9e0e5;
+	padding: 0 23px;
+}
+.content-right .budget-plan .plan-chart{
+	width: 128px;
+	height: 128px;
+	background: #60b9b3;
+	margin: 0 auto;
+	margin-top: 44px;
+}
+.content-right .budget-plan p{
+	text-align: center;
+	margin-top: 20px;
+}
+.content-right .budget-ranking{
+	width: 100%;
+	height: 375px;
+	background: url(./images/paiming.png) no-repeat 50% 20%;
+	text-align: center;
+}
+.content-right .budget-ranking strong{
+	color: #60b9b3;
+	font-size: 34px;
+	display: inline-block;
+	margin-top: 84px;
+}
+.content-right .budget-ranking p{
+	margin-top: 35px;
+}

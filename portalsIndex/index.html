@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="../bassCss/bar.css">
     <link rel="stylesheet" href="../bassCss/list-cons.css">
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./swiper.min.css">
+    <!--<link rel="stylesheet" href="./swiper.min.css">-->
+    <link rel="stylesheet" href="./../js/dist/pageSwitch.min.css">
 </head>
+
 <body>
     <!--header--->
     <div id="header" class="">
@@ -66,7 +68,7 @@
                 <li class="bar-con">
                     <a href="">效能监察</a>
                 </li>
-                <li class="bar-con">
+                <li class="bar-con last-con">
                     <a href="">后台配置</a>
                 </li>
             </ul>
@@ -125,6 +127,11 @@
                 <div class="list-cons">
                     <div class="cons-top">
                         <div class="title">部委内控资讯</div>
+                        <div class="tit-tabs left">
+                            <span class="list active">新闻</span>
+                            <span class="list">研究动态</span>
+                            <span class="list">研究论文</span>
+                        </div>
                         <div class="more">
                             <img src="../images/more.gif" alt="">
                         </div>
@@ -183,12 +190,12 @@
                             <colgroup width="10%"></colgroup>
                             <thead>
                                 <tr>
-                                    <th>名称</th>
-                                    <th>文号</th>
-                                    <th>发布单位</th>
-                                    <th>发布日期</th>
-                                    <th>失效日期</th>
-                                    <th>已阅人数</th>
+                                    <th align="left">名称</th>
+                                    <th align="left">文号</th>
+                                    <th align="left">发布单位</th>
+                                    <th align="left">发布日期</th>
+                                    <th align="left">失效日期</th>
+                                    <th align="left">已阅人数</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -216,7 +223,7 @@
                                     <td><span>2018-02-24</span></td>
                                     <td><span>34</span></td>
                                 </tr>
-                                <tr>
+                                <tr class="unborder">
                                     <td><a>知识城广场设计施工</a></td>
                                     <td><span>JG2018-0675</span></td>
                                     <td><span>中国建筑第八工程局有限公司</span></td>
@@ -277,25 +284,35 @@
             <!---right-->
             <div class="content-right">
                 <div class="swiper-box">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="./images/lunbo.jpg" alt="">
-                                <div class="mask-txt">国土资源工作会议在京召开</div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./images/lunbo2.jpg" alt="">
-                                <div class="mask-txt">国土资源工作会议在京召开</div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./images/lunbo.jpg" alt="">
-                                <div class="mask-txt">国土资源工作会议在京召开</div>
-                            </div>
+                    <div id="container">
+                        <div class="sections">
+                            <div class="section" id="section0"><div class="mask-txt">国土资源工作会议在京召开</div></div>
+                            <div class="section" id="section1"><div class="mask-txt">国土资源工作会议在京召开2</div></div>
+                            <div class="section" id="section2"><div class="mask-txt">国土资源工作会议在京召开3</div></div>
                         </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
+
+                <!--<div class="swiper-box">-->
+                    <!--<div class="swiper-container">-->
+                        <!--<div class="swiper-wrapper">-->
+                            <!--<div class="swiper-slide">-->
+                                <!--<img src="./images/lunbo.jpg" alt="">-->
+                                <!--<div class="mask-txt">国土资源工作会议在京召开</div>-->
+                            <!--</div>-->
+                            <!--<div class="swiper-slide">-->
+                                <!--<img src="./images/lunbo2.jpg" alt="">-->
+                                <!--<div class="mask-txt">国土资源工作会议在京召开</div>-->
+                            <!--</div>-->
+                            <!--<div class="swiper-slide">-->
+                                <!--<img src="./images/lunbo.jpg" alt="">-->
+                                <!--<div class="mask-txt">国土资源工作会议在京召开</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; Add Pagination &ndash;&gt;-->
+                        <!--<div class="swiper-pagination"></div>-->
+                    <!--</div>-->
+                <!--</div>-->
                 <div class="login-box">
                     <div class="login-head">
                         <span>用户登录（使用CA）</span>
@@ -335,11 +352,11 @@
             </li>
             <li>
                 <span>客服邮箱：</span>
-                <span>kefu#zhenneikong.com.cn(将#替换为@)</span>
+                <span>kefu#zhenneikong.com.cn（将#替换为@）</span>
             </li>
             <li>
-                <span>Copyright 2003-2018 国土资源部内控资源网</span>
-                <span>京ICPh证555555号</span>
+                <span>Copyright © 2003-2018 国土资源部内控系统网</span>
+                <span>京ICP证555555号</span>
                 <span>京公网安备110988575849号</span>
             </li>
             <li>
@@ -348,14 +365,24 @@
         </ul>
     </div>
 </body>
-<script src="./swiper.min.js"></script>
+<!--<script src="./swiper.min.js"></script>-->
+<script src="./../js/jquery-1.8.3.min.js"></script>
+<script src="../js/dist/pageSwitch.min.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        spaceBetween: 30,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+//    var swiper = new Swiper('.swiper-container', {
+//        spaceBetween: 30,
+//        pagination: {
+//            el: '.swiper-pagination',
+//            clickable: true,
+//        },
+//    });
+
+    $("#container").PageSwitch({
+        direction:'horizontal',
+        easing:'ease-in',
+        duration:1000,
+        autoPlay:true,
+        loop:'false'
     });
 </script>
 </html>

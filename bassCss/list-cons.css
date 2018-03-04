@@ -24,6 +24,20 @@ con-list
     font-weight: 600;
     color: #181d1e;
 }
+.list-cons .cons-top .tit-tabs {
+    padding-left: 20px;
+}
+.list-cons .cons-top .tit-tabs .list {
+    margin-right: 10px;
+    padding: 2px 7px;
+    display: inline;
+    font-size: 14px;
+}
+.list-cons .cons-top .tit-tabs .list.active {
+    border-radius: 10px;
+    background: #5ec2bc;
+    color: #fff;
+}
 .list-cons .cons-top .more {
     float: right;
     cursor: pointer;
@@ -72,11 +86,14 @@ con-list
     box-sizing: border-box;
     text-align: left;
 }
+.list-cons .cons-main-box table.regime-table tr th {
+    text-align: left;
+}
 .list-cons .cons-main-box table.regime-table tr td,
 .list-cons .cons-main-box table.regime-table tr th {
     border-bottom: 1px solid #e8ebeb;
 }
-.list-cons .cons-main-box table.regime-table tbody tr:last-child td {
+.list-cons .cons-main-box table.regime-table tbody tr.unborder td {
     border-bottom: 0;
 }
 .list-cons .cons-main-box table.regime-table tr td:first-child,

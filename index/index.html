@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!--header--->
-    <header id="header">
-        <div class="header-logo-box clearfix">
+    <!--header-->
+    <div id="header">
+        <div class="header-logo-box">
             <div class="logo-img">
                 <img src="./../images/logo_small.png" alt="">
             </div>
             <div class="user-info"></div>
-
-            <!--<div class="header-title">国土资源部内控系统平台</div>-->
+            
+            <div class="both"></div>
         </div>
-        <nav id="nav">
+        <div id="nav">
             <ul class="nav-bar">
                 <li class="bar-con">
                     <a href="">预算管理</a>
@@ -61,98 +61,218 @@
                 <li class="bar-con">
                     <a href="">效能监察</a>
                 </li>
-                <li class="bar-con">
+                <li class="bar-con last-con">
                     <a href="">后台配置</a>
                 </li>
             </ul>
 
-        </nav>
-    </header>
-    <!--content--->
-    <div class="content-main-box">
+        </div>
+    </div>
+    <!--content-->
+    <div class="content-main-box index-content-box">
         <div class="content clearfix">
             <!--left-->
             <div class="content-left">
-
-
-                <div class="list-cons">
-                    <div class="cons-top">
-                        <div class="title">部委内控资讯</div>
-                        <div class="more">
+                <!-- 通知 -->
+                <div class="content-inform">
+                    <ul class="clearfix">
+                        <li class="inform-title">
+                            <i class="inform-icon"></i>
+                            <span>财务工作通知</span>
+                            <div class="arrow-icons clearfix">
+                                <i class="up-arrow-icon"></i>
+                                <i class="down-arrow-icon"></i>
+                            </div>
+                        </li>
+                        <li class="inform-msg">
+                            财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行<span>（2017年12月30日）</span> 
+                        </li>
+                        <li class="more">
                             <img src="../images/more.gif" alt="">
-                        </div>
-                    </div>
-                    <ul class="cons-main-box">
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- 代办事项 -->
+                <div class="backlog-main">
+                    <ul class="clearfix">
                         <li>
-                            <!--<img src="./images/arrow.gif" alt="">-->
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
+                            <div class="backlog-img backlog-img1 left">
+                                <img src="./images/gt01.png" alt="">
+                            </div>
+                            <div class="backlog-msg left">
+                                <p><strong>15</strong></p>
+                                <p><span>待处理单据</span></p>
+                            </div>
                         </li>
                         <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
+                            <div class="backlog-img backlog-img2 left">
+                                <img src="./images/gt02.png" alt="">
+                            </div>
+                            <div class="backlog-msg left">
+                                <p><strong>32</strong></p>
+                                <p><span>在流转</span></p>
+                            </div>
                         </li>
                         <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
+                            <div class="backlog-img backlog-img3 left">
+                                <img src="./images/gt03.png" alt="">
+                            </div>
+                            <div class="backlog-msg left">
+                                <p><strong>6</strong></p>
+                                <p><span>已申请未报销</span></p>
+                            </div>
                         </li>
                         <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
+                            <div class="backlog-img backlog-img4 left">
+                                <img src="./images/gt04.png" alt="">
+                            </div>
+                            <div class="backlog-msg left">
+                                <p><strong>12</strong></p>
+                                <p><span>借款未还</span></p>
+                            </div>
                         </li>
                         <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
+                            <div class="backlog-img backlog-img5 left">
+                                <img src="./images/gt05.png" alt="">
+                            </div>
+                            <div class="backlog-msg backlog-msg5 left">
+                                <p><strong>15</strong></p>
+                                <p><span>本月应开采购合同</span></p>
+                            </div>
                         </li>
-
                     </ul>
                 </div>
 
-                <div class="list-cons">
-                    <div class="cons-top">
-                        <div class="title">制度库</div>
-                        <div class="more">
-                            <img src="../images/more.gif" alt="">
+                <div class="list-container clearfix">
+                    <div class="list-cons list-cons-left">
+                        <div class="cons-top">
+                            <div class="title">部委内控资讯</div>
+                            <div class="more">
+                                <img src="./../images/more.gif" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <ul class="cons-main-box">
-                        <li>
-                            <!--<img src="./images/arrow.gif" alt="">-->
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
-                        </li>
-                        <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
-                        </li>
-                        <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
-                        </li>
-                        <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
-                        </li>
-                        <li>
-                            <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
-                            <span>（2017年12月30号）</span>
-                        </li>
+                        <ul class="cons-main-box">
+                            <li>
+                                <!--<img src="./images/arrow.gif" alt="">-->
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
 
+                        </ul>
+                    </div>
+
+                    <div class="list-cons list-cons-right">
+                        <div class="cons-top">
+                            <div class="title">制度库</div>
+                            <div class="more">
+                                <img src="./../images/more.gif" alt="">
+                            </div>
+                        </div>
+                        <ul class="cons-main-box">
+                            <li>
+                                <!--<img src="./images/arrow.gif" alt="">-->
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- 相关统计 -->
+                <div class="statistics-container clearfix">
+                    <ul>
+                        <li>
+                            <div class="statistics-list clearfix">
+                                <div class="statistics-list-top">
+                                    <img src="./images/s_icon_g@2x.png" alt="">
+                                </div>
+                                <div class="statistics-list-bot">
+                                    <span>年度支出</span>
+                                    <span>费用支出</span>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <div class="statistics-list clearfix">
+                                <div class="statistics-list-top">
+                                    <img src="./images/s_icon_f@2x.png" alt="">
+                                </div>
+                                <div class="statistics-list-bot">
+                                    <span>年度支出</span>
+                                    <span>费用支出</span>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <div class="statistics-list clearfix">
+                                <div class="statistics-list-top">
+                                    <img src="./images/s_icon_h@2x.png" alt="">
+                                </div>
+                                <div class="statistics-list-bot">
+                                    <span>年度支出</span>
+                                    <span>费用支出</span>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <div class="statistics-list clearfix">
+                                <div class="statistics-list-top">
+                                    <img src="./images/s_icon_i@2x.png" alt="">
+                                </div>
+                                <div class="statistics-list-bot">
+                                    <span>年度支出</span>
+                                    <span>费用支出</span>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-
 
             </div>
             <!---right-->
             <div class="content-right">
-
+                <div class="content-right-title">财务考核</div>
+                <!-- 预算执行进度 -->
+                <div class="budget-plan">
+                    <div class="plan-chart"></div>
+                    <p>预算执行进度</p>
+                </div>
+                <!-- 预算进度排名 -->
+                <div class="budget-ranking">
+                    <strong>14</strong>
+                    <p>预算进度排名</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <!--footer---->
-    <footer id="footer">
+    <!--footer-->
+    <div id="footer">
         <span class="txt">国土资源部内控系统平台由真内控科技集团承建</span>
-    </footer>
+    </div>
 </body>
 </html>
