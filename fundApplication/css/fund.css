@@ -50,7 +50,7 @@
     color: #3a3a3a;
 }
 
-.steps-ul li:nth-child(2n+1) {  background: #f3f7fa;  }
+.steps-ul li.odd-bg {  background: #f3f7fa;  }
 .steps-ul li.head {
     background: #5ec2bc;
     color: #fff;
@@ -65,13 +65,13 @@
     background: none;
 }
 
-.steps-ul li span:first-child { width: 10% }
-.steps-ul li span:nth-child(2){ width: 15% }
-.steps-ul li span:nth-child(3){ width: 12% }
-.steps-ul li span:nth-child(4){ width: 20% }
-.steps-ul li span:nth-child(5){ width: 12% }
-.steps-ul li span:nth-child(6){ width: 20% }
-.steps-ul li span:nth-child(7){ width: 11%;  }
+.steps-ul li span.child-one { width: 10% }
+.steps-ul li span.child-two{ width: 15% }
+.steps-ul li span.child-three{ width: 12% }
+.steps-ul li span.child-four{ width: 20% }
+.steps-ul li span.child-five{ width: 12% }
+.steps-ul li span.child-six{ width: 20% }
+.steps-ul li span.child-seven{ width: 11%;  }
 .steps-ul li span.operate {color: #5ec2bc;}
 /**/
 .fund-content-box .info-list .list {
@@ -157,9 +157,9 @@
 }
 /*请确认本次提交要素*/
 .fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 30px 20px;}
-.info-list.ele-list .steps-ul.ele-ul span:nth-child(1) {width:5%;}
-.info-list.ele-list .steps-ul.ele-ul span:nth-child(2) {width:10%;}
-.info-list.ele-list .steps-ul.ele-ul span:nth-child(3) {width:85%;}
+.info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%;}
+.info-list.ele-list .steps-ul.ele-ul span.child-two {width:10%;}
+.info-list.ele-list .steps-ul.ele-ul span.child-three {width:85%;}
 /*清单*/
 .info-list.repertoire-list .steps-ul.repert-ul li{
     height: 55px;
@@ -169,9 +169,9 @@
     height: 35px;
     line-height: 35px;
 }
-.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(1) {width:5%;}
-.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(2) {width:15%;}
-.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(3) {width:10%;}
-.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(4) {width:10%;}
-.info-list.repertoire-list .steps-ul.repert-ul span:nth-child(5) {width:60%;}
+.info-list.repertoire-list .steps-ul.repert-ul span.child-one {width:5%;}
+.info-list.repertoire-list .steps-ul.repert-ul span.child-two {width:15%;}
+.info-list.repertoire-list .steps-ul.repert-ul span.child-three {width:10%;}
+.info-list.repertoire-list .steps-ul.repert-ul span.child-four {width:10%;}
+.info-list.repertoire-list .steps-ul.repert-ul span.child-five {width:60%;}
 

@@ -58,7 +58,7 @@
 .info-step-box .step-list .done-img {
     height: 16px;
 }
-.info-step-box .step-list .circle + span {
+.info-step-box .step-list span {
     padding-top: 5px;
     display: inline-block;
     width: 100%;
@@ -82,7 +82,7 @@
     color: #5ec2bc;
     border: 4px solid #5ec2bc;
 }
-.info-step-box .step-list.active .circle + span {
+.info-step-box .step-list.active span {
     color: #5ec2bc;
 }
 .info-step-box .step-list.already .circle{

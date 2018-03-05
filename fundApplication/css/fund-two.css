@@ -127,7 +127,7 @@
     color: #5ec1bc;
 }
 
-.rout-detail-list ul.route-ul-con:nth-child(2n+1) {
+.rout-detail-list ul.route-ul-con.odd-bg {
     background: #f3f7fa;
     border-top: 1px solid #e3eaf0;
     border-bottom: 1px solid #e3eaf0;
@@ -138,13 +138,13 @@
     background: #5ec2bc;
     color: #fff;
 }
-.rout-detail-list ul.route-ul-con li:first-child { width: 11% }
-.rout-detail-list ul.route-ul-con li:nth-child(2){ width: 12% }
-.rout-detail-list ul.route-ul-con li:nth-child(3){ width: 12% }
-.rout-detail-list ul.route-ul-con li:nth-child(4){ width: 9% }
-.rout-detail-list ul.route-ul-con li:nth-child(5){ width: 9%; text-align: right }
-.rout-detail-list ul.route-ul-con li:nth-child(6){ width: 8%;  text-align: right }
-.rout-detail-list ul.route-ul-con li:nth-child(7){ width: 8%;  text-align: right }
-.rout-detail-list ul.route-ul-con li:nth-child(8){ width: 8%;  text-align: right }
-.rout-detail-list ul.route-ul-con li:nth-child(9){ width: 8%; text-align: right }
-.rout-detail-list ul.route-ul-con li:nth-child(10){ width: 5%;  }
+.rout-detail-list ul.route-ul-con li.child-one { width: 11% }
+.rout-detail-list ul.route-ul-con li.child-two{ width: 12% }
+.rout-detail-list ul.route-ul-con li.child-three{ width: 12% }
+.rout-detail-list ul.route-ul-con li.child-four{ width: 9% }
+.rout-detail-list ul.route-ul-con li.child-five{ width: 9%; text-align: right }
+.rout-detail-list ul.route-ul-con li.child-six{ width: 8%;  text-align: right }
+.rout-detail-list ul.route-ul-con li.child-seven{ width: 8%;  text-align: right }
+.rout-detail-list ul.route-ul-con li.child-eight{ width: 8%;  text-align: right }
+.rout-detail-list ul.route-ul-con li.child-nine{ width: 8%; text-align: right }
+.rout-detail-list ul.route-ul-con li.child-ten{ width: 5%;  }
