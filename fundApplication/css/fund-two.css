@@ -45,55 +45,9 @@
 .route-lists .routing-box {
     padding: 35px 0;
 }
-.routing-box .routing-top {
-    height: 26px;
-    width: 100%;
-    text-align: center;
-}
-.routing-box .routing-top img {
-    height: 100%;
-}
-.routing-box .routing-top span {
-    padding-left: 25px;
-    font-size: 14px;
-}
-.routing-box .routing-lists {
-    padding: 30px 93px;
-}
-.routing-box .routing-lists .routing-row {
-    width: 130px;
-    height: 82px;
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 20px;
-    border: 1px solid #edbc53;
-    background: #fff9e6;
-}
-.routing-box .routing-lists .routing-row span {
-    display: inline-block;
-    width: 100%;
-    color: #b8b19e;
-}
-.routing-box .routing-lists .routing-row span.city {
-    padding-top: 17px;
-    font-size: 18px;
-    color: #daa444;
-}
-.routing-box .routing-lists .routing-row.get-routing-row span.city {
-    padding-top:10px;
-}
 
-.routing-lists .vehicle{
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    padding: 0 15px;
-}
-.routing-lists .vehicle img {
-    height: 100%;
-}
+
+
 /**/
 
 .rout-detail-list ul.route-ul-con{
