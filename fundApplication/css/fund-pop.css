@@ -1,0 +1,184 @@
+.fund-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+
+}
+/*POP*/
+.fund-pop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    margin: auto;
+    width: 1120px;
+    max-height: 790px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgba(1,1,0,0.44);
+}
+.fund-pop-top {
+    padding: 0 20px;
+    height: 45px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #f7f7f7;
+    color: #3b3b3b;
+}
+/*content*/
+.fund-pop-content {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pop-main-con .content-top {
+    padding-left: 20px;
+    height: 38px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 38px;
+    font-size: 16px;
+    color: #fff;
+    background: #51c4bc;
+}
+.pop-main-con .content-box {
+    padding: 20px;
+}
+/*第一部分*/
+.pop-main-con .lab-con {
+    min-height: 30px;
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+}
+.pop-main-con .lab-con .tit {
+    width: 100%;
+}
+.pop-main-con .lab-con .search-people-box {
+    padding-top:7px;
+    width: 100%;
+}
+.pop-main-con .lab-con .search-people-box .search {
+    width: 290px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.pop-main-con .lab-con .search-people-box .search input.input {
+    padding: 0;
+    WIDTH: 82%;
+    border: 0;
+}
+.pop-main-con .lab-con .search-people-box .search .sea-line {
+    padding: 0 5px;
+    color: #d5d5d5;
+}
+.pop-main-con .lab-con .search-people-box .search .sea-txt {
+    color: #51c4bc;
+    cursor: pointer;
+}
+.pop-main-con .lab-con .search-people-box .letter-box {
+    margin-top: 5px;
+}
+.pop-main-con .lab-con .search-people-box .letter-box .letter-con {
+    margin-right: 3px;
+    height: 20px;
+    width: 20px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 20px;
+    color: #b1b1b1;
+    border: 1px solid #fff;
+}
+.pop-main-con .lab-con .search-people-box .letter-box .letter-con.active {
+    border-color: #51c4bc;
+    color: #51c4bc;
+}
+
+.pop-main-con ul.people-box {padding-left: 15px;}
+.pop-main-con ul.people-box li{
+    margin-right: 10px;
+    height: 27px;
+    width: 85px;
+    line-height: 27px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #51c4bc;
+    border-radius: 2px;
+    border: 1px solid #51c4bc;
+}
+.pop-main-con ul.people-box li img.close-img {
+    margin-top:-2px;
+    padding-left: 10px;
+}
+.fund-pop-content .pop-main-bg {
+    width: 100%;
+    height: 5px;
+    background: #f7f7f7;
+}
+.pop-main-con .lab-con .people-box.people-list {
+    padding: 15px 0 35px;
+    margin-top: 10px;
+}
+.pop-main-con .lab-con .people-box.people-list li {
+    color: #4c4c4c;
+    border-color: #ddd;
+}
+
+/*行程安排*/
+.pop-main-con.routing-main {
+    margin-top: 30px;
+}
+.pop-main-con.routing-main .content-box.routing-box {
+    padding: 30px 0;
+}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists {
+    padding: 0 12px;
+}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .add {
+    float:left;
+    line-height: 82px;
+    padding-right: 5px;}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .subtract {
+    float:left;
+    line-height: 82px;
+    padding-left: 5px;
+}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .add img,
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .subtract img {
+    height: 20px;
+}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle {padding: 0 5px;}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle img {
+    padding: 0 5px;
+}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle .add-img {
+    padding:0;
+    height: 20px;
+    cursor: pointer;
+}
+
+.pop-main-con.routing-main .lab-con.rout-lab-con {
+    padding: 30px 20px 0;
+    box-sizing: border-box;
+}
+
+/**/
+.fund-bottom {
+    position: absolute;
+    bottom: 0;
+    height: 62px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 62px;
+    background: #f7f7f7;
+}
