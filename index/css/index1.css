@@ -54,7 +54,7 @@
 	color: #fff;
 	font-size: 14px;
 }
-.beforehand-mian .beforehand-mian-top li:first-child{
+.beforehand-mian .beforehand-mian-top li.top-li{
 	margin-left: 15px;
 }
 .beforehand-mian .beforehand-mian-top{
@@ -117,13 +117,13 @@
 .need-beforehand-list .beforehand-mian .beforehand-mian-top{
 	background: #74c68b;
 }
-.need-beforehand-list li:nth-of-type(3) .beforehand-mian{
+.need-beforehand-list li.three-li .beforehand-mian{
 	border: 1px solid #999;
 }
-.need-beforehand-list li:nth-of-type(3) .beforehand-mian .beforehand-mian-top{
+.need-beforehand-list li.three-li .beforehand-mian .beforehand-mian-top{
 	background: #999;
 }
-.need-beforehand-list li:nth-of-type(3) .beforehand-mian strong{
+.need-beforehand-list li.three-li .beforehand-mian strong{
 	color: #999;
 }
 

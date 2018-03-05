@@ -183,10 +183,10 @@ ul.tab-list.end-tab-list li.child-con-one .txt.impower-txt span{
 ul.tab-list.end-tab-list li.child-con-one .txt.impower-txt span:hover {
     border-bottom: none;
 }
-ul.tab-list.end-tab-list li:nth-child(2) {
+ul.tab-list.end-tab-list li.child-con-two {
     font-size: 14px;
 }
-ul.tab-list.end-tab-list li:nth-child(2) .result {
+ul.tab-list.end-tab-list li.child-con-two .result {
     padding-bottom: 15px;
     border-bottom: 1px solid #ebeff2;
 }

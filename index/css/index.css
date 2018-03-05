@@ -82,7 +82,7 @@
 	width: 19%;
 	height: 100%;
 }
-.backlog-main ul li:nth-of-type(5){
+.backlog-main ul li.last-li{
 	width: 24%;
 }
 .backlog-main ul li .backlog-img{

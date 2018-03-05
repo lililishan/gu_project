@@ -97,8 +97,8 @@ con-list
 .list-cons .cons-main-box table.regime-table tbody tr.unborder td {
     border-bottom: 0;
 }
-.list-cons .cons-main-box table.regime-table tr td:first-child,
-.list-cons .cons-main-box table.regime-table tr th:first-child {
+.list-cons .cons-main-box table.regime-table tr td.first-td,
+.list-cons .cons-main-box table.regime-table tr th.first-th {
     padding-left:20px;
 }
 .list-cons .cons-main-box table.regime-table thead tr {
