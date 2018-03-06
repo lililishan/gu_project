@@ -1,3 +1,6 @@
+.hide{
+    display: none;
+}
 .approve-body {
     min-width:1440px;
 }
