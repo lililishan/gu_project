@@ -1,49 +1,52 @@
 /* 帮助1*/
- .current-position{
- 	color: #424344;
- 	font-size: 14px;
-    padding-top: 20px;
-    margin: 0 auto;
-    width: 1200px;
- }
- .current-position i{
- 	background: url(../images/crumb_arrow.gif) no-repeat;
- 	display: inline-block;
- 	width: 11px;
- 	height: 11px;
- }
+.current-position{
+	color: #424344;
+	font-size: 14px;
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.current-position i{
+	background: url(../images/crumb_arrow.gif) no-repeat;
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+}
 .help-center-box .help-lists{
-	margin: 0 20px;
- 	margin-bottom: 10px;
- 	border-bottom: 1px solid #e3e8e9;
- }
- .border-none{
- 	border-bottom: none!important;
- }
- /* 帮助2 */
- .help-center-left{
- 	width: 100%;
- 	height: auto;
- 	background: #fff;
- 	border: 1px solid #e3e8e9;
- 	padding: 0 20px;
- }
-  .help-center-left .title{
-  	 text-align: center;
-  	 margin: 0 15px;
-  	 border-bottom: 1px solid #e3e8e9;
-  	 padding: 45px 0;
-  }
- .help-center-left  .headline{
-  	font-size: 22px;
-  	color: #151a1f;
-  	font-weight: 600;
-  }
-  .help-center-left .article-details{
-  	margin: 0 15px;
-  	 border-bottom: 1px solid #e3e8e9;
-  	 padding: 45px 0;
-  }
+/*   margin: 0 20px;
+ */ 	margin-bottom: 10px;
+	border-bottom: 1px solid #e3e8e9;
+}
+.list-cons{
+border: none;
+}
+.border-none{
+	border-bottom: none!important;
+}
+/* 帮助2 */
+.help-center-left{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border: 1px solid #e3e8e9;
+	padding: 0 20px;
+}
+.help-center-left .help-guide{
+	 text-align: center;
+	 margin: 0 15px;
+	 border-bottom: 1px solid #e3e8e9;
+	 padding: 45px 0;
+}
+.help-center-left  .headline{
+	font-size: 22px;
+	color: #151a1f;
+	font-weight: 600;
+}
+.help-center-left .article-details{
+	margin: 0 15px;
+	 border-bottom: 1px solid #e3e8e9;
+	 padding: 45px 0;
+}
 .help-center-left .article-details p{
 	line-height: 22px;
 	text-indent: 2em;
@@ -61,25 +64,25 @@
 .page-active{
 	color: #41b1aa;
 }
- /* 帮助指南 */
- .help-center-right .help-guide i{
- 	display: inline-block;
- 	width: 20px;
-	height: 25px;
- 	background: url(../images/guide.png) no-repeat center;
- 	vertical-align: middle;
- }
- .help-center-right .help-guide span{
- 	margin-left: 10px;
- 	font-size: 16px;
-    font-weight: 600;
-    color: #181d1e;
- }
- .help-center-right .cons-main-box{
- 	padding: 0 15px!important;
- }
+/* 帮助指南 */
+.help-center-right .help-guide i{
+	display: inline-block;
+	width: 20px;
+height: 25px;
+	background: url(../images/guide.png) no-repeat center;
+	vertical-align: middle;
+}
+.help-center-right .help-guide span{
+	margin-left: 10px;
+	font-size: 16px;
+  font-weight: 600;
+  color: #181d1e;
+}
+.help-center-right .cons-main-box{
+	padding: 0 15px!important;
+}
 .help-center-right .cons-main-box li{
-	height: 55px!important;
-	line-height: 55px!important;
-	border-bottom: 1px solid #e3e8e9;
+height: 55px!important;
+line-height: 55px!important;
+border-bottom: 1px solid #e3e8e9;
 }
