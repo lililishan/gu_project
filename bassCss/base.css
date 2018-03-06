@@ -9,6 +9,7 @@ body{
     font: 12px/1.5 'Open Sans',Arial,Helvetica,sans-serif;
     color: #3e3e3f;
     background: #fff;
+    min-width: 1200px;
 }
 
 ul,ol {

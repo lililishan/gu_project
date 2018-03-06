@@ -36,7 +36,7 @@ header
 }
 #header .portals-header .search-box img {
     position: absolute;
-    top: 0;
+    top: -5px;
     right: 20px;
     bottom: 0;
     margin: auto;
@@ -166,7 +166,6 @@ header
     position: absolute;
     left: 10px;
     top: 9px;
-    width: 18px;
     height:18px;
 }
 

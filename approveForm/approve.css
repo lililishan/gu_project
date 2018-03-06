@@ -1,3 +1,6 @@
+.approve-body {
+    min-width:1440px;
+}
 #header.approve-header .header-logo-box,#header.approve-header #nav ul.nav-bar{
     width: 1440px;
 }
@@ -296,14 +299,15 @@ ul.work-area li.work-con span.edit-cost {
     color: #49c4bd;
     cursor: pointer;
 }
-ul.work-area li.work-con .ele-checke {
-    padding-left: 25px;
-    display: inline-block;
+ul.work-area li.work-con .ele-check {
     width: 100%;
-    box-sizing: border-box;
+    line-height: 20px;
     font-size: 12px;
-    background: url("../images/check_select-01.svg") no-repeat;
-    /*background: url("../images/check-01.svg") no-repeat;*/
+}
+ul.work-area li.work-con .ele-check img{
+    padding-right:5px;
+    margin-top: 2px;
+    width: 16px;
 }
 ul.work-area li.work-con.unbor {
     border-bottom: none;
