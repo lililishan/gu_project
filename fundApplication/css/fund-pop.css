@@ -10,7 +10,7 @@
 }
 /*POP*/
 .fund-pop {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -18,10 +18,12 @@
     z-index: 100;
     margin: auto;
     width: 1120px;
-    max-height: 790px;
+    height: 790px;
     box-sizing: border-box;
     background: #fff;
     box-shadow: 0 1px 4px 0 rgba(1,1,0,0.44);
+
+    padding-bottom: 60px;
 }
 .fund-pop-top {
     padding: 0 20px;
@@ -157,9 +159,9 @@
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .subtract img {
     height: 20px;
 }
-.pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle {padding: 0 5px;}
+.pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle {position: relative; padding: 0 5px;}
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle img {
-    padding: 0 5px;
+    padding: 0;
 }
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle .add-img {
     padding:0;
@@ -181,4 +183,84 @@
     box-sizing: border-box;
     line-height: 62px;
     background: #f7f7f7;
+}
+
+/*
+交通工具*/
+.choose-vehicle {
+    position: absolute;
+    width: 107px;
+    height: 104px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    z-index: 100;
+    border-radius: 2px;
+}
+.choose-vehicle .choose-top {
+    height: 28px;
+    width: 100%;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #51c4bc;
+}
+.choose-vehicle ul.choose-vehicle-list {margin-top: 15px;}
+.choose-vehicle ul.choose-vehicle-list li{
+    float:left;
+    margin-bottom: 12px;
+    width: 50%;
+    line-height: 16px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #e8e8e8;
+}
+/**
+日历样式/
+ */
+
+.kui_data_content_pane {
+    width: 348px;
+    height: 185px;
+    border-color:#e4e4e4;
+}
+.kui_prev_next_month{
+    background: #00b6b8;
+}
+.kui_today {
+    margin: 0;
+}
+#left_table, #right_table {
+    margin-left: 3px;
+    width: 170px;
+    height:153px;
+    border-color: #dcdcdc;
+}
+.d_th_bg {
+    color: #ff0004;
+}
+.kui_date_info dt {
+    color: #00969d;
+}
+.kui_data_tab {
+    width: 168px;
+    margin:0;
+}
+.kui_prev_m {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/date_prev.jpg");
+    background-repeat: no-repeat;
+
+}
+.kui_today, .kui_tomorrow {
+    width: 145px;
+}
+.kui_next_m {
+    background-image: url("../images/date_next.jpg");
+    background-repeat: no-repeat;
+}
+.kui_date_reset {
+    display: none;
 }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../bassCss/bar.css">
     <link rel="stylesheet" href="css/steps.css">
     <link rel="stylesheet" href="css/fund.css">
+    <link rel="stylesheet" href="css/doubleDate.css">
     <link rel="stylesheet" href="css/fund-pop.css">
 </head>
 <body>
@@ -299,89 +300,90 @@
         <div class="step-btn step-last-btn">关闭</div>
     </div>
 
-<!--订单弹窗---->
-<div class="fund-mask"></div>
+<!--订单弹窗style="display:none"---->
+<div class="fund-mask" ></div>
 <div class="fund-pop">
     <div class="fund-pop-top">行程设计</div>
     <!--content-->
     <div class="fund-pop-content">
-        <!--出行人员-->
-        <div class="pop-main-con">
-            <div class="content-top">出行人员</div>
-            <div class="content-box">
-                <div class="lab-con clearfix">
-                    <span class="left">已选出行人员：</span>
-                    <ul class="people-box left">
-                        <li>
-                            <span>王世华</span>
-                            <img class="close-img" src="images/close2.png" alt="">
-                        </li>
-                        <li>
-                            <span>王世华</span>
-                            <img class="close-img" src="images/close2.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-                <!--选择出行人员-->
-                <div class="lab-con clearfix">
-                    <div class="tit">选择出行人员（可多选）</div>
-                    <!--搜索人员-->
-                    <div class="search-people-box clearfix">
-                        <div class="search left">
-                            <input class="input" type="text" placeholder="请输入姓名部分或全名，然后点击查找">
-                            <span class="sea-line">|</span>
-                            <span class="sea-txt">查找</span>
-                        </div>
-                        <div class="letter-box right">
-                            <div class="letter-con active">A</div>
-                            <div class="letter-con">B</div>
-                            <div class="letter-con">C</div>
-                            <div class="letter-con">D</div>
-                            <div class="letter-con">E</div>
-                            <div class="letter-con">F</div>
-                            <div class="letter-con">G</div>
-                            <div class="letter-con">H</div>
-                            <div class="letter-con">I</div>
-                            <div class="letter-con">J</div>
-                            <div class="letter-con">K</div>
-                            <div class="letter-con">L</div>
-                            <div class="letter-con">M</div>
-                            <div class="letter-con">N</div>
-                            <div class="letter-con">O</div>
-                            <div class="letter-con">P</div>
-                            <div class="letter-con">Q</div>
-                            <div class="letter-con">R</div>
-                            <div class="letter-con">S</div>
-                            <div class="letter-con">T</div>
-                            <div class="letter-con">U</div>
-                            <div class="letter-con">V</div>
-                            <div class="letter-con">W</div>
-                            <div class="letter-con">X</div>
-                            <div class="letter-con">Y</div>
-                            <div class="letter-con">Z</div>
-                        </div>
+        <div>
+            <!--出行人员-->
+            <div class="pop-main-con">
+                <div class="content-top">出行人员</div>
+                <div class="content-box">
+                    <div class="lab-con clearfix">
+                        <span class="left">已选出行人员：</span>
+                        <ul class="people-box left">
+                            <li>
+                                <span>王世华</span>
+                                <img class="close-img" src="images/close2.png" alt="">
+                            </li>
+                            <li>
+                                <span>王世华</span>
+                                <img class="close-img" src="images/close2.png" alt="">
+                            </li>
+                        </ul>
                     </div>
+                    <!--选择出行人员-->
+                    <div class="lab-con clearfix">
+                        <div class="tit">选择出行人员（可多选）</div>
+                        <!--搜索人员-->
+                        <div class="search-people-box clearfix">
+                            <div class="search left">
+                                <input class="input" type="text" placeholder="请输入姓名部分或全名，然后点击查找">
+                                <span class="sea-line">|</span>
+                                <span class="sea-txt">查找</span>
+                            </div>
+                            <div class="letter-box right">
+                                <div class="letter-con active">A</div>
+                                <div class="letter-con">B</div>
+                                <div class="letter-con">C</div>
+                                <div class="letter-con">D</div>
+                                <div class="letter-con">E</div>
+                                <div class="letter-con">F</div>
+                                <div class="letter-con">G</div>
+                                <div class="letter-con">H</div>
+                                <div class="letter-con">I</div>
+                                <div class="letter-con">J</div>
+                                <div class="letter-con">K</div>
+                                <div class="letter-con">L</div>
+                                <div class="letter-con">M</div>
+                                <div class="letter-con">N</div>
+                                <div class="letter-con">O</div>
+                                <div class="letter-con">P</div>
+                                <div class="letter-con">Q</div>
+                                <div class="letter-con">R</div>
+                                <div class="letter-con">S</div>
+                                <div class="letter-con">T</div>
+                                <div class="letter-con">U</div>
+                                <div class="letter-con">V</div>
+                                <div class="letter-con">W</div>
+                                <div class="letter-con">X</div>
+                                <div class="letter-con">Y</div>
+                                <div class="letter-con">Z</div>
+                            </div>
+                        </div>
 
-                    <ul class="people-box people-list">
-                        <li>李丽珍</li>
-                        <li>李丽珍</li>
-                        <li>李丽珍</li>
-                        <li>预算管理</li>
-                        <li>李丽珍</li>
-                        <li>李丽珍</li>
-                        <li>预算管理</li>
+                        <ul class="people-box people-list">
+                            <li>李丽珍</li>
+                            <li>李丽珍</li>
+                            <li>李丽珍</li>
+                            <li>预算管理</li>
+                            <li>李丽珍</li>
+                            <li>李丽珍</li>
+                            <li>预算管理</li>
 
-                    </ul>
+                        </ul>
 
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="pop-main-bg"></div>
+            <div class="pop-main-bg"></div>
 
-        <!--行程安排-->
-        <div class="pop-main-con routing-main">
-            <div class="content-top">行程安排</div>
-            <div class="content-box routing-box">
+            <!--行程安排-->
+            <div class="pop-main-con routing-main">
+                <div class="content-top">行程安排</div>
+                <div class="content-box routing-box">
                     <div class="routing-lists clearfix">
                         <div class="add"><img src="./images/jia.png" alt=""></div>
                         <div class="routing-row">
@@ -398,7 +400,22 @@
                             <span class="get-time">到达：2018-01-30</span>
                             <span class="get-time">出发：2018-01-30</span>
                         </div>
-                        <div class="vehicle"><img src="./images/train@2x.png" alt=""></div>
+                        <div class="vehicle">
+                            <img class="add-img" src="images/jian.png" alt="">
+                            <img src="./images/train@2x.png" alt="">
+                            <img class="add-img" src="images/jia.png" alt="">
+                            <!--选择交通工具-->
+                            <div class="choose-vehicle">
+                                <div class="choose-top">选择交通工具</div>
+                                <ul class="choose-vehicle-list">
+                                    <li>轮船</li>
+                                    <li>飞机</li>
+                                    <li>公交</li>
+                                    <li>租车</li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <div class="routing-row get-routing-row">
                             <span class="city">广州市</span>
                             <span class="get-time">到达：2018-01-30</span>
@@ -411,7 +428,8 @@
                         </div>
                         <div class="routing-row get-routing-row">
                             <span class="city">深圳市</span>
-                            <span class="get-time">到达：2018-01-30</span>
+                            <!--双日历插件--->
+                            <span class="get-time doubledate ipticon">到达：2018-01-30</span>
                             <span class="get-time">出发：2018-01-30</span>
                         </div>
                         <div class="vehicle">
@@ -425,60 +443,62 @@
                         </div>
                         <div class="subtract"><img src="./images/jian.png" alt=""></div>
                     </div>
-                <!--选择出行人员-->
-                <div class="lab-con rout-lab-con clearfix">
-                    <div class="tit">插入中间行程（可多选）</div>
-                    <!--搜索人员-->
-                    <div class="search-people-box clearfix">
-                        <div class="search left">
-                            <input class="input" type="text" placeholder="请输入城市名称部分或全名，然后点击查找">
-                            <span class="sea-line">|</span>
-                            <span class="sea-txt">查找</span>
+                    <!--选择出行人员-->
+                    <div class="lab-con rout-lab-con clearfix">
+                        <div class="tit">插入中间行程（可多选）</div>
+                        <!--搜索人员-->
+                        <div class="search-people-box clearfix">
+                            <div class="search left">
+                                <input class="input" type="text" placeholder="请输入城市名称部分或全名，然后点击查找">
+                                <span class="sea-line">|</span>
+                                <span class="sea-txt">查找</span>
+                            </div>
+                            <div class="letter-box right">
+                                <div class="letter-con active">A</div>
+                                <div class="letter-con">B</div>
+                                <div class="letter-con">C</div>
+                                <div class="letter-con">D</div>
+                                <div class="letter-con">E</div>
+                                <div class="letter-con">F</div>
+                                <div class="letter-con">G</div>
+                                <div class="letter-con">H</div>
+                                <div class="letter-con">I</div>
+                                <div class="letter-con">J</div>
+                                <div class="letter-con">K</div>
+                                <div class="letter-con">L</div>
+                                <div class="letter-con">M</div>
+                                <div class="letter-con">N</div>
+                                <div class="letter-con">O</div>
+                                <div class="letter-con">P</div>
+                                <div class="letter-con">Q</div>
+                                <div class="letter-con">R</div>
+                                <div class="letter-con">S</div>
+                                <div class="letter-con">T</div>
+                                <div class="letter-con">U</div>
+                                <div class="letter-con">V</div>
+                                <div class="letter-con">W</div>
+                                <div class="letter-con">X</div>
+                                <div class="letter-con">Y</div>
+                                <div class="letter-con">Z</div>
+                            </div>
                         </div>
-                        <div class="letter-box right">
-                            <div class="letter-con active">A</div>
-                            <div class="letter-con">B</div>
-                            <div class="letter-con">C</div>
-                            <div class="letter-con">D</div>
-                            <div class="letter-con">E</div>
-                            <div class="letter-con">F</div>
-                            <div class="letter-con">G</div>
-                            <div class="letter-con">H</div>
-                            <div class="letter-con">I</div>
-                            <div class="letter-con">J</div>
-                            <div class="letter-con">K</div>
-                            <div class="letter-con">L</div>
-                            <div class="letter-con">M</div>
-                            <div class="letter-con">N</div>
-                            <div class="letter-con">O</div>
-                            <div class="letter-con">P</div>
-                            <div class="letter-con">Q</div>
-                            <div class="letter-con">R</div>
-                            <div class="letter-con">S</div>
-                            <div class="letter-con">T</div>
-                            <div class="letter-con">U</div>
-                            <div class="letter-con">V</div>
-                            <div class="letter-con">W</div>
-                            <div class="letter-con">X</div>
-                            <div class="letter-con">Y</div>
-                            <div class="letter-con">Z</div>
-                        </div>
+
+                        <ul class="people-box people-list">
+                            <li>昆明市</li>
+                            <li>北京市</li>
+                            <li>乌鲁木齐</li>
+                            <li>广州市</li>
+                            <li>上海市</li>
+                            <li>呼和浩特</li>
+                        </ul>
+
                     </div>
-
-                    <ul class="people-box people-list">
-                        <li>昆明市</li>
-                        <li>北京市</li>
-                        <li>乌鲁木齐</li>
-                        <li>广州市</li>
-                        <li>上海市</li>
-                        <li>呼和浩特</li>
-                    </ul>
-
                 </div>
+
             </div>
+            <div class="pop-main-bg"></div>
 
         </div>
-        <div class="pop-main-bg"></div>
 
     </div>
     <!--bottom-->
@@ -490,4 +510,17 @@
     </div>
 </div>
 </body>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/jquery-1.4.2.min.js"></script>
+<script src="../js/doubleDate2.0.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('.doubledate').kuiDate({
+        className:'doubledate',
+        isDisabled: "0"  // isDisabledΪ��ѡ��������0����ʾ����֮ǰ����ѡ����1����־����֮ǰ��ѡ
+        });
+
+    });
+</script>
 </html>

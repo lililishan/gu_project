@@ -22,6 +22,176 @@
     /*width: 360px;*/
 }
 
+#header .header-logo-box .logo-right {
+    height: 100%;
+    line-height: 60px;
+}
+#header .user-info-box {
+    position:relative;
+    height: 100%;
+    margin-right: 20px;
+    border-right: 1px solid #ebf0f3;
+}
+#header .portrait {
+    height: 38px;
+    width: 38px;
+    border-radius: 100%;
+    float: left;
+}
+#header .portrait img{
+    height: 38px;
+    width: 38px;
+    border-radius: 100%;
+}
+#header .user-name{
+    margin-left: 15px;
+    margin-right: 20px;
+    float: left;
+    line-height: 60px;
+}
+#header .user-name .name-color {
+    margin-right: 10px;
+    color: #5ec2bc;
+}
+
+/*pop*/
+#header .user-info-box .info-pop {
+    position: absolute;
+    top: 60px;
+    width: 235px;
+    height: 185px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+}
+#header .info-pop .info-pop-top {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    background: #eff0f4;
+    color: #898a8c;
+}
+#header .info-pop .info-pop-top img {height: 23px;}
+#header .info-pop-content {
+    width: 100%;
+
+}
+#header .info-main {
+    margin: 25px 0 20px;
+    height: 45px;
+}
+#header .info-main .list {
+    padding: 0 14px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #edeef0;
+}
+#header .info-main .list span{
+   line-height: 75px;
+}
+#header .info-main .list-impower {
+    background: url("../images/shouq.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#header .info-main .list-impower:hover {
+    background: url("../images/shouq_hover.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #5ec2bc;
+}
+#header .info-main .list-pass {
+    background: url("../images/mima.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#header .info-main .list-pass:hover {
+    background: url("../images/mima_hover.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #5ec2bc;
+}
+#header .info-main .list-call {
+    background: url("../images/call.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    border-right: none;
+}
+#header .info-main .list-call:hover {
+    background: url("../images/call_hover.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #5ec2bc;
+}
+#header .info-pop-content .switch {
+    height: 26px;
+    width: 100%;
+    text-align: center;
+    line-height: 26px;
+}
+#header .info-pop-content .switch img {height:100%}
+
+
+#header .user-inform  {
+    position: relative;
+    width: 24px;
+    height: 60px;
+    background: url("../images/tongzhi-01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header .user-inform:hover  {
+    width: 24px;
+    height: 60px;
+    background: url("../images/tongzhi_hover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header .user-inform .num {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    height: 18px;
+    width: 16px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 16px;
+    background: #fe5715;
+    color: #fff;
+}
+#header .user-help {
+    margin-left: 30px;
+    width: 24px;
+    height: 60px;
+    background: url("../images/help.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header .user-help:hover {
+    background: url("../images/help_hover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header .user-service {
+    margin-left: 30px;
+    width: 24px;
+    height: 60px;
+    background: url("../images/24h-01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header .user-service:hover {
+    background: url("../images/24h-hover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
 #header #nav {
     margin: 0 auto;
     height: 40px;
