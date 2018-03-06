@@ -117,6 +117,8 @@ header
     width: 7px;
     height: 7px;
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     border-radius: 100%;
     background: #fff;
     opacity: 1;
@@ -144,6 +146,8 @@ header
     margin: 0 auto;
     width: 193px;
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
@@ -226,13 +230,16 @@ footer
     color: white;
 }
 #section0 {
-    background: url('./images/lunbo.jpg') no-repeat;
+    background: url('./images/lunbo.jpg');
+    background-repeat: no-repeat;
 }
 #section1 {
-    background: url('images/lunbo2.jpg') no-repeat;
+    background: url('images/lunbo2.jpg') ;
+    background-repeat: no-repeat;
 }
 #section2 {
-    background: url('images/lunbo.jpg') no-repeat;
+    background: url('images/lunbo.jpg') ;
+    background-repeat: no-repeat;
 }
 .swiper-box .pages.horizontal {
     left: auto;

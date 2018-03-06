@@ -75,6 +75,8 @@
 }
 .rout-detail-list ul.route-ul-con li.date span {
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     width: 100%;
 }
 .rout-detail-list ul.route-ul-con li.date span.city{

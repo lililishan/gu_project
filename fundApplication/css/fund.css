@@ -29,7 +29,8 @@
     font-size: 18px;
     font-weight: 600;
     color: #4c4f51;
-    background: url("../../images/title_bg.jpg") repeat-x;
+    background: url("../../images/title_bg.jpg") ;
+    background-repeat: repeat-x;
 }
 
 .fund-content-box .info-list {

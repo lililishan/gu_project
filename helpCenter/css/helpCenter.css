@@ -7,8 +7,11 @@
   width: 1200px;
 }
 .current-position i{
-	background: url(../images/crumb_arrow.gif) no-repeat;
+	background-image: url(../images/crumb_arrow.gif);
+	background-repeat: no-repeat;
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	width: 11px;
 	height: 11px;
 }
@@ -29,7 +32,6 @@ border: none;
 	height: auto;
 	background: #fff;
 	border: 1px solid #e3e8e9;
-	padding: 0 20px;
 }
 .help-center-left .help-guide{
 	 text-align: center;
@@ -65,11 +67,19 @@ border: none;
 	color: #41b1aa;
 }
 /* 帮助指南 */
+.help-center-right {
+	box-sizing: border-box;
+	border:1px solid #e3e8e9;
+}
 .help-center-right .help-guide i{
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	width: 20px;
 height: 25px;
-	background: url(../images/guide.png) no-repeat center;
+	background-image: url(../images/guide.png) ;
+	background-repeat: no-repeat;
+	background-position :center;
 	vertical-align: middle;
 }
 .help-center-right .help-guide span{

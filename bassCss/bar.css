@@ -105,6 +105,8 @@ input.input{
     min-width: 110px;
     height: 33px;
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     line-height: 33px;
     text-align: center;
     font-size: 14px;
@@ -127,6 +129,8 @@ input.input{
 /*}*/
 .radio {
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     cursor: pointer;
 }
 .radio img.radio-img {

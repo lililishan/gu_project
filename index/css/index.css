@@ -24,9 +24,12 @@
 }
 .content-main-box .content-inform ul .inform-title i{
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	width: 19px;
 	height: 19px;
-	background: url(../images/inform_icon.png) no-repeat;
+	background-image: url(../images/inform_icon.png) ;
+	background-repeat:no-repeat;
 	vertical-align: middle;
 }
 .content-main-box .content-inform ul .inform-title span{
@@ -34,25 +37,33 @@
 	font-weight: bold;
 	color: #151a1f;
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	margin-left: 10px;
 }
 .content-main-box .content-inform ul .inform-title .arrow-icons{
 	width: 8px;
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	margin-left: 10px;
 }
 .content-main-box .content-inform ul .inform-title .arrow-icons i{
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	width: 8px;
 	height: 4px;
 	float: left;
 	cursor: pointer;
 }
 .content-inform ul .arrow-icons i.up-arrow-icon{
-	background: url(../images/up_arrow.png) no-repeat;
+	background: url(../images/up_arrow.png) ;
+	background-repeat: no-repeat;
 }
 .content-inform ul .arrow-icons i.down-arrow-icon{
-	background: url(../images/down_arrow.png) no-repeat;
+	background: url(../images/down_arrow.png) ;
+	background-repeat: no-repeat;
 	margin-top: 4px;
 }
 .content-inform ul .inform-msg{
@@ -186,6 +197,8 @@
 	float: left;
 	width: 100%;
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	font-size: 12px;
 	height: 15px;
 	color: #4f4f4f;
@@ -230,13 +243,17 @@
 .content-right .budget-ranking{
 	width: 100%;
 	height: 375px;
-	background: url(../images/paiming.png) no-repeat 50% 20%;
+	background: url(../images/paiming.png) ;
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
 	text-align: center;
 }
 .content-right .budget-ranking strong{
 	color: #60b9b3;
 	font-size: 34px;
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	margin-top: 84px;
 }
 .content-right .budget-ranking p{

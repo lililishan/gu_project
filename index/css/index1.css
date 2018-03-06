@@ -15,6 +15,8 @@
 }
 .beforehand-box .beforehand-line{
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	width: 32px;
 	height: 3px;
 	background: #e2e7eb;
@@ -29,7 +31,8 @@
 	position: relative;
 }
 .beforehand-mian .add-bills{
-	background: url(../images/danju.png) no-repeat;
+	background: url(../images/danju.png) ;
+	background-repeat: no-repeat;
 	width: 80px;
 	height: 45px;
 	position: absolute;
@@ -39,6 +42,8 @@
 }
 .beforehand-mian .add-bills span{
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	color: #b49145;
 	width: 80px;
 	height: 45px;
@@ -80,6 +85,8 @@
 }
 .beforehand-mian-bot .line{
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	width: 1px;
 	height: 33px;
 	background: #e2e7eb;
@@ -88,10 +95,14 @@
 .beforehand-mian-bot li strong{
 	font-size: 14px;
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	width: 100%;
 }
 .beforehand-mian-bot li span{
 	display: inline-block;
+	*zoom:1;
+	*display: inline;
 	color: #818181;
 	width: 100%;
 }

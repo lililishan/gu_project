@@ -55,10 +55,14 @@ con-list
     width: 100%;
     height: 29px;
     line-height: 29px;
-    background: url('../images/arrow.gif') no-repeat 0;
+    background: url('../images/arrow.gif');
+    background-repeat: no-repeat;
+    background-position: 0;
 }
 .list-cons ul.cons-main-box li.li-down {
-    background: url('../portalsIndex/images/download.gif') no-repeat 0;
+    background: url('../portalsIndex/images/download.gif') ;
+    background-repeat: no-repeat;
+    background-position: 0;
 }
 
 .list-cons ul.cons-main-box li a {

@@ -50,6 +50,8 @@
     line-height: 18px;
     text-align: center;
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     vertical-align: top;
     font-size: 12px;
     border-radius: 50%;
@@ -167,6 +169,8 @@ ul.tab-list.end-tab-list li.child-con-two {
 }
 ul.tab-list.end-tab-list li.child-con-one .txt{
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     width: 100%;
     text-align: center;
     line-height: 1.7;
@@ -247,6 +251,8 @@ ul.tab-list.end-tab-list li.child-con-four {
 ul.tab-list.end-tab-list li.child-con-four .write, ul.tab-list.end-tab-list li.child-con-four span {
     width: 100%;
     display: inline-block;
+    *zoom:1;
+    *display: inline;
 }
 ul.tab-list.end-tab-list li.child-con-four .time {
     padding-top: 10px;
@@ -293,6 +299,8 @@ ul.tab-list.alter-tab-list li.child-con-one {
 ul.work-area li.work-con span.edit-cost {
     padding-left: 22px;
     display: inline-block;
+    *zoom:1;
+    *display: inline;
     width: 100%;
     box-sizing: border-box;
     font-size: 12px;
