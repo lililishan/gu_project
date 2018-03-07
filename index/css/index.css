@@ -69,6 +69,7 @@
 .content-inform ul .inform-msg{
 	margin-left: 22px;
 	color: #6e6e6e;
+	overflow: hidden;
 }
 .content-inform ul .inform-msg span{
 	color: #bdc2c7;
