@@ -331,11 +331,24 @@
                     <form class="form" action="">
                         <div class="inputBox">
                             <input class="input"  placeholder="用户名" required="required">
-                            <img src="./../images/user-01.png" alt="">
+                            <img class="img" src="./../images/user-01.png" alt="">
                         </div>
                         <div class="inputBox">
                             <input class="input"  placeholder="密码" required="required">
-                            <img src="./../images/xiugaimima-01.png" alt="">
+                            <img class="img" src="./../images/xiugaimima-01.png" alt="">
+                        </div>
+                        <div class="inputBox">
+                            <div class="selects active" >
+
+                                <label class="se-label" >2015</label>
+                                <img class="img-down" src="./../images/down@2x.gif" alt="">
+                                <ul class="se-item">
+                                    <li class="once"> 2015 </li>
+                                    <li class="once"> 2016 </li>
+                                    <li class="once"> 2017 </li>
+
+                                </ul>
+                            </div>
                         </div>
                         <div class="login-btn">
                             <a href="../index/index.html">登录</a>
@@ -379,7 +392,15 @@
 <script src="./../js/jquery-1.8.3.min.js"></script>
 <script src="../js/dist/pageSwitch.min.js"></script>
 <script>
-
+    $(document).ready(function () {
+        $('.se-label').click(function () {
+            $('.se-item').show();
+            $('.se-item li').click(function () {
+                $('.se-label').html($(this).text());
+                $('.se-item').hide();
+            });
+        });
+    });
     $("#container").PageSwitch({
         direction:'horizontal',
         easing:'ease-in',

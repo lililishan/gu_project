@@ -82,7 +82,7 @@ header
 
 .content-main-box .content .content-right .login-box {
     height: 260px;
-    width: 100%;
+    width: auto;
     background: #fff;
     border: 1px solid #e3e8e9;
 }
@@ -124,7 +124,7 @@ header
     width: 80%;
     border:none;
 }
-.content-main-box .content .content-right .login-box form.form .inputBox img {
+.content-main-box .content .content-right .login-box form.form .inputBox img.img {
     position: absolute;
     left: 10px;
     top: 25%;

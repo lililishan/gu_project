@@ -62,6 +62,7 @@
     height: 185px;
     background: #fff;
     border: 1px solid #e8e8e8;
+    box-shadow: 0 1px 4px 0 rgba(1,1,0,0.44);
 }
 #header .info-pop .info-pop-top {
     height: 50px;
@@ -255,10 +256,9 @@
 }
 .content-main-box .tit-line {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 50%;
     left: 25px;
-    margin: auto;
+    margin: -10px 0 0 0;
     width: 4px;
     height: 20px;
     background: #5ec2bc;

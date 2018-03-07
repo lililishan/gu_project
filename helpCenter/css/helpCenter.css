@@ -9,11 +9,12 @@
 .current-position i{
 	background-image: url(../images/crumb_arrow.gif);
 	background-repeat: no-repeat;
+    background-position-y:1px;
 	display: inline-block;
 	*zoom:1;
 	*display: inline;
 	width: 11px;
-	height: 11px;
+	/*height: 11px;*/
 }
 .help-center-box .help-lists{
 /*   margin: 0 20px;
@@ -28,6 +29,7 @@ border: none;
 }
 /* 帮助2 */
 .help-center-left{
+    margin-left:-4px;
 	width: 100%;
 	height: auto;
 	background: #fff;
@@ -85,8 +87,8 @@ height: 25px;
 .help-center-right .help-guide span{
 	margin-left: 10px;
 	font-size: 16px;
-  font-weight: 600;
-  color: #181d1e;
+    font-weight: 600;
+    color: #181d1e;
 }
 .help-center-right .cons-main-box{
 	padding: 0 15px!important;
