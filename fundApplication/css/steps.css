@@ -61,7 +61,7 @@
     margin-right: 0;
 }
 .info-step-box .step-list .done-img {
-    height: 16px;
+    height: 13px;
 }
 .info-step-box .step-list span {
     padding-top: 5px;
@@ -78,7 +78,7 @@
     height: 35px;
     width: 36px;
     box-sizing: border-box;
-    line-height: 20px;
+    line-height: 17px;
     text-align: center;
     font-size: 16px;
     border-radius: 99%;

@@ -141,6 +141,7 @@ header
     padding: 0 8px;
     color: #646464;
     border-right: 1px solid #e7eced;
+    cursor: pointer;
 }
 .content-main-box .content .content-right .login-box form.form .btn-list a:hover,
 .content-main-box .content .content-right .login-box form.form .btn-list a.active{

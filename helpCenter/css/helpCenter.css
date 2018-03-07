@@ -42,14 +42,18 @@ border: none;
 	 padding: 45px 0;
 }
 .help-center-left  .headline{
-	font-size: 22px;
+	font-size: 24px;
 	color: #151a1f;
 	font-weight: 600;
 }
+.help-center-left .author {
+	font-size: 14px;
+}
 .help-center-left .article-details{
-	margin: 0 15px;
+	 /*margin: 0 15px;*/
 	 border-bottom: 1px solid #e3e8e9;
-	 padding: 45px 0;
+	 padding: 45px 70px;
+	font-size: 14px;
 }
 .help-center-left .article-details p{
 	line-height: 22px;
@@ -60,10 +64,14 @@ border: none;
 	height: 94px;
 	line-height: 94px;
 	text-align: center;
+	font-size: 14px;
 	color: #282828
 }
 .help-center-left .page-list span{
 	margin-right: 8px;
+}
+.help-center-left .page-list span.hover:hover {
+	color: #41b1aa;
 }
 .page-active{
 	color: #41b1aa;

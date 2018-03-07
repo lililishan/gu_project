@@ -79,7 +79,21 @@
                         </div>
                         <div class="list">
                             <span>申请部门</span>
-                            <input class="input input-line" type="text" value="">
+                            <!--<input class="input input-line" type="text" value="">-->
+                            <div class="selects  input-line" >
+                                <label class="se-label left" >A部门</label>
+                                <div class="arrow-icons right">
+                                    <i class="up-arrow-icon"></i>
+                                    <i class="down-arrow-icon"></i>
+                                    <div class="both"></div>
+                                </div>
+                                <ul class="se-item">
+                                    <li class="once"> A部门 </li>
+                                    <li class="once"> B部门 </li>
+                                    <li class="once"> C部门 </li>
+
+                                </ul>
+                            </div>
                         </div>
                         <div class="list">
                             <span>申请日期</span>
@@ -101,6 +115,8 @@
                             <span>报销是由</span>
                             <input class="input input-line" type="text">
                         </div>
+
+                        <div class="both"></div>
                     </div>
                     <div class="info-bg"></div>
                 </div>
@@ -111,7 +127,7 @@
                         <span>视频帮助</span>
                     </div>
                     <div class="info-list video-help">
-                        <div class="write-video">
+                        <div class="write-video cp">
                             <img src="./images/video-01.png" alt="">
                             <span>如何填写各项内容</span>
                         </div>
@@ -180,7 +196,7 @@
                                     <span class="child-four">2343,233</span>
                                     <span class="child-five">3,333 </span>
                                     <span class="child-six">45，455</span>
-                                    <span class="child-seven operate">删除</span>
+                                    <span class="child-seven operate"><a class="cp">删除</a></span>
                                 </li>
                                 <li class="odd-bg">
                                     <span class="child-one">001</span>
@@ -189,7 +205,7 @@
                                     <span class="child-four">2343,233</span>
                                     <span class="child-five">3,333 </span>
                                     <span class="child-six">45，455</span>
-                                    <span class="child-seven operate">删除</span>
+                                    <span class="child-seven operate"><a class="cp">删除</a></span>
                                 </li>
                             </ul>
                         </div>
@@ -221,7 +237,7 @@
                     <div class="info-list ele-list">
                         <ul class="steps-ul ele-ul">
                             <li class="odd-bg head">
-                                <span class="child-one"><img src="../images/check-01@2x.png" alt=""></span>
+                                <span class="child-one"><img src="../images/check_white.png" alt=""></span>
                                 <span class="child-two">序号</span>
                                 <span class="child-three">要素</span>
                             </li>
@@ -518,7 +534,14 @@
 <script src="../js/doubleDate2.0.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-
+        $('.se-label').click(function () {
+            $('.se-item').show();
+            $('.se-item li').click(function () {
+                $('.se-label').html($(this).text());
+                $('.se-item').hide();
+            });
+        });
+        //shuangrili
         $('.doubledate').kuiDate({
         className:'doubledate',
         isDisabled: "0"  // isDisabledΪ��ѡ��������0����ʾ����֮ǰ����ѡ����1����־����֮ǰ��ѡ

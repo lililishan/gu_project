@@ -42,11 +42,12 @@
 	margin-left: 10px;
 }
 .content-main-box .content-inform ul .inform-title .arrow-icons{
-	width: 8px;
-	display: inline-block;
-	*zoom:1;
-	*display: inline;
-	margin-left: 10px;
+	/*width: 8px;*/
+	/*display: inline-block;*/
+	/**zoom:1;*/
+	/**display: inline;*/
+	/*margin-left: 10px;*/
+	padding-top:0;
 }
 .content-main-box .content-inform ul .inform-title .arrow-icons i{
 	display: inline-block;
@@ -58,11 +59,11 @@
 	cursor: pointer;
 }
 .content-inform ul .arrow-icons i.up-arrow-icon{
-	background: url(../images/up_arrow.png) ;
+	background: url(../../images/up_arrow.png) ;
 	background-repeat: no-repeat;
 }
 .content-inform ul .arrow-icons i.down-arrow-icon{
-	background: url(../images/down_arrow.png) ;
+	background: url(../../images/down_arrow.png) ;
 	background-repeat: no-repeat;
 	margin-top: 4px;
 }
