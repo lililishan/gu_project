@@ -81,8 +81,8 @@ header
 
 
 .content-main-box .content .content-right .login-box {
-    height: 260px;
-    width: auto;
+    height: auto;
+    width: 100%;
     background: #fff;
     border: 1px solid #e3e8e9;
 }
