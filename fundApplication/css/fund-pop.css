@@ -37,6 +37,14 @@
     background: #f7f7f7;
     color: #3b3b3b;
 }
+.fund-pop-top .right {
+    width: 16px;
+    height: 100%;
+    background-image: url(../images/close3.png);
+    background-repeat: no-repeat;
+    background-position-y: 14px;
+    cursor: pointer;
+}
 /*content*/
 .fund-pop-content {
     padding: 30px 20px;
@@ -100,6 +108,7 @@
     line-height: 20px;
     color: #b1b1b1;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 .pop-main-con .lab-con .search-people-box .letter-box .letter-con.active {
     border-color: #51c4bc;
@@ -118,6 +127,7 @@
     color: #51c4bc;
     border-radius: 2px;
     border: 1px solid #51c4bc;
+    cursor: pointer;
 }
 .pop-main-con ul.people-box li img.close-img {
     margin-top:-2px;
@@ -135,6 +145,7 @@
 .pop-main-con .lab-con .people-box.people-list li {
     color: #4c4c4c;
     border-color: #ddd;
+    cursor: pointer;
 }
 
 /*行程安排*/
@@ -162,11 +173,14 @@
 }
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle {position: relative; padding: 0 5px;}
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle img {
+    height: auto;
+    width: 30px;
     padding: 0;
 }
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle .add-img {
     padding:0;
-    height: 20px;
+    /*height: 20px;*/
+    width: 20px;
     cursor: pointer;
 }
 
@@ -190,12 +204,15 @@
 交通工具*/
 .choose-vehicle {
     position: absolute;
+    top: 62px;
+    left: -10px;
     width: 107px;
     height: 104px;
     border: 1px solid #e8e8e8;
     background: #fff;
     z-index: 100;
     border-radius: 2px;
+    box-shadow: 0 0 3px 0 rgba(1,1,0,0.44);
 }
 .choose-vehicle .choose-top {
     height: 28px;
@@ -216,7 +233,9 @@
     text-align: center;
     box-sizing: border-box;
     border-right: 1px solid #e8e8e8;
+    cursor: pointer;
 }
+.choose-vehicle ul.choose-vehicle-list li.unborder {border: none;}
 /**
 日历样式/
  */

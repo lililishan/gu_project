@@ -18,6 +18,7 @@
 .fund-content-box .info-con-box {
     margin-bottom: 30px;
     width: 100%;
+    border: 1px solid #eaeaea;
 }
 .fund-content-box .info-con-title {
     position: relative;

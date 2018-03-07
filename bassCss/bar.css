@@ -1,6 +1,6 @@
 /*下拉框*/
 .selects {
-    padding: 0 10px;
+    padding: 0 5px 0 10px;
     height: 40px;
     line-height: 39px;
     width: 100%;
@@ -114,17 +114,18 @@ input.input{
     border-radius: 2px;
     cursor: pointer;
 }
-/*.btns:hover {*/
-    /*background: #68d0ca;*/
-/*}*/
+.btns:hover {
+    background: #68d0ca;
+}
 .btns.whiteBths {
-    border: 1px solid #b9bbbc;
+    border: 1px solid #ddd;
     color: #717475;
     background: #fff;
 }
-/*.btns.whiteBths:hover {*/
-    /*background: #fff;*/
-/*}*/
+.btns.whiteBths:hover {
+    background: #fff;
+    border-color: #b9bbbc;
+}
 .radio {
     display: inline-block;
     *zoom:1;
