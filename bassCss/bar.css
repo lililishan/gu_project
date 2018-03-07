@@ -19,7 +19,7 @@
 
 }
 .selects .se-label {
-    width: 90% !important;
+    width: 86% !important;
     height: 100%;
     display: inline-block;
     *display: inline;
@@ -31,9 +31,9 @@
     cursor: pointer;
     margin-bottom: 0;
 }
-.selects .img-down {
+.selects .right .img-down {
     width: 14px;
-    margin-top: -25px;
+    /*margin-top: -25px;*/
     *margin-top: 0px!important; /*ie7识别*/
 }
 

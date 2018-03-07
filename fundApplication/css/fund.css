@@ -91,6 +91,13 @@
 .fund-content-box .info-list .list.full-list .input-line {
     width: 986px;
 }
+.fund-content-box .info-list .list .selects.input-line {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: -5px;
+}
+.fund-content-box .info-list .list .selects.input-line .se-label {color: #3e3e3f;}
 .fund-content-box .info-list .list span {
     padding-right: 20px;
     color: #383838;
@@ -119,7 +126,8 @@
 }
 .fund-content-box .write-video img {
     margin-top: -4px;
-    height: 23px;
+    padding-right: 5px;
+    height: 17px;
 }
 .fund-content-box .info-list.isBorrow-list {
     padding: 33px 20px;
@@ -157,11 +165,15 @@
 .fund-content-box .info-list.bond-list .bond-cons .radio-list .radio {
     line-height: 28px;
 }
+.fund-content-box .info-list.bond-list .bond-cons .steps-ul li span.child-seven:hover a{
+    text-decoration: underline;
+}
 /*请确认本次提交要素*/
 .fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 30px 20px;}
 .info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%;}
 .info-list.ele-list .steps-ul.ele-ul span.child-two {width:10%;}
 .info-list.ele-list .steps-ul.ele-ul span.child-three {width:85%;}
+
 /*清单*/
 .info-list.repertoire-list .steps-ul.repert-ul li{
     height: 55px;

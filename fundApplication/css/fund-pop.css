@@ -147,8 +147,10 @@
     border-color: #ddd;
     cursor: pointer;
 }
-
-/*行程安排*/
+.pop-main-con .lab-con .people-box.people-list li:hover {
+    border-color:  #51c4bc;
+}
+    /*行程安排*/
 .pop-main-con.routing-main {
     margin-top: 30px;
 }

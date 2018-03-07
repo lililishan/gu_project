@@ -71,6 +71,16 @@
 	line-height: 55px;	
 	margin-right: 7px;
 }
+.beforehand-mian .beforehand-mian-top li .ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 72px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+}
 .beforehand-mian .beforehand-mian-top .expense-icon{
 	width: 15px;
 	height: 17px;
@@ -209,4 +219,5 @@
 .content-main-box .statistics-container li .statistics-list{
 	margin-left: 0px;
 }
+
 

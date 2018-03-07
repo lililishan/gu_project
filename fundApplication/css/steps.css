@@ -14,7 +14,7 @@
 .fund-content-box .info-step-box {
     position: relative;
     margin:0 auto;
-    width: 966px;
+    width: 750px;
     height: 130px;
     box-sizing: border-box;
 
@@ -27,12 +27,13 @@
 }
 .info-step-box .progress-bar {
     position: absolute;
-    top: 51px;
-    right: 0;
-    left: 0;
-    z-index:1;
-    margin: auto;
-    width: 820px;
+    top: 40%;
+    /* right: 0; */
+    left: 48%;
+     z-index: 1;
+    /*margin: 0 auto;*/
+    margin: 2px 0 0 -314px;
+    width: 639px;
     height: 4px;
     background: #d9dbe4;
 }
@@ -57,11 +58,13 @@
     vertical-align: middle;
     box-sizing: border-box;
 }
+.info-step-box .step-list.first-steps {width: 74px;}
+.info-step-box .step-list.second-steps {width: 110px;}
 .info-step-box .step-list.step-last {
     margin-right: 0;
 }
 .info-step-box .step-list .done-img {
-    height: 16px;
+    height: 13px;
 }
 .info-step-box .step-list span {
     padding-top: 5px;
@@ -78,7 +81,7 @@
     height: 35px;
     width: 36px;
     box-sizing: border-box;
-    line-height: 20px;
+    line-height: 17px;
     text-align: center;
     font-size: 16px;
     border-radius: 99%;

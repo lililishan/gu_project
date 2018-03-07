@@ -269,6 +269,32 @@
     float: left;
     box-sizing: border-box;
 }
+.content-main-box .arrow-icons{
+    padding-top: 20px;
+    width: 8px;
+    display: inline-block;
+    *zoom:1;
+    *display: inline;
+    margin-left: 10px;
+}
+.content-main-box .arrow-icons i{
+    display: inline-block;
+    *zoom:1;
+    *display: inline;
+    width: 8px;
+    height: 4px;
+    float: left;
+    cursor: pointer;
+}
+.content-main-box .arrow-icons i.up-arrow-icon{
+    background: url(../images/up_arrow.png) ;
+    background-repeat: no-repeat;
+}
+.content-main-box .arrow-icons i.down-arrow-icon{
+    background: url(../images/down_arrow.png) ;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+}
 
 /*
 右侧部分
