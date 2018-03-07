@@ -10,7 +10,7 @@ con-list
     border: 1px solid #e3e8e9;
 }
 .list-cons .cons-top {
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     height: 45px;
     width: 100%;
     line-height: 45px;
@@ -19,6 +19,7 @@ con-list
     border-bottom: 1px solid #e8ebeb;
 }
 .list-cons .cons-top .title {
+    padding-left: 20px;
     float: left;
     font-size: 16px;
     font-weight: 600;
@@ -40,6 +41,7 @@ con-list
     color: #fff;
 }
 .list-cons .cons-top .more {
+    padding-right: 20px;
     float: right;
     cursor: pointer;
 }

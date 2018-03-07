@@ -6,11 +6,14 @@
     background-position: 100% 100%;
     background-size: cover;
 }
-.login-box img{
+.login-box img.logo-bg{
     max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
 }
 .login-box .login-main {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     margin-left: -400px;

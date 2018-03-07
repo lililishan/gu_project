@@ -90,7 +90,7 @@
 }
 .backlog-main ul li{
 	float: left;
-	width: 19%;
+	width: 18.9%;
 	height: 100%;
 }
 .backlog-main ul li.last-li{
@@ -101,8 +101,8 @@
 	height: 68px;
 	border-radius: 50%;
 	margin-top: 32px;
-	margin-left: 20px; 
-	display: table-cell; 
+	margin-left: 20px;
+	display: table-cell;
     vertical-align: middle;
     text-align: center;
     line-height: 68px;
@@ -167,7 +167,7 @@
 }
 .content-main-box .statistics-container ul li{
 	float: left;
-	width: 25%;
+	width: 24.9%;
 	height: 100%;
 }
 .content-main-box .statistics-container li .statistics-list{
@@ -176,7 +176,7 @@
 	border-radius: 45px;
 	border: 1px solid #d9e0e5;
 	margin-top: 43px;
-	margin-left: 64px; 
+	margin-left: 64px;
     vertical-align: middle;
     text-align: center;
     line-height: 68px;
@@ -213,6 +213,7 @@
 	height: auto;
 	display: table-cell;
 }
+.content-right.content-right-width{width: 232px!important;}
 .content-right .content-right-title{
 	width: 100%;
 	height: 44px;
