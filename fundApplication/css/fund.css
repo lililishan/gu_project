@@ -20,6 +20,9 @@
     width: 100%;
     border: 1px solid #eaeaea;
 }
+.fund-content-box .info-con-box.last-info-con-box {
+    margin-bottom: 0;
+}
 .fund-content-box .info-con-title {
     position: relative;
     padding-left: 50px;

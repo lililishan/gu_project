@@ -2,13 +2,14 @@
 con-list
 */
 .list-cons {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     height: auto;
     width: 100%;
     box-sizing: border-box;
     background: #fff;
     border: 1px solid #e3e8e9;
 }
+.list-cons.last-list-cons {margin-bottom: 0}
 .list-cons .cons-top {
     /*padding: 0 20px;*/
     height: 45px;

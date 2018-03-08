@@ -249,7 +249,7 @@
     background: #f3f8f9;
 }
 .content-main-box .content {
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 0 auto;
     width: 1200px;
     height: 100%;
@@ -265,10 +265,12 @@
 }
 .content-main-box .content .content-left {
     margin-right: 20px;
+    margin-bottom:10px;
     width: 946px;
     float: left;
     box-sizing: border-box;
 }
+
 .content-main-box .arrow-icons{
     padding-top: 20px;
     width: 8px;

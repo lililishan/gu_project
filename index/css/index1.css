@@ -5,10 +5,13 @@
 /* 无需事前 */
 .beforehand{
 	width: 100%;
-	height: 215px;
+	/*height: 215px;*/
+	height: auto;
 	border: 1px solid #e2e7eb;
 	background: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 .beforehand-box{
 	padding: 0 32px;
@@ -20,14 +23,16 @@
 	width: 32px;
 	height: 3px;
 	background: #e2e7eb;
-	margin-top: 102px;
+	/*margin-top: 82px;*/
+	margin-top:56px;
 }
 .beforehand-mian{
+
 	width: 148px;
 	height: 111px;
 	border-radius: 20px;
 	border: 1px solid #7ebafd;
-	margin-top: 50px;
+	/*margin-top: 30px;*/
 	position: relative;
 }
 .beforehand-mian .add-bills{
@@ -36,7 +41,7 @@
 	width: 80px;
 	height: 45px;
 	position: absolute;
-	right: -14px;
+	right: -22px;
 	top: -27px;
 	display: none;
 }
@@ -51,13 +56,13 @@
 	text-align: center;
 }
 .beforehand-mian .beforehand-mian-list{
+	position: relative;
 	width: 100%;
 	height: 55.5px;
 }
 .beforehand-mian .beforehand-mian-list li{
 	float: left;
 	color: #fff;
-	font-size: 14px;
 }
 .beforehand-mian .beforehand-mian-top li.top-li{
 	margin-left: 15px;
@@ -68,9 +73,42 @@
 	height: 55px;
 }
 .beforehand-mian .beforehand-mian-top li{
-	line-height: 55px;	
-	margin-right: 7px;
+	line-height: 55px;
+	/*margin-right: 7px;*/
+	/*line-height: normal;*/
+	width: 100%;
+
 }
+.beforehand-mian .beforehand-mian-top li .js-addBills-btn {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin: -9px 8px 0 0 ;
+}
+.beforehand-mian .beforehand-mian-top li table.title-table {
+	width: 74%;
+}
+.beforehand-mian .beforehand-mian-top li table.title-table tr{
+	width: 100%;
+	height: 55px;
+}
+.beforehand-mian .beforehand-mian-top li table.title-table tr td{
+	padding-left: 18px
+}
+.beforehand-mian .beforehand-mian-top li table.title-table tr td span{
+	white-space: normal;
+	font-size: 14px;
+}
+/*.beforehand-mian .beforehand-mian-top li  .title {*/
+	/*white-space: normal;*/
+	/*display: inline-block;*/
+	/**display: inline;*/
+	/**zoom: 1;*/
+	/*width: 80%;*/
+	/*text-align: left;*/
+	/*padding-left: 8px*/
+/*}*/
+.beforehand-mian .beforehand-mian-top li.normal {line-height: normal}
 .beforehand-mian .beforehand-mian-top li .ellipsis {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -87,8 +125,8 @@
 }
 .beforehand-mian-bot li{
 	float: left;
-	width: 66px;
-	height: 33px;
+	width: 69px;
+	/*height: 33px;*/
 	font-size: 12px;
 	text-align: center;
 	margin-right: 4px;
@@ -108,6 +146,7 @@
 	*zoom:1;
 	*display: inline;
 	width: 100%;
+	padding-top: 7px;
 }
 .beforehand-mian-bot li span{
 	display: inline-block;
@@ -119,12 +158,14 @@
 .pending strong{
 	color: #ecb633;
 }
+.beforehand-mian-bot li.processed {margin-right:0}
 .processed strong{
 	color: #5296e0;
 }
 /* 必需事前 */
 .need-beforehand{
 	height: 409px;
+	height: auto;
 }
 .need-beforehand-list .beforehand-line{
 	width: 56px;
@@ -153,19 +194,23 @@
 	height: 118px;
 	background: #e2e7eb;
 	margin-left: 221px;
+	height:89px;
 }
 .long-string1{
 	height: 176px;
     margin-left: 307px;
     margin-top: -179px;
+	height: 141px;
 }
 .need-beforehand-list-bot{
 	margin-left: 224px;
 	margin-top: -105px;
+	margin-top: 35px;
 }
 .need-beforehand-list-bot .striping{
 	width: 127px;
 	margin-top: 115px;
+	margin-top: 86px;
 }
 .need-beforehand-list-bot .beforehand-mian{
 	border: 1px solid #edbc53;
@@ -179,18 +224,21 @@
 	height: 196px;
 	border: 1px solid #e2e7eb;
 	background: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	height:auto;
+	padding: 30px 0;
 }
 .statistics-box{
 	padding: 0 32px;
 	height: 100%;
-	margin-top: 90px;
+	/*margin-top: 90px;*/
 }
 .statistics-container .hori-line{
 	width: 32px; 
 	height: 3px;
 	background: #d9e0e5;
 	margin-top: 102px;
+	margin-top:56px;
 }
 .statistics-container ul .hori-line{
 	width: 54px;
@@ -202,14 +250,15 @@
 	text-align: center;
 	line-height: 36px;
 	border: 1px solid #e2e7eb;
-	margin-top: 83px;
+	margin-top: 37px;
 	border-radius: 30px;
 	font-size: 14px;
 }
 .content-main-box .statistics-container ul{
 	width: 100%;
-	height: 196px;
+	height: auto;
 	margin-top: -100px;
+	margin-top:0;
 }
 .content-main-box .statistics-container ul li{
 	float: left;
@@ -218,6 +267,7 @@
 }
 .content-main-box .statistics-container li .statistics-list{
 	margin-left: 0px;
+	margin-top:0;
 }
 
 

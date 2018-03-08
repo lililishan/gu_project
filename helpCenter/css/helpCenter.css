@@ -2,9 +2,9 @@
 .current-position{
 	color: #424344;
 	font-size: 14px;
-  padding-top: 20px;
-  margin: 0 auto;
-  width: 1200px;
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 1200px;
 }
 .current-position i{
 	background-image: url(../images/crumb_arrow.gif);
