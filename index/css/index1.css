@@ -23,7 +23,7 @@
 	width: 32px;
 	height: 3px;
 	background: #e2e7eb;
-	/*margin-top: 82px;*/
+	/*margin-top: 86px;*/
 	margin-top:56px;
 }
 .beforehand-mian{
@@ -55,11 +55,13 @@
 	line-height: 45px;
 	text-align: center;
 }
+.need-beforehand-list li {float:left;}
 .beforehand-mian .beforehand-mian-list{
 	position: relative;
 	width: 100%;
 	height: 55.5px;
 }
+.beforehand-mian.beforehand-mar-top { margin-top: 30px;}
 .beforehand-mian .beforehand-mian-list li{
 	float: left;
 	color: #fff;
@@ -193,7 +195,8 @@
 	width: 3px;
 	height: 118px;
 	background: #e2e7eb;
-	margin-left: 221px;
+	/*margin-left: 221px;*/
+    margin-left:203px;
 	height:89px;
 }
 .long-string1{
@@ -204,13 +207,16 @@
 }
 .need-beforehand-list-bot{
 	margin-left: 224px;
-	margin-top: -105px;
-	margin-top: 35px;
+	margin-left: 204px;
+	/*margin-top: -105px;*/
+	/*margin-top: 35px;*/
+    margin-top: -89px
 }
 .need-beforehand-list-bot .striping{
 	width: 127px;
 	margin-top: 115px;
 	margin-top: 86px;
+    /*margin-top: 141px;*/
 }
 .need-beforehand-list-bot .beforehand-mian{
 	border: 1px solid #edbc53;
@@ -245,6 +251,7 @@
 }
 .content-main-box .query-btn{
 	width: 116px;
+    width:96px;
 	height: 36px;
 	color: #3b3b3b;
 	text-align: center;
