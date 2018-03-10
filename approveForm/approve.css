@@ -227,6 +227,7 @@ ul.tab-list.end-tab-list li.child-con-three .status {
     background: #e6e6e6;
     border-radius: 5px;
 }
+ul.tab-list.end-tab-list li.child-con-three .status span {padding-left:2px;}
 ul.tab-list.end-tab-list li.child-con-three .status.return {
     background: #fc563a;
     color: #fff
@@ -235,13 +236,16 @@ ul.tab-list.end-tab-list li.child-con-three .status.done {
     background: #65dc73;
     color: #fff
 }
+ul.tab-list.end-tab-list li.child-con-three .status.done img {
+    height: 14px;
+}
 ul.tab-list.end-tab-list li.child-con-three .status.feel-incline {
     background: #5ec2bc;
     color: #fff
 }
 ul.tab-list.end-tab-list li.child-con-three .status img {
-    margin-top: -3px;
-    height: 12px;
+    margin-top: -2px;
+    height: 11px;
 }
 /*
 最后一个

@@ -159,13 +159,14 @@
 /* 统计 */
 .content-main-box .statistics-container{
 	width: 100%;
-	height: 196px;
+	height: auto;
 	border: 1px solid #e2e7eb;
 	background: #fff;
+	padding: 20px 0;
 }
 .content-main-box .statistics-container ul{
 	width: 100%;
-	height: 196px;
+	/*height: 196px;*/
 }
 .content-main-box .statistics-container ul li{
 	float: left;
@@ -173,23 +174,22 @@
 	height: 100%;
 }
 .content-main-box .statistics-container li .statistics-list{
-	width: 148px;
-	height: 111px;
+	width: 112px;
+	height: 90px;
 	border-radius: 45px;
 	border: 1px solid #d9e0e5;
-	margin-top: 43px;
-	margin-left: 64px;
+	margin-left: 62px;
     vertical-align: middle;
     text-align: center;
     line-height: 68px;
 }
-.statistics-list-top,
-.statistics-list-bot{
-	width: 100%;
-	height: 55px;
+.statistics-list-top{
+	height: 50px;
+	line-height:50px;
 }
 .statistics-list-bot{  
-	margin-top: -20px;
+	margin-top: -34px;
+	height: 40px;
 }
 .statistics-list img{
 	width: 30px;
@@ -245,7 +245,8 @@
 }
 .content-right .budget-ranking{
 	width: 100%;
-	height: 345px;
+	/*height: 345px;*/
+	height: 282px;
 	background: url(../images/paiming.png) ;
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
