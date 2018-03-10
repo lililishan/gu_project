@@ -13,12 +13,10 @@
 /*POP*/
 .fund-pop {
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     z-index: 100;
-    margin: auto;
+    margin: -395px 0 0 -560px;
     width: 1120px;
     height: 790px;
     box-sizing: border-box;

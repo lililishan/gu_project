@@ -366,6 +366,8 @@ ul.work-area li.work-con .opinion {
     width: 10px;
 }
 .approve-content .content-right .work-btns {
+    position: absolute;
+    bottom: 0;
     height: 65px;
     width: 100%;
     line-height: 65px;
@@ -383,4 +385,5 @@ ul.work-area li.work-con .opinion {
 }
 .approve-content .screen-content .content-right {
     width: 100%;
+    margin-bottom: 10px;
 }

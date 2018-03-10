@@ -4,7 +4,7 @@
 基本信息
 */
 .fund-content-box .info-main-box {
-    padding: 20px 20px 35px;
+    padding: 20px 20px;
     width: 100%;
     height: auto;
     box-sizing: border-box;
@@ -16,7 +16,7 @@
     background: #f6f5f5;
 }
 .fund-content-box .info-con-box {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
     border: 1px solid #eaeaea;
 }
