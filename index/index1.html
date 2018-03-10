@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./../bassCss/base.css">
     <link rel="stylesheet" href="../bassCss/layout.css">
     <link rel="stylesheet" href="../bassCss/list-cons.css">
+    <link rel="stylesheet" href="../bassCss/bar.css"/>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index1.css">
 </head>
@@ -80,7 +81,7 @@
         </div>
     </div>
     <!--content-->
-    <div class="content-main-box">
+    <div class="content-main-box " style="position:relative">
         <div class="content clearfix">
             <!-- 无需事前 -->
             <div class="beforehand clearfix">
@@ -297,7 +298,7 @@
                         </li>  
                     </ul>
 
-                    <ul class="need-beforehand-list need-beforehand-list-bot left clearfix" style="width:70%;margin-top:0px;margin-left:0;">
+                    <ul class="need-beforehand-list need-beforehand-list-bot left clearfix">
                         <div class="long-string left"></div>
                         <span class="left beforehand-line striping"></span>
                         <li>
@@ -329,9 +330,9 @@
                                 </ul>
                                 <div class="both"></div>
                             </div>
-                        </li>'
-                        <div class="long-string1 left long-string" style="margin-top: -55px; margin-left: 30px;"></div>
-                        <span class="left beforehand-line" style="margin-top: 85px; margin-left: -33px;"></span>
+                        </li>
+                        <div class="long-string1 left long-string" style="margin-top: -55px; margin-left: 27px;"></div>
+                        <span class="left beforehand-line" style="margin-top: 85px; margin-left: -33px;width:59px;"></span>
                         <li>
                             <div class="beforehand-mian left clearfix beforehand-mar-top">
                                 <ul class="beforehand-mian-top beforehand-mian-list clearfix">
@@ -366,15 +367,16 @@
 
                     <div class="both"></div>
                 </div>
+
             </div>
             
             
             <!-- 相关统计 -->
-            <div class="statistics-container clearfix">
+            <div class="statistics-container   clearfix">
                 <div class="statistics-box clearfix">
-                    <div class="query-btn left">综合查询</div>
+                    <div class="query-btn integrated left">综合查询</div>
                     <div class="hori-line left"></div>
-                    <ul class="clearfix">
+                    <ul class="left">
                          <li>
                             <div class="statistics-list clearfix">
                                 <div class="statistics-list-top">
@@ -384,10 +386,11 @@
                                     <span>年度支出</span>
                                     <span>费用支出</span>
                                 </div>
+                                <div class="both"></div>
                             </div>
                         </li>
                         <div class="hori-line left"></div>
-                         <li>
+                        <li>
                             <div class="statistics-list clearfix">
                                 <div class="statistics-list-top">
                                     <img src="./images/s_icon_f@2x.png" alt="">
@@ -396,6 +399,7 @@
                                     <span>年度支出</span>
                                     <span>费用支出</span>
                                 </div>
+                                <div class="both"></div>
                             </div>
                         </li>
                         <div class="hori-line left"></div>
@@ -408,6 +412,7 @@
                                     <span>年度支出</span>
                                     <span>费用支出</span>
                                 </div>
+                                <div class="both"></div>
                             </div>
                         </li>
                         <div class="hori-line left"></div>
@@ -420,6 +425,7 @@
                                     <span>年度支出</span>
                                     <span>费用支出</span>
                                 </div>
+                                <div class="both"></div>
                             </div>
                         </li>
                         <div class="hori-line left"></div>
@@ -432,6 +438,7 @@
                                     <span>年度支出</span>
                                     <span>费用支出</span>
                                 </div>
+                                <div class="both"></div>
                             </div>
                         </li>
 
@@ -441,6 +448,36 @@
                     <div class="both"></div>
                 </div>
             </div>  
+        </div>
+
+        <!--请求帮助-->
+        <div id="ask-for-help" class="ask-for-help">
+            <div class="ask-help-btn cp">
+                <span>请求帮助</span>
+            </div>
+            <div id="ask-help-content" class="ask-help-content">
+                <div class="help-content-top">
+                    <div class="title left">请求帮助</div>
+                    <div id="close" class="right cp ">
+                        <img src="images/close.png" alt=""/>
+                    </div>
+                </div>
+
+                <div class="help-content-box">
+                    <div class="help-content">
+                        <div class="content-txt">
+                            <span>您的请求已收到，请不要在您的单据说明中添加外链网址或者联系方式，如有需要，您可以在表单详情里添加详细的联系方式。</span>
+                        </div>
+                        <div class="sent-time">管理员发送于2018-1-28 11:27</div>
+                    </div>
+
+                </div>
+                <div class="help-bottom cp">
+                    <div class="btns">新增请求</div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
@@ -457,6 +494,11 @@
         }, function() {
             $('.js-addBills').hide();
         });
+
+        $("#ask-for-help").click(function() {
+            $("#ask-help-content").show()
+        })
+
 
     })
 </script>

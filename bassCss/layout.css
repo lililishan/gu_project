@@ -208,6 +208,7 @@
 }
 #header #nav ul.nav-bar li.bar-con {
     float: left;
+    height: 100%;
 }
 #header #nav ul.nav-bar li.bar-con.active a{
     color: #119f96;
@@ -228,12 +229,13 @@
 }
 #header #nav ul.nav-bar li.bar-con .bar-line {
     margin: 0 6px;
+    margin-top: 14px;
     width: 1px;
     height: 13px;
     display: inline-block;
     *zoom:1;
     *display: inline;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     background: #58a8a3;
 }
 #header #nav ul.nav-bar li.bar-con.last-con .bar-line {
