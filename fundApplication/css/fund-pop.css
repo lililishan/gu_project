@@ -225,6 +225,7 @@
 }
 .choose-vehicle ul.choose-vehicle-list {margin-top: 15px;}
 .choose-vehicle ul.choose-vehicle-list li{
+    margin-left:-1px;
     float:left;
     margin-bottom: 12px;
     width: 50%;

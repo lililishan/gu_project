@@ -105,13 +105,13 @@
 .btn-gathers {
     width: 100%;
     height: 90px;
-    line-height: 90px;
     box-sizing: border-box;
     text-align: center;
     background: #fbf9eb;
     border-top: 1px solid #f5f2dd;
 }
 .btn-gathers .step-btn {
+    margin-top: 22px;
     display: inline-block;
     *zoom:1;
     *display: inline;
@@ -201,8 +201,10 @@
     float:left;
     height: 30px;
     padding: 0 15px;
-    line-height: 82px;
+    /*line-height: 82px;*/
+    margin-top: 28px;
 }
+
 .routing-lists .vehicle img {
     width: 28px;
 }

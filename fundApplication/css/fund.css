@@ -62,7 +62,8 @@
 }
 .steps-ul li span { padding-left: 20px; float: left; box-sizing: border-box;}
 .steps-ul li span img {
-    height: 20px;
+    margin-top:8px;
+    height: 16px;
     cursor: pointer;
 }
 .steps-ul li span .explain-input {
@@ -173,7 +174,7 @@
 }
 /*请确认本次提交要素*/
 .fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 20px;}
-.info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%;}
+.info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%; line-height: normal}
 .info-list.ele-list .steps-ul.ele-ul span.child-two {width:10%;}
 .info-list.ele-list .steps-ul.ele-ul span.child-three {width:85%;}
 
@@ -190,5 +191,5 @@
 .info-list.repertoire-list .steps-ul.repert-ul span.child-two {width:15%;}
 .info-list.repertoire-list .steps-ul.repert-ul span.child-three {width:10%;}
 .info-list.repertoire-list .steps-ul.repert-ul span.child-four {width:10%;}
-.info-list.repertoire-list .steps-ul.repert-ul span.child-five {width:60%;}
+.info-list.repertoire-list .steps-ul.repert-ul span.child-five {width:51%;}
 

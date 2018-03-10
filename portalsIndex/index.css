@@ -23,10 +23,13 @@ header
 #header .portals-header .search-box {
     position: relative;
     float: right;
+    width: 325px;
+    height: 40px;
+    margin-top:70px;
 }
 #header .portals-header .search-box input.search {
+    float:left;
     padding-left: 20px;
-    margin-top: 9px;
     width: 305px;
     height: 40px;
     line-height: 40px;
@@ -36,7 +39,7 @@ header
 }
 #header .portals-header .search-box img {
     position: absolute;
-    top: 72px;
+    top: 9px;
     right: 20px;
     width: 23px;
     height: 23px;
@@ -121,9 +124,11 @@ header
 .content-main-box .content .content-right .login-box form.form .inputBox input.input{
     /*padding: 0 10px 0 38px;*/
     margin-left: 25px;
-    width: 80%;
+    width: 79%;
     border:none;
+    line-height: 35px;
 }
+.content-main-box .content .content-right .login-box form.form .inputBox .selects {width: 178px;}
 .content-main-box .content .content-right .login-box form.form .inputBox img.img {
     position: absolute;
     left: 10px;
@@ -203,9 +208,12 @@ footer
 .swiper-box .pages.horizontal {
     left: auto;
     right: 20px;
+    bottom: 0;
+    height:30px;
     transform: none;
 }
 .swiper-box .pages.horizontal li {
+    margin-top: 12px;
     margin-right: 7px;
     display: inline-block;
     box-sizing: border-box;
