@@ -128,16 +128,21 @@
     background: #fff;
     cursor: pointer;
 }
+.btn-gathers .step-btn:hover {border-color: #52d0c7;}
 .btn-gathers .temporary-btn {
     background: #d7c767;
     border-color: #d7c767;
     color: #fff;
+}
+.btn-gathers .temporary-btn:hover {
+    background: #e6d055;border-color: #e6d055;
 }
 .btn-gathers .submit-btn {
     background: #5ec2bc;
     border-color: #5ec2bc;
     color: #fff;
 }
+.btn-gathers .submit-btn:hover {background: #52d0c7;border-color: #52d0c7;}
 .btn-gathers .step-btn.step-last-btn {
     margin-right:0;
 }

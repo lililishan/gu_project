@@ -38,7 +38,7 @@
 }
 
 .fund-content-box .info-list {
-    padding: 0 20px 50px;
+    padding: 0 20px 40px;
     width: 100%;
     box-sizing: border-box;
     font-size: 14px;
@@ -133,11 +133,11 @@
     height: 17px;
 }
 .fund-content-box .info-list.isBorrow-list {
-    padding: 33px 20px;
+    padding: 20px;
 }
 /*帮助*/
 .fund-content-box .info-list.help-box {
-    padding: 35px 20px;
+    padding: 20px;
 }
 .fund-content-box .info-list.help-box ol.ol-list {
     list-style-type: decimal;
@@ -148,7 +148,7 @@
 }
 /*申请呈批提示*/
 .fund-content-box .info-list.hint-list {
-    padding: 43px 20px;
+    padding: 20px;
 }
 .fund-content-box .info-list.hint-list span {
     font-size: 14px;
@@ -156,9 +156,9 @@
 }
 /*结项*/
 .fund-content-box .info-list.bond-list {
-    padding: 0 20px 30px;
+    padding: 0 20px 20px;
 }
-.fund-content-box .info-list.bond-list .bond-cons {padding-top: 30px;}
+.fund-content-box .info-list.bond-list .bond-cons {padding-top: 20px;}
 .fund-content-box .info-list.bond-list .bond-cons .num-tit {
     padding-bottom: 20px;
     font-size: 14px;
@@ -172,7 +172,7 @@
     text-decoration: underline;
 }
 /*请确认本次提交要素*/
-.fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 30px 20px;}
+.fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 20px;}
 .info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%;}
 .info-list.ele-list .steps-ul.ele-ul span.child-two {width:10%;}
 .info-list.ele-list .steps-ul.ele-ul span.child-three {width:85%;}

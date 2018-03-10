@@ -14,7 +14,7 @@
 	*zoom:1;
 	*display: inline;
 	width: 11px;
-	/*height: 11px;*/
+	height: 12px;
 }
 .help-center-box .help-lists{
 /*   margin: 0 20px;
@@ -80,6 +80,9 @@ border: none;
 .help-center-right {
 	box-sizing: border-box;
 	border:1px solid #e3e8e9;
+}
+.help-center-right .list-cons {
+	margin-bottom: 0;
 }
 .help-center-right .help-guide i{
 	display: inline-block;
