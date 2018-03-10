@@ -219,7 +219,7 @@
     cursor: no-drop;
 }
 #header #nav ul.nav-bar li.bar-con a {
-    padding: 0 7px;
+    padding: 0 6px;
     display: inline-block;
     *zoom:1;
     *display: inline;

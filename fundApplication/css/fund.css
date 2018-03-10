@@ -60,7 +60,7 @@
     background: #5ec2bc;
     color: #fff;
 }
-.steps-ul li span { padding-left: 20px; float: left; box-sizing: border-box;}
+.steps-ul li span {  float: left; box-sizing: border-box;}
 .steps-ul li span img {
     margin-top:8px;
     height: 16px;
@@ -71,14 +71,14 @@
     background: none;
 }
 
-.steps-ul li span.child-one { width: 10% }
+.steps-ul li span.child-one { width: 10% ;padding-left: 20px;}
 .steps-ul li span.child-two{ width: 15% }
 .steps-ul li span.child-three{ width: 12% }
 .steps-ul li span.child-four{ width: 20% }
 .steps-ul li span.child-five{ width: 12% }
 .steps-ul li span.child-six{ width: 20% }
 .steps-ul li span.child-seven{ width: 11%;  }
-.steps-ul li span.operate {color: #5ec2bc;}
+.steps-ul li span.operate {color: #5ec2bc; }
 /**/
 .fund-content-box .info-list .list {
     padding-top: 30px;
