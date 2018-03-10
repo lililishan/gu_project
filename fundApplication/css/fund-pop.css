@@ -46,11 +46,9 @@
 /*content*/
 .fund-pop-content {
     padding: 30px 20px;
-    width: 100%;
     box-sizing: border-box;
 }
 .pop-main-con .content-top {
-    padding-left: 20px;
     height: 38px;
     width: 100%;
     box-sizing: border-box;
@@ -59,6 +57,8 @@
     color: #fff;
     background: #51c4bc;
 }
+.pop-main-con .content-top span {padding-left: 20px;}
+
 .pop-main-con .content-box {
     padding: 20px;
 }
@@ -77,12 +77,12 @@
     width: 100%;
 }
 .pop-main-con .lab-con .search-people-box .search {
-    width: 290px;
+    width: 300px;
     border-bottom: 1px solid #e6e6e6;
 }
 .pop-main-con .lab-con .search-people-box .search input.input {
     padding: 0;
-    WIDTH: 82%;
+    width: 82%;
     border: 0;
 }
 .pop-main-con .lab-con .search-people-box .search .sea-line {

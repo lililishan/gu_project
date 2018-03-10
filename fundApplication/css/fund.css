@@ -25,7 +25,6 @@
 }
 .fund-content-box .info-con-title {
     position: relative;
-    padding-left: 50px;
     width: 100%;
     height: 70px;
     box-sizing: border-box;
@@ -36,10 +35,13 @@
     background: url("../../images/title_bg.jpg") ;
     background-repeat: repeat-x;
 }
+.fund-content-box .info-con-title span{
+    padding-left: 50px;
+}
 
 .fund-content-box .info-list {
     padding: 0 20px 40px;
-    width: 100%;
+   
     box-sizing: border-box;
     font-size: 14px;
     background: #fff;
@@ -77,7 +79,7 @@
 .steps-ul li span.child-four{ width: 20% }
 .steps-ul li span.child-five{ width: 12% }
 .steps-ul li span.child-six{ width: 20% }
-.steps-ul li span.child-seven{ width: 11%;  }
+.steps-ul li span.child-seven{ width: 9%;  }
 .steps-ul li span.operate {color: #5ec2bc; }
 /**/
 .fund-content-box .info-list .list {
@@ -176,7 +178,7 @@
 .fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 20px;}
 .info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%; line-height: normal}
 .info-list.ele-list .steps-ul.ele-ul span.child-two {width:10%;}
-.info-list.ele-list .steps-ul.ele-ul span.child-three {width:85%;}
+.info-list.ele-list .steps-ul.ele-ul span.child-three {width:83%;}
 
 /*清单*/
 .info-list.repertoire-list .steps-ul.repert-ul li{
