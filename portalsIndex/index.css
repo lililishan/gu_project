@@ -67,7 +67,7 @@ header
 .swiper-box .mask-txt{
     position: absolute;
     bottom: 0;
-    /*left: 0;*/
+    left: 0;
     z-index: 16;
     padding-left: 20px;
     height: 30px;
@@ -79,6 +79,7 @@ header
     background: #000;
     color: #fff;
     filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
 
 }
 
@@ -138,9 +139,8 @@ header
 
 .content-main-box .content .content-right .login-box form.form .btn-list {
     margin-top: 20px;
-    height: 12px;
     width: 100%;
-    line-height: 12px;
+    line-height: 19px;
 }
 .content-main-box .content .content-right .login-box form.form .btn-list a {
     padding: 0 8px;
@@ -211,6 +211,7 @@ footer
     bottom: 0;
     height:30px;
     transform: none;
+    z-index: 18
 }
 .swiper-box .pages.horizontal li {
     margin-top: 12px;
