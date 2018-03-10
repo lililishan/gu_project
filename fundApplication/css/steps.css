@@ -204,5 +204,14 @@
     line-height: 82px;
 }
 .routing-lists .vehicle img {
-    height: 100%;
+    width: 28px;
+}
+.routing-lists .vehicle.plane img {
+    width: 22px;
+}
+.routing-lists .vehicle.train img {
+    width: 31px;
+}
+.routing-lists .vehicle.bus img {
+    width: 23px;
 }
