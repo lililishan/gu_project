@@ -374,6 +374,33 @@
     margin-top: 8px;
     margin-right: 0;
 }
+.ask-help-content .inputBox {
+	min-height: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.ask-help-content .inputBox span {
+	width: 70px;
+	text-align: right;
+}
+.ask-help-content .inputBox textarea{
+	padding: 5px 7px 5px 8px;
+	height: 50px;
+	border: 1px solid #e6eaec;
+}
+.ask-help-content .inputBox .btns{min-width:70px;}
+.ask-help-content .inputBox input.input, .ask-help-content .inputBox .selects,.ask-help-content .inputBox textarea{
+	width: 200px;
+}
 
-
+.ask-help-content.question-content-main  .help-bottom {
+	text-align: right;
+	
+}
+.ask-help-content.question-content-main  .help-bottom .btns {
+	margin-right: 20px;
+}
+.ask-help-content.question-content-main {
+	height: 350px;
+}
 

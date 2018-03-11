@@ -455,6 +455,7 @@
             <div class="ask-help-btn cp">
                 <span>请求帮助</span>
             </div>
+            <!--请求帮助pop1-->
             <div id="ask-help-content" class="ask-help-content">
                 <div class="help-content-top">
                     <div class="title left">请求帮助</div>
@@ -477,7 +478,54 @@
                 </div>
 
             </div>
+            <!--请求帮助pop2-->
+            <div class="ask-help-content question-content-main" style="display:none;">
+                <div class="help-content-top">
+                    <div class="title left">请求帮助</div>
+                    <div id="close" class="right cp ">
+                        <img src="images/close.png" alt=""/>
+                    </div>
+                </div>
 
+                <div class="help-content-box">
+                    <div class="help-content">
+                        <div class="inputBox">
+                            <span class="left">问题类型：</span>
+                            <div class="selects" >
+                                <label class="se-label left" >单据类别</label>
+                                <div class="right">
+                                    <img class="img-down" src="./../images/down@2x.gif" alt="">
+                                </div>
+                                <ul class="se-item">
+                                    <li class="once"> 单据类别 </li>
+                                    <li class="once"> 单据类别2 </li>
+                                    <li class="once"> 单据类别3 </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="inputBox">
+                            <span class="left">问题描述：</span>
+                            <textarea ></textarea>
+                        </div>
+                        <div class="inputBox">
+                            <span class="left">截图：</span>
+                            <div class="btns whiteBths">
+                                <span> + 截图</span>
+                            </div>
+                        </div>
+                        <div class="inputBox">
+                            <span class="left">联系方式：</span>
+                            <input class="input" type="text">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="help-bottom cp">
+                    <div class="btns">提交内容</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -495,8 +543,18 @@
             $('.js-addBills').hide();
         });
 
+        $('.se-label').click(function () {
+            $('.se-item').show();
+            $('.se-item li').click(function () {
+                $('.se-label').html($(this).text());
+                $('.se-item').hide();
+            });
+        });
+
+
         $("#ask-for-help").click(function() {
-            $("#ask-help-content").show()
+            $("#ask-help-content").css('display', 'block');
+
         })
 
 
