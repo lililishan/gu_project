@@ -379,7 +379,7 @@
     line-height: 35px;
     margin-bottom: 10px;
 }
-.ask-help-content .inputBox span {
+.ask-help-content .inputBox span.input-span {
 	width: 70px;
 	text-align: right;
 }
@@ -388,7 +388,9 @@
 	height: 50px;
 	border: 1px solid #e6eaec;
 }
-.ask-help-content .inputBox .btns{min-width:70px;}
+.ask-help-content .inputBox .btns{min-width:70px;line-height: normal;}
+.ask-help-content .inputBox .btns .add {font-size: 23px;vertical-align: middle;}
+.ask-help-content .inputBox .btns .txt{vertical-align: middle;}
 .ask-help-content .inputBox input.input, .ask-help-content .inputBox .selects,.ask-help-content .inputBox textarea{
 	width: 200px;
 }
