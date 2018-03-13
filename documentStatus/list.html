@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>单据状态</title>
+    <link rel="stylesheet" href="../bassCss/base.css">
+    <link rel="stylesheet" href="../bassCss/bar.css">
+    <link rel="stylesheet" href="../bassCss/layout.css">
+    <link rel="stylesheet" href="../bassCss/list-cons.css">
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <!--header-->
+    <div id="header">
+        <div class="header-logo-box clearfix">
+            <div class="logo-img">
+                <img src="./../images/logo_small.png" alt="">
+            </div>
+            <div class="both"></div>
+        </div>
+    </div>
+
+    <div class="content-main-box">
+        <div class="content receipts-content">
+            <div class="receipts-title">所有状态单据</div>
+            <div class="receipts-box">
+                <div class="receipts-main">
+                    <div class="receipts-choose left">
+                        <div class="choose-cons">
+                            <span class="name">部门名称：</span>
+                            <div class="selects  input-line" >
+                                <label class="se-label left" >所有部门</label>
+                                <div class="right">
+                                    <img class="img-down" src="./../images/down@2x.gif" alt="">
+                                </div>
+                                <ul class="se-item">
+                                    <li class="once"> A部门 </li>
+                                    <li class="once"> B部门 </li>
+                                    <li class="once"> C部门 </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="choose-cons">
+                            <span class="name">单据类型：</span>
+                            <div class="selects  input-line" >
+                                <label class="se-label left" >费用申请单</label>
+                                <div class="right">
+                                    <img class="img-down" src="./../images/down@2x.gif" alt="">
+                                </div>
+                                <ul class="se-item">
+                                    <li class="once"> 费用申请单 </li>
+                                    <li class="once"> 费用申请单2 </li>
+                                    <li class="once"> 费用申请单3 </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="choose-cons">
+                            <span class="name">单据状态：</span>
+                            <div class="selects  input-line" >
+                                <label class="se-label left" >所有状态</label>
+                                <div class="right">
+                                    <img class="img-down" src="./../images/down@2x.gif" alt="">
+                                </div>
+                                <ul class="se-item">
+                                    <li class="once"> 所有状态 </li>
+                                    <li class="once"> 暂存 </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="receipts-status right">
+                            <div class="status-con delete-status">
+                                <i class="delete-img"></i>
+                                <span>删除</span>
+                            </div>
+                            <div class="status-con contract-status">
+                                <i class="contract-img"></i>
+                                <span>合同变更</span>
+                            </div>
+                            <div class="status-con return-status">
+                                <i class="return-img"></i>
+                                <span>返回主界面</span>
+                            </div>
+                            <div class="both"></div>
+                        </div>
+
+
+                        <div class="both"></div>
+                    </div>
+
+                    <div class="list-cons receipts-list left">
+                        <div class="cons-main-box">
+                            <table class="regime-table receipts-table">
+                                <thead>
+                                    <tr>
+                                        <th class="first-th" align="left"></th>
+                                        <th align="left">单据类型</th>
+                                        <th align="left">申请单号</th>
+                                        <th align="left">申请部门</th>
+                                        <th align="left">签报标题</th>
+                                        <th align="left">支出事项</th>
+                                        <th align="left">申请人</th>
+                                        <th align="left">申请金额</th>
+                                        <th align="left">申请日期</th>
+                                        <th align="left">状态</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-td"><span>1</span></td>
+                                        <td><span>费用申请单</span></td>
+                                        <td><span class="code">1189838838473848</span></td>
+                                        <td><span>系统测试部</span></td>
+                                        <td><span>系统含借款报销</span></td>
+                                        <td><span>差旅费</span></td>
+                                        <td><span>郑朝武</span></td>
+                                        <td><span>23,333</span></td>
+                                        <td><span>2018-02-24</span></td>
+                                        <td><span>暂存</span></td>
+                                    </tr>
+                                    <tr class="even-bg">
+                                        <td class="first-td"><span>1</span></td>
+                                        <td><span>费用申请单</span></td>
+                                        <td><span class="code">1189838838473848</span></td>
+                                        <td><span>系统测试部</span></td>
+                                        <td><span>系统含借款报销系统含借款报销系统含借款报销系统含</span></td>
+                                        <td><span>差旅费</span></td>
+                                        <td><span>郑朝武</span></td>
+                                        <td><span>23,333</span></td>
+                                        <td><span>2018-02-24</span></td>
+                                        <td><span>暂存</span></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="paging-box">
+                            <h1>分页</h1>
+                        </div>
+                    </div>
+
+                    <div class="both"></div>
+                </div>
+
+                <div class="info-bg"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.se-label').click(function () {
+            $('.se-item').show();
+            $('.se-item li').click(function () {
+                $('.se-label').html($(this).text());
+                $('.se-item').hide();
+            });
+        });
+    });
+</script>
+</html>

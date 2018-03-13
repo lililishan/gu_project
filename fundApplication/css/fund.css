@@ -10,11 +10,7 @@
     box-sizing: border-box;
     background: #fff;
 }
-.info-bg {
-    width: 100%;
-    height:5px;
-    background: #f6f5f5;
-}
+
 .fund-content-box .info-con-box {
     margin-bottom: 20px;
     width: 100%;
