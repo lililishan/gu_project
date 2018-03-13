@@ -116,7 +116,6 @@
 }
 /*视频帮助*/
 
-.fund-content-box 
 .fund-content-box .info-list.isBorrow-list {
     padding: 20px;
 }
@@ -131,8 +130,8 @@
     color: #4c4f51;
     list-style-position:inside;
 }
-.fund-content-box .write-video {
-    margin: 0 auto 20px;
+.fund-content-box .info-list.help-box .write-video {
+    margin-bottom: 20px;
     width: 194px;
     height: 40px;
     box-sizing: border-box;
@@ -143,7 +142,7 @@
     border: 1px solid #4eb4ae;
     cursor: pointer;
 }
-.fund-content-box .write-video img {
+.fund-content-box .info-list.help-box .write-video img {
     margin-top: -4px;
     padding-right: 5px;
     height: 17px;
