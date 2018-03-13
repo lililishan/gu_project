@@ -115,11 +115,24 @@
     font-size: 16px;
 }
 /*视频帮助*/
-.fund-content-box .info-list.video-help {
-    padding: 100px 0 85px 0;
+
+.fund-content-box 
+.fund-content-box .info-list.isBorrow-list {
+    padding: 20px;
+}
+/*帮助*/
+.fund-content-box .info-list.help-box {
+    padding: 20px;
+}
+.fund-content-box .info-list.help-box ol.ol-list {
+    list-style-type: decimal;
+}
+.fund-content-box .info-list.help-box ol.ol-list li{
+    color: #4c4f51;
+    list-style-position:inside;
 }
 .fund-content-box .write-video {
-    margin: auto;
+    margin: 0 auto 20px;
     width: 194px;
     height: 40px;
     box-sizing: border-box;
@@ -134,20 +147,6 @@
     margin-top: -4px;
     padding-right: 5px;
     height: 17px;
-}
-.fund-content-box .info-list.isBorrow-list {
-    padding: 20px;
-}
-/*帮助*/
-.fund-content-box .info-list.help-box {
-    padding: 20px;
-}
-.fund-content-box .info-list.help-box ol.ol-list {
-    list-style-type: decimal;
-}
-.fund-content-box .info-list.help-box ol.ol-list li{
-    color: #4c4f51;
-    list-style-position:inside;
 }
 /*申请呈批提示*/
 .fund-content-box .info-list.hint-list {
