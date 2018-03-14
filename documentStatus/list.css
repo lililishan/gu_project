@@ -13,9 +13,8 @@
     background: #f3f7fa;
 }
 .receipts-content .receipts-box {
-    padding: 10px 20px 0;
+    padding: 20px;
     width:100%;
-    padding-bottom: 20px;
     /*min-height: calc(100vh - 145px);*/
     background: #fff;
     /*border: 1px solid #e8ebeb;*/
@@ -145,5 +144,10 @@
     /*display: inline-block;*/
     /**display: inline;*/
     /**zoom: 1;*/
+}
+.info-bg {
+    width: 100%;
+    height:5px;
+    background: #f6f5f5;
 }
 /*.receipts-content .info-bg {background: red;}*/
