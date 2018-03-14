@@ -81,7 +81,7 @@
     </div>
     <div class="content-main-box approve-content">
         <!--小于1440，使用 screen-content 类名-->
-        <div class="content clearfix">
+        <div class="content clearfix ">
             <div class="content-left">
                 <div class="approve-top">
                     <div class="title">合同用印申请单</div>
@@ -130,7 +130,7 @@
                             </li>
                             <li class="child-con-three">
                                 <div class="status">
-                                    <img src="./images/tijiao@2x.png" alt="">
+                                    <img src="./images/tijiao-01@2x.png" alt="">
                                     <span>提交</span>
                                 </div>
                             </li>
@@ -229,7 +229,7 @@
                             </li>
                             <li class="child-con-three">
                                 <div class="status done">
-                                    <img src="./images/done-01.svg" alt="">
+                                    <img src="./images/done.png" alt="">
                                     <span>同意</span>
                                 </div>
                             </li>
@@ -496,8 +496,8 @@
                     </div>
                 </div>
             </div>
-            <!--小于1440，使用 screen-content 类名-->
-            <div class="content-right">
+            <!-- 右部分内容-->
+            <div class="content-right relative">
                 <div class="right-top">审批工作区</div>
                 <ul class="work-area">
                     <li class="work-con"><span>1、本单据侧面提示</span></li>
@@ -509,8 +509,8 @@
                         <span>3、审批要素</span>
                         <!--未勾选 切换img-->
                         <div class="ele-check clearfix">
-                            <img class="left" src="../images/check-01@2x.png" alt="">
-                            <img class="left" src="../images/check_select-01@2x.png" alt="">
+                            <img class="left cp" src="../images/check-01@2x.png" alt="">
+                            <img class="left cp" src="../images/check_select-01@2x.png" alt="">
                             <span class="left">请勾选审批要素，确认本次审批责任</span>
                         </div>
 
@@ -522,22 +522,26 @@
 
                 </ul>
                 <div class="work-bottom">
-                    <div class="radio agree-radio">
+                    <div class="radio agree-radio left">
                         <img class="radio-img" src="../images/radio-02@2x.png" alt="">
                         <span>我同意</span>
                     </div>
-                    <div class="radio">
+                    <div class="radio left">
                         <img class="radio-img" src="../images/radio-01@2x.png" alt="">
                         <span>我退回至</span>
                         <div class="selects disabled" >
-                            <label class="se-label" >完成审批</label>
-                            <img class="img-down" src="./../images/down@2x.gif" alt="">
+                            <label class="se-label left" >完成审批</label>
+                            <div class="right">
+                                <img class="img-down" src="./../images/down@2x.gif" alt="">
+                            </div>
+
                             <ul class="se-item">
                                 <li class="once"> 待处理 </li>
                                 <li class="once"> 完成审批 </li>
                             </ul>
                         </div>
                     </div>
+                    <div class=both></div>
 
                 </div>
 
@@ -548,6 +552,9 @@
 
 
             </div>
+
+
+            <div class="both"></div>
         </div>
     </div>
     <!--footer-->

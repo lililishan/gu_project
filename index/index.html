@@ -26,7 +26,7 @@
                     <div class="user-name">
                         <span>您好，</span>
                         <span class="name-color">张三三</span>
-                        <img src="./images/down_arrow.png" alt="">
+                        <img src="../images/down_arrow.png" alt="">
 
                     </div>
                     <div class="info-pop">
@@ -36,13 +36,13 @@
                         </div>
                         <div class="info-pop-content">
                             <div class="info-main">
-                                <div class="list list-impower">
+                                <div class="list list-impower cp">
                                     <span>临时授权</span>
                                 </div>
-                                <div class="list list-pass">
+                                <div class="list list-pass cp">
                                     <span>修改密码</span>
                                 </div>
-                                <div class="list list-call">
+                                <div class="list list-call cpss">
                                     <span>修改电话</span>
                                 </div>
 
@@ -138,13 +138,15 @@
                         <li class="inform-title">
                             <i class="inform-icon"></i>
                             <span>财务工作通知</span>
-                            <div class="arrow-icons clearfix">
-                                <i class="up-arrow-icon"></i>
-                                <i class="down-arrow-icon"></i>
+                            <div class="arrow-icons clearfix js-arrow-box">
+                                <i class="up-arrow-icon js-up-arrow" id="but_down"></i>
+                                <i class="down-arrow-icon js-down-arrow" id="but_up"></i>
                             </div>
                         </li>
                         <li class="inform-msg">
-                            财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行<span>（2017年12月30日）</span>
+                            <p>财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行<span>（2017年12月30日）</span></p>
+                            <p>财务司：部办公厅、信息中心等4个单位的内控系统成功上线运行<span>（2018年01月27日）</span></p>
+                            <p>财务司：部办公厅、信息中心等3个单位的内控系统成功上线运行<span>（2017年02月17日）</span></p>
                         </li>
                         <li class="more">
                             <img src="../images/more.gif" alt="">
@@ -200,6 +202,8 @@
                                 <p><span>本月应开采购合同</span></p>
                             </div>
                         </li>
+
+                        <div class="both"></div>
                     </ul>
                 </div>
 
@@ -259,6 +263,8 @@
 
                         </ul>
                     </div>
+
+                    <div class="both"></div>
                 </div>
 
                 <!-- 相关统计 -->
@@ -337,7 +343,39 @@
     </div>
 </body>
 <script src="../js/jquery-1.8.3.min.js"></script>
+<script src="js/jq_scroll.js"></script>
 <script>
+    $(function(){
+        var lineH=$('.inform-msg').find("p:first").height();
+        var $parent = $('.inform-msg');
+        //gndong
+        function doscroll(){
+            //向上箭头
+            $('.js-arrow-box').on('click', '.js-up-arrow', function() {
+                $('.inform-msg p:first').animate({ 
+                    height: -lineH+'px'
+                },800, function() {
+                    $(this).appendTo($parent);
+                    $(this).css({height:lineH+'px'});
+                });
+            });
+        }
+        //向下箭头
+        function downscroll(){
 
+            $('.js-arrow-box').on('click', '.js-down-arrow', function() {
+                $('.inform-msg p:last').animate({ 
+                    height: 0
+                },800, function() {
+                    $(this).css({height:lineH+'px'});
+                    $(this).appendTo($parent);
+                });
+            });
+        }
+        setInterval(function(){
+            doscroll();
+            downscroll();
+        }, 2000);
+    })
 </script>
 </html>

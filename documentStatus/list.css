@@ -1,0 +1,139 @@
+.content.receipts-content {
+    padding-top: 0;
+    padding-bottom: 20px;
+    min-height: calc(100vh - 60px);
+}
+.receipts-content .receipts-title {
+    height: 85px;
+    line-height:85px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #3d3d3d;
+    background: #f3f7fa;
+}
+.receipts-content .receipts-box {
+    padding: 10px 20px 0;
+    min-height: calc(100vh - 145px);
+    background: #fff;
+    /*border: 1px solid #e8ebeb;*/
+    /*margin:10px 20px 20px;*/
+    /*width: 100%;*/
+
+}
+.receipts-content .receipts-box  .receipts-main {
+    min-height: calc(100vh - 170px);
+    border: 1px solid #e8ebeb;
+
+}
+.receipts-content .receipts-box .receipts-choose {
+    width: 100%;
+    height: 69px;
+    /*border-bottom: 1px solid #e8ebeb;*/
+    background-image: url(../images/title_bg.jpg);
+    background-repeat: repeat-x;
+}
+/*状态*/
+
+
+.receipts-content .receipts-box .receipts-status .status-con{
+    float: left;
+    margin-right: 20px;
+    line-height: 68px;
+    color: #656565;
+    cursor: pointer;
+}
+.receipts-content .receipts-box .receipts-status .status-con i{
+    float: left;
+    height: 68px;
+    width: 19px;
+    background-repeat: no-repeat;
+    background-position-y: 24px;
+    background-position-x: -1px;
+}
+.receipts-content .receipts-box .receipts-status .status-con span{
+    padding-left: 5px;
+    font-size: 14px;
+}
+.receipts-content .receipts-box .receipts-status .status-con:hover {
+    color: #5ec2bc;
+}
+.receipts-content .receipts-status .status-con.delete-status i.delete-img{
+    background-image: url(images/delete.png);
+
+}
+.receipts-content .receipts-status .status-con.delete-status:hover i.delete-img{
+    background-image: url(images/delete_hover.png);
+}
+.receipts-content .receipts-status .status-con.contract-status i.contract-img{
+    background-image: url(images/hetong.png);
+}
+.receipts-content .receipts-status .status-con.contract-status:hover i.contract-img{
+    background-image: url(images/hetong_hover.png);
+}
+.receipts-content .receipts-status .status-con.return-status i.return-img{
+    background-image: url(images/return.png);
+}
+.receipts-content .receipts-status .status-con.return-status:hover i.return-img{
+    background-image: url(images/return_hover.png);
+}
+/*删选*/
+.receipts-content .choose-cons {float: left;margin-left: 20px;line-height: 70px;}
+.receipts-choose .choose-cons span.name{
+    font-size: 14px;
+    color: #656565;
+}
+.receipts-choose .choose-cons .selects {
+    margin-top:20px;
+    width: 150px;
+    height:30px;
+    line-height: 30px;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    background:none;
+}
+.receipts-content .list-cons.receipts-list {
+    padding-top: 10px;
+    margin:0;
+    border:none;
+}
+.receipts-content .list-cons.receipts-list .cons-main-box {
+    padding: 0 20px;
+    min-height: 635px;
+    overflow-x: auto;
+}
+
+.receipts-content .list-cons.receipts-list .receipts-table thead{
+    background: #5ec2bc;
+}
+.receipts-content .list-cons.receipts-list .receipts-table thead tr {
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+}
+.receipts-content .list-cons.receipts-list .receipts-table tbody tr {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #e8ebeb;
+}
+.receipts-content .list-cons.receipts-list .receipts-table tbody tr td,.receipts-content .list-cons.receipts-list .receipts-table thead tr th{
+    white-space: nowrap;
+}
+.receipts-content .list-cons.receipts-list .receipts-table tbody tr.even-bg {
+    background: #f3f7fa;
+}
+.receipts-content .list-cons.receipts-list .receipts-table tbody tr .code {
+    border-bottom: 1px solid #5ec2bc;
+    color: #5ec2bc;
+    cursor: pointer;
+}
+.receipts-content .list-cons.receipts-list .receipts-table tbody tr:hover .code{
+    border: none;
+}
+/*分页*/
+.receipts-content .list-cons.receipts-list .paging-box {
+    height: 68px;
+    text-align: center;
+    background:#ccc;
+}

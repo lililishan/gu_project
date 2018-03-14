@@ -62,6 +62,7 @@
     height: 185px;
     background: #fff;
     border: 1px solid #e8e8e8;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
 }
 #header .info-pop .info-pop-top {
     height: 50px;
@@ -207,6 +208,7 @@
 }
 #header #nav ul.nav-bar li.bar-con {
     float: left;
+    height: 100%;
 }
 #header #nav ul.nav-bar li.bar-con.active a{
     color: #119f96;
@@ -217,7 +219,7 @@
     cursor: no-drop;
 }
 #header #nav ul.nav-bar li.bar-con a {
-    padding: 0 7px;
+    padding: 0 6px;
     display: inline-block;
     *zoom:1;
     *display: inline;
@@ -227,12 +229,13 @@
 }
 #header #nav ul.nav-bar li.bar-con .bar-line {
     margin: 0 6px;
+    margin-top: 14px;
     width: 1px;
     height: 13px;
     display: inline-block;
     *zoom:1;
     *display: inline;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     background: #58a8a3;
 }
 #header #nav ul.nav-bar li.bar-con.last-con .bar-line {
@@ -248,26 +251,53 @@
     background: #f3f8f9;
 }
 .content-main-box .content {
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 0 auto;
     width: 1200px;
     height: 100%;
 }
 .content-main-box .tit-line {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 50%;
     left: 25px;
-    margin: auto;
+    margin: -10px 0 0 0;
     width: 4px;
     height: 20px;
     background: #5ec2bc;
 }
 .content-main-box .content .content-left {
     margin-right: 20px;
+    margin-bottom:10px;
     width: 946px;
     float: left;
     box-sizing: border-box;
+}
+
+.content-main-box .arrow-icons{
+    padding-top: 20px;
+    width: 8px;
+    display: inline-block;
+    *zoom:1;
+    *display: inline;
+    margin-left: 10px;
+}
+.content-main-box .arrow-icons i{
+    display: inline-block;
+    *zoom:1;
+    *display: inline;
+    width: 8px;
+    height: 4px;
+    float: left;
+    cursor: pointer;
+}
+.content-main-box .arrow-icons i.up-arrow-icon{
+    background: url(../images/up_arrow.png) ;
+    background-repeat: no-repeat;
+}
+.content-main-box .arrow-icons i.down-arrow-icon{
+    background: url(../images/down_arrow.png) ;
+    background-repeat: no-repeat;
+    margin-top: 4px;
 }
 
 /*

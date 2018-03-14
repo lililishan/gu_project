@@ -24,34 +24,34 @@
         </div>
 
     </div>
-    <!--内容--->
+    <!--内容-->
     <div class="content-main-box fund-content-box">
 
         <div class="content">
             <div class="info-step-box">
                 <div class="step-absolute">
-                    <!--already 已填写的状态，这个状态下显示 对勾 --->
-                    <div class="step-list already">
+                    <!--already 已填写的状态，这个状态下显示 对勾 -->
+                    <div class="step-list first-steps already">
                         <span class="circle"><img class="done-img" src="images/duigou.png" alt=""></span>
                         <span>填写基本信息</span>
                     </div>
-                    <div class="step-list active">
+                    <div class="step-list second-steps active">
                         <span class="circle">2</span>
                         <span>选择指标及支出事项</span>
                     </div>
-                    <div class="step-list">
+                    <div class="step-list first-steps">
                         <span class="circle">3</span>
                         <span>进行费用测算</span>
                     </div>
-                    <div class="step-list">
+                    <div class="step-list first-steps">
                         <span class="circle">4</span>
                         <span>是否需借款</span>
                     </div>
-                    <div class="step-list">
+                    <div class="step-list second-steps">
                         <span class="circle">5</span>
                         <span>上传附件和工作提示</span>
                     </div>
-                    <div class="step-list step-last">
+                    <div class="step-list second-steps step-last">
                         <span class="circle">6</span>
                         <span>要素确认和退回处理</span>
                     </div>
@@ -62,7 +62,7 @@
 
             </div>
             <div class="info-main-box">
-                <!--填写基本信息--->
+                <!--填写基本信息-->
                 <div class="info-con-box">
                     <div class="info-con-title">
                         <div class="tit-line"></div>
@@ -79,7 +79,21 @@
                         </div>
                         <div class="list">
                             <span>申请部门</span>
-                            <input class="input input-line" type="text" value="">
+                            <!--<input class="input input-line" type="text" value="">-->
+                            <div class="selects  input-line" >
+                                <label class="se-label left" >A部门</label>
+                                <div class="arrow-icons right">
+                                    <i class="up-arrow-icon"></i>
+                                    <i class="down-arrow-icon"></i>
+                                    <div class="both"></div>
+                                </div>
+                                <ul class="se-item">
+                                    <li class="once"> A部门 </li>
+                                    <li class="once"> B部门 </li>
+                                    <li class="once"> C部门 </li>
+
+                                </ul>
+                            </div>
                         </div>
                         <div class="list">
                             <span>申请日期</span>
@@ -101,30 +115,22 @@
                             <span>报销是由</span>
                             <input class="input input-line" type="text">
                         </div>
+
+                        <div class="both"></div>
                     </div>
                     <div class="info-bg"></div>
                 </div>
-                <!--视频帮助-->
-                <div class="info-con-box">
-                    <div class="info-con-title">
-                        <div class="tit-line"></div>
-                        <span>视频帮助</span>
-                    </div>
-                    <div class="info-list video-help">
-                        <div class="write-video">
-                            <img src="./images/video-01.png" alt="">
-                            <span>如何填写各项内容</span>
-                        </div>
-                    </div>
-                    <div class="info-bg"></div>
-                </div>
-                <!--帮助-->
+                <!--帮助 视频帮助-->
                 <div class="info-con-box">
                     <div class="info-con-title">
                         <div class="tit-line"></div>
                         <span>帮助</span>
                     </div>
                     <div class="info-list help-box">
+                        <div class="write-video cp">
+                            <img src="./images/video-01.png" alt="">
+                            <span>如何填写各项内容</span>
+                        </div>
                         <ol class="ol-list">
                             <li>该单据为资金呈批，不需要事先申请。直接报销的费用和金额有限制。</li>
                             <li>单据一旦提交，将从指定的指标扣除该笔费用，而暂存状态不会扣除</li>
@@ -180,7 +186,7 @@
                                     <span class="child-four">2343,233</span>
                                     <span class="child-five">3,333 </span>
                                     <span class="child-six">45，455</span>
-                                    <span class="child-seven operate">删除</span>
+                                    <span class="child-seven operate"><a class="cp">删除</a></span>
                                 </li>
                                 <li class="odd-bg">
                                     <span class="child-one">001</span>
@@ -189,7 +195,7 @@
                                     <span class="child-four">2343,233</span>
                                     <span class="child-five">3,333 </span>
                                     <span class="child-six">45，455</span>
-                                    <span class="child-seven operate">删除</span>
+                                    <span class="child-seven operate"><a class="cp">删除</a></span>
                                 </li>
                             </ul>
                         </div>
@@ -221,7 +227,7 @@
                     <div class="info-list ele-list">
                         <ul class="steps-ul ele-ul">
                             <li class="odd-bg head">
-                                <span class="child-one"><img src="../images/check-01@2x.png" alt=""></span>
+                                <span class="child-one"><img src="../images/check_white.png" alt=""></span>
                                 <span class="child-two">序号</span>
                                 <span class="child-three">要素</span>
                             </li>
@@ -252,7 +258,7 @@
                     <div class="info-bg"></div>
                 </div>
                 <!--本次申请附件清单-->
-                <div class="info-con-box">
+                <div class="info-con-box last-info-con-box">
                     <div class="info-con-title">
                         <div class="tit-line"></div>
                         <span>本次申请附件清单</span>
@@ -290,7 +296,7 @@
             </div>
         </div>
     </div>
-    <!--底部按钮--->
+    <!--底部按钮-->
     <div class="btn-gathers">
         <div class="step-btn">上一步</div>
         <div class="step-btn">下一步</div>
@@ -301,15 +307,20 @@
     </div>
 
 <!--订单弹窗style="display:none"---->
-<div class="fund-mask" ></div>
-<div class="fund-pop">
-    <div class="fund-pop-top">行程设计</div>
+<div class="fund-mask" style="display:none"></div>
+<div class="fund-pop" style="display:none;">
+    <div class="fund-pop-top">
+        <div class="left">行程设计</div>
+        <div class="right"></div>
+    </div>
     <!--content-->
     <div class="fund-pop-content">
         <div>
             <!--出行人员-->
             <div class="pop-main-con">
-                <div class="content-top">出行人员</div>
+                <div class="content-top">
+                    <span>出行人员</span>
+                </div>
                 <div class="content-box">
                     <div class="lab-con clearfix">
                         <span class="left">已选出行人员：</span>
@@ -323,6 +334,8 @@
                                 <img class="close-img" src="images/close2.png" alt="">
                             </li>
                         </ul>
+
+                        <div class="both"></div>
                     </div>
                     <!--选择出行人员-->
                     <div class="lab-con clearfix">
@@ -363,7 +376,7 @@
                                 <div class="letter-con">Z</div>
                             </div>
                         </div>
-
+                        <div class="both"></div>
                         <ul class="people-box people-list">
                             <li>李丽珍</li>
                             <li>李丽珍</li>
@@ -375,6 +388,8 @@
 
                         </ul>
 
+
+
                     </div>
                 </div>
             </div>
@@ -382,7 +397,9 @@
 
             <!--行程安排-->
             <div class="pop-main-con routing-main">
-                <div class="content-top">行程安排</div>
+                <div class="content-top">
+                    <span>行程安排</span>
+                </div>
                 <div class="content-box routing-box">
                     <div class="routing-lists clearfix">
                         <div class="add"><img src="./images/jia.png" alt=""></div>
@@ -390,7 +407,7 @@
                             <span class="city">北京市</span>
                             <span class="time">2018-01-30</span>
                         </div>
-                        <div class="vehicle">
+                        <div class="vehicle plane">
                             <img class="add-img" src="images/jian.png" alt="">
                             <img src="./images/plane@2x.png" alt="">
                             <img class="add-img" src="images/jia.png" alt="">
@@ -400,7 +417,7 @@
                             <span class="get-time">到达：2018-01-30</span>
                             <span class="get-time">出发：2018-01-30</span>
                         </div>
-                        <div class="vehicle">
+                        <div class="vehicle train">
                             <img class="add-img" src="images/jian.png" alt="">
                             <img src="./images/train@2x.png" alt="">
                             <img class="add-img" src="images/jia.png" alt="">
@@ -409,9 +426,9 @@
                                 <div class="choose-top">选择交通工具</div>
                                 <ul class="choose-vehicle-list">
                                     <li>轮船</li>
-                                    <li>飞机</li>
+                                    <li class="unborder">飞机</li>
                                     <li>公交</li>
-                                    <li>租车</li>
+                                    <li class="unborder">租车</li>
                                 </ul>
                             </div>
                         </div>
@@ -429,10 +446,10 @@
                         <div class="routing-row get-routing-row">
                             <span class="city">深圳市</span>
                             <!--双日历插件--->
-                            <span class="get-time doubledate ipticon">到达：2018-01-30</span>
-                            <span class="get-time">出发：2018-01-30</span>
+                            <span class="get-time doubledate ipticon cp">到达：2018-01-30</span>
+                            <span class="get-time doubledate ipticon cp">出发：2018-01-30</span>
                         </div>
-                        <div class="vehicle">
+                        <div class="vehicle bus">
                             <img class="add-img" src="images/jian.png" alt="">
                             <img src="./images/bus@2x.png" alt="">
                             <img class="add-img" src="images/jia.png" alt="">
@@ -442,6 +459,9 @@
                             <span class="time">2018-01-30</span>
                         </div>
                         <div class="subtract"><img src="./images/jian.png" alt=""></div>
+
+
+                        <div class="both"></div>
                     </div>
                     <!--选择出行人员-->
                     <div class="lab-con rout-lab-con clearfix">
@@ -492,6 +512,8 @@
                             <li>呼和浩特</li>
                         </ul>
 
+                        <div class="both"></div>
+
                     </div>
                 </div>
 
@@ -515,7 +537,14 @@
 <script src="../js/doubleDate2.0.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-
+        $('.se-label').click(function () {
+            $('.se-item').show();
+            $('.se-item li').click(function () {
+                $('.se-label').html($(this).text());
+                $('.se-item').hide();
+            });
+        });
+        //shuangrili
         $('.doubledate').kuiDate({
         className:'doubledate',
         isDisabled: "0"  // isDisabledΪ��ѡ��������0����ʾ����֮ǰ����ѡ����1����־����֮ǰ��ѡ

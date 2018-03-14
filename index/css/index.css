@@ -42,11 +42,12 @@
 	margin-left: 10px;
 }
 .content-main-box .content-inform ul .inform-title .arrow-icons{
-	width: 8px;
-	display: inline-block;
-	*zoom:1;
-	*display: inline;
-	margin-left: 10px;
+	/*width: 8px;*/
+	/*display: inline-block;*/
+	/**zoom:1;*/
+	/**display: inline;*/
+	/*margin-left: 10px;*/
+	padding-top:0;
 }
 .content-main-box .content-inform ul .inform-title .arrow-icons i{
 	display: inline-block;
@@ -58,17 +59,18 @@
 	cursor: pointer;
 }
 .content-inform ul .arrow-icons i.up-arrow-icon{
-	background: url(../images/up_arrow.png) ;
+	background: url(../../images/up_arrow.png) ;
 	background-repeat: no-repeat;
 }
 .content-inform ul .arrow-icons i.down-arrow-icon{
-	background: url(../images/down_arrow.png) ;
+	background: url(../../images/down_arrow.png) ;
 	background-repeat: no-repeat;
 	margin-top: 4px;
 }
 .content-inform ul .inform-msg{
 	margin-left: 22px;
 	color: #6e6e6e;
+	overflow: hidden;
 }
 .content-inform ul .inform-msg span{
 	color: #bdc2c7;
@@ -82,7 +84,7 @@
 	height: 134px;
 	border: 1px solid #e2e7eb;
 	background: #fff;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .backlog-main ul{
 	width: 100%;
@@ -143,10 +145,10 @@
 .content-main-box .list-container{
 	width: 100%;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .content-main-box .list-container .list-cons{
-	width: 48%;
+	width: 49.5%;
 }
 .list-cons-left{
 	float: left;
@@ -157,13 +159,14 @@
 /* 统计 */
 .content-main-box .statistics-container{
 	width: 100%;
-	height: 196px;
+	height: auto;
 	border: 1px solid #e2e7eb;
 	background: #fff;
+	padding: 20px 0;
 }
 .content-main-box .statistics-container ul{
 	width: 100%;
-	height: 196px;
+	/*height: 196px;*/
 }
 .content-main-box .statistics-container ul li{
 	float: left;
@@ -171,23 +174,22 @@
 	height: 100%;
 }
 .content-main-box .statistics-container li .statistics-list{
-	width: 148px;
-	height: 111px;
+	width: 112px;
+	height: 90px;
 	border-radius: 45px;
 	border: 1px solid #d9e0e5;
-	margin-top: 43px;
-	margin-left: 64px;
+	margin-left: 62px;
     vertical-align: middle;
     text-align: center;
     line-height: 68px;
 }
-.statistics-list-top,
-.statistics-list-bot{
-	width: 100%;
-	height: 55px;
+.statistics-list-top{
+	height: 50px;
+	line-height:50px;
 }
-.statistics-list-bot{
-	margin-top: -20px;
+.statistics-list-bot{  
+	margin-top: -34px;
+	height: 40px;
 }
 .statistics-list img{
 	width: 30px;
@@ -213,7 +215,7 @@
 	height: auto;
 	display: table-cell;
 }
-.content-right.content-right-width{width: 232px!important;}
+.content-right.content-right-width{width: 232px!important;margin-bottom: 10px;}
 .content-right .content-right-title{
 	width: 100%;
 	height: 44px;
@@ -243,7 +245,8 @@
 }
 .content-right .budget-ranking{
 	width: 100%;
-	height: 375px;
+	/*height: 345px;*/
+	height: 282px;
 	background: url(../images/paiming.png) ;
 	background-repeat: no-repeat;
 	background-position: 50% 20%;

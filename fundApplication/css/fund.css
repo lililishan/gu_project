@@ -4,24 +4,23 @@
 基本信息
 */
 .fund-content-box .info-main-box {
-    padding: 20px 20px 35px;
+    padding: 20px 20px;
     width: 100%;
     height: auto;
     box-sizing: border-box;
     background: #fff;
 }
-.info-bg {
-    width: 100%;
-    height:5px;
-    background: #f6f5f5;
-}
+
 .fund-content-box .info-con-box {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
+    border: 1px solid #eaeaea;
+}
+.fund-content-box .info-con-box.last-info-con-box {
+    margin-bottom: 0;
 }
 .fund-content-box .info-con-title {
     position: relative;
-    padding-left: 50px;
     width: 100%;
     height: 70px;
     box-sizing: border-box;
@@ -32,10 +31,13 @@
     background: url("../../images/title_bg.jpg") ;
     background-repeat: repeat-x;
 }
+.fund-content-box .info-con-title span{
+    padding-left: 50px;
+}
 
 .fund-content-box .info-list {
-    padding: 0 20px 50px;
-    width: 100%;
+    padding: 0 20px 40px;
+   
     box-sizing: border-box;
     font-size: 14px;
     background: #fff;
@@ -56,9 +58,10 @@
     background: #5ec2bc;
     color: #fff;
 }
-.steps-ul li span { padding-left: 20px; float: left; box-sizing: border-box;}
+.steps-ul li span {  float: left; box-sizing: border-box;}
 .steps-ul li span img {
-    height: 20px;
+    margin-top:8px;
+    height: 16px;
     cursor: pointer;
 }
 .steps-ul li span .explain-input {
@@ -66,14 +69,14 @@
     background: none;
 }
 
-.steps-ul li span.child-one { width: 10% }
+.steps-ul li span.child-one { width: 10% ;padding-left: 20px;}
 .steps-ul li span.child-two{ width: 15% }
 .steps-ul li span.child-three{ width: 12% }
 .steps-ul li span.child-four{ width: 20% }
 .steps-ul li span.child-five{ width: 12% }
 .steps-ul li span.child-six{ width: 20% }
-.steps-ul li span.child-seven{ width: 11%;  }
-.steps-ul li span.operate {color: #5ec2bc;}
+.steps-ul li span.child-seven{ width: 9%;  }
+.steps-ul li span.operate {color: #5ec2bc; }
 /**/
 .fund-content-box .info-list .list {
     padding-top: 30px;
@@ -90,6 +93,13 @@
 .fund-content-box .info-list .list.full-list .input-line {
     width: 986px;
 }
+.fund-content-box .info-list .list .selects.input-line {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: -5px;
+}
+.fund-content-box .info-list .list .selects.input-line .se-label {color: #3e3e3f;}
 .fund-content-box .info-list .list span {
     padding-right: 20px;
     color: #383838;
@@ -101,11 +111,23 @@
     font-size: 16px;
 }
 /*视频帮助*/
-.fund-content-box .info-list.video-help {
-    padding: 100px 0 85px 0;
+
+.fund-content-box .info-list.isBorrow-list {
+    padding: 20px;
 }
-.fund-content-box .write-video {
-    margin: auto;
+/*帮助*/
+.fund-content-box .info-list.help-box {
+    padding: 20px;
+}
+.fund-content-box .info-list.help-box ol.ol-list {
+    list-style-type: decimal;
+}
+.fund-content-box .info-list.help-box ol.ol-list li{
+    color: #4c4f51;
+    list-style-position:inside;
+}
+.fund-content-box .info-list.help-box .write-video {
+    margin-bottom: 20px;
     width: 194px;
     height: 40px;
     box-sizing: border-box;
@@ -116,27 +138,14 @@
     border: 1px solid #4eb4ae;
     cursor: pointer;
 }
-.fund-content-box .write-video img {
+.fund-content-box .info-list.help-box .write-video img {
     margin-top: -4px;
-    height: 23px;
-}
-.fund-content-box .info-list.isBorrow-list {
-    padding: 33px 20px;
-}
-/*帮助*/
-.fund-content-box .info-list.help-box {
-    padding: 35px 20px;
-}
-.fund-content-box .info-list.help-box ol.ol-list {
-    list-style-type: decimal;
-}
-.fund-content-box .info-list.help-box ol.ol-list li{
-    color: #4c4f51;
-    list-style-position:inside;
+    padding-right: 5px;
+    height: 17px;
 }
 /*申请呈批提示*/
 .fund-content-box .info-list.hint-list {
-    padding: 43px 20px;
+    padding: 20px;
 }
 .fund-content-box .info-list.hint-list span {
     font-size: 14px;
@@ -144,9 +153,9 @@
 }
 /*结项*/
 .fund-content-box .info-list.bond-list {
-    padding: 0 20px 30px;
+    padding: 0 20px 20px;
 }
-.fund-content-box .info-list.bond-list .bond-cons {padding-top: 30px;}
+.fund-content-box .info-list.bond-list .bond-cons {padding-top: 20px;}
 .fund-content-box .info-list.bond-list .bond-cons .num-tit {
     padding-bottom: 20px;
     font-size: 14px;
@@ -156,11 +165,15 @@
 .fund-content-box .info-list.bond-list .bond-cons .radio-list .radio {
     line-height: 28px;
 }
+.fund-content-box .info-list.bond-list .bond-cons .steps-ul li span.child-seven:hover a{
+    text-decoration: underline;
+}
 /*请确认本次提交要素*/
-.fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 30px 20px;}
-.info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%;}
+.fund-content-box .info-list.ele-list,  .fund-content-box .info-list.repertoire-list {padding: 20px;}
+.info-list.ele-list .steps-ul.ele-ul span.child-one{width:5%; line-height: normal}
 .info-list.ele-list .steps-ul.ele-ul span.child-two {width:10%;}
-.info-list.ele-list .steps-ul.ele-ul span.child-three {width:85%;}
+.info-list.ele-list .steps-ul.ele-ul span.child-three {width:83%;}
+
 /*清单*/
 .info-list.repertoire-list .steps-ul.repert-ul li{
     height: 55px;
@@ -174,5 +187,5 @@
 .info-list.repertoire-list .steps-ul.repert-ul span.child-two {width:15%;}
 .info-list.repertoire-list .steps-ul.repert-ul span.child-three {width:10%;}
 .info-list.repertoire-list .steps-ul.repert-ul span.child-four {width:10%;}
-.info-list.repertoire-list .steps-ul.repert-ul span.child-five {width:60%;}
+.info-list.repertoire-list .steps-ul.repert-ul span.child-five {width:51%;}
 

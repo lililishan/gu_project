@@ -23,10 +23,13 @@ header
 #header .portals-header .search-box {
     position: relative;
     float: right;
+    width: 325px;
+    height: 40px;
+    margin-top:70px;
 }
 #header .portals-header .search-box input.search {
+    float:left;
     padding-left: 20px;
-    margin-top: 9px;
     width: 305px;
     height: 40px;
     line-height: 40px;
@@ -36,7 +39,7 @@ header
 }
 #header .portals-header .search-box img {
     position: absolute;
-    top: 72px;
+    top: 9px;
     right: 20px;
     width: 23px;
     height: 23px;
@@ -55,7 +58,7 @@ header
     height: auto;
 }
 .content-main-box .content .content-right .swiper-box {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 100%;
     height: 180px;
     background: #fff;
@@ -76,12 +79,13 @@ header
     background: #000;
     color: #fff;
     filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
 
 }
 
 
 .content-main-box .content .content-right .login-box {
-    height: 260px;
+    height: auto;
     width: 100%;
     background: #fff;
     border: 1px solid #e3e8e9;
@@ -121,10 +125,12 @@ header
 .content-main-box .content .content-right .login-box form.form .inputBox input.input{
     /*padding: 0 10px 0 38px;*/
     margin-left: 25px;
-    width: 80%;
+    width: 79%;
     border:none;
+    line-height: 35px;
 }
-.content-main-box .content .content-right .login-box form.form .inputBox img {
+.content-main-box .content .content-right .login-box form.form .inputBox .selects {width: 178px;}
+.content-main-box .content .content-right .login-box form.form .inputBox img.img {
     position: absolute;
     left: 10px;
     top: 25%;
@@ -133,14 +139,14 @@ header
 
 .content-main-box .content .content-right .login-box form.form .btn-list {
     margin-top: 20px;
-    height: 12px;
     width: 100%;
-    line-height: 12px;
+    line-height: 19px;
 }
 .content-main-box .content .content-right .login-box form.form .btn-list a {
     padding: 0 8px;
     color: #646464;
     border-right: 1px solid #e7eced;
+    cursor: pointer;
 }
 .content-main-box .content .content-right .login-box form.form .btn-list a:hover,
 .content-main-box .content .content-right .login-box form.form .btn-list a.active{
@@ -202,9 +208,13 @@ footer
 .swiper-box .pages.horizontal {
     left: auto;
     right: 20px;
+    bottom: 0;
+    height:30px;
     transform: none;
+    z-index: 18
 }
 .swiper-box .pages.horizontal li {
+    margin-top: 12px;
     margin-right: 7px;
     display: inline-block;
     box-sizing: border-box;

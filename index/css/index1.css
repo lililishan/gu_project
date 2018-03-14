@@ -5,10 +5,13 @@
 /* 无需事前 */
 .beforehand{
 	width: 100%;
-	height: 215px;
+	/*height: 215px;*/
+	height: auto;
 	border: 1px solid #e2e7eb;
 	background: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 .beforehand-box{
 	padding: 0 32px;
@@ -20,15 +23,18 @@
 	width: 32px;
 	height: 3px;
 	background: #e2e7eb;
-	margin-top: 102px;
+	/*margin-top: 86px;*/
+	margin-top:56px;
 }
 .beforehand-mian{
+
 	width: 148px;
 	height: 111px;
 	border-radius: 20px;
 	border: 1px solid #7ebafd;
-	margin-top: 50px;
+	/*margin-top: 30px;*/
 	position: relative;
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
 }
 .beforehand-mian .add-bills{
 	background: url(../images/danju.png) ;
@@ -36,7 +42,7 @@
 	width: 80px;
 	height: 45px;
 	position: absolute;
-	right: -14px;
+	right: -22px;
 	top: -27px;
 	display: none;
 }
@@ -47,17 +53,19 @@
 	color: #b49145;
 	width: 80px;
 	height: 45px;
-	line-height: 45px;
+	line-height: 38px;
 	text-align: center;
 }
+.need-beforehand-list li {float:left;}
 .beforehand-mian .beforehand-mian-list{
+	position: relative;
 	width: 100%;
 	height: 55.5px;
 }
+.beforehand-mian.beforehand-mar-top { margin-top: 30px;}
 .beforehand-mian .beforehand-mian-list li{
 	float: left;
 	color: #fff;
-	font-size: 14px;
 }
 .beforehand-mian .beforehand-mian-top li.top-li{
 	margin-left: 15px;
@@ -68,8 +76,52 @@
 	height: 55px;
 }
 .beforehand-mian .beforehand-mian-top li{
-	line-height: 55px;	
-	margin-right: 7px;
+	line-height: 55px;
+	/*margin-right: 7px;*/
+	/*line-height: normal;*/
+	width: 100%;
+
+}
+.beforehand-mian .beforehand-mian-top li .js-addBills-btn {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin: -9px 8px 0 0 ;
+}
+.beforehand-mian .beforehand-mian-top li table.title-table {
+	width: 74%;
+}
+.beforehand-mian .beforehand-mian-top li table.title-table tr{
+	width: 100%;
+	height: 55px;
+}
+.beforehand-mian .beforehand-mian-top li table.title-table tr td{
+	padding-left: 18px;
+    text-align: center;
+}
+.beforehand-mian .beforehand-mian-top li table.title-table tr td span{
+	white-space: normal;
+	font-size: 14px;
+}
+/*.beforehand-mian .beforehand-mian-top li  .title {*/
+	/*white-space: normal;*/
+	/*display: inline-block;*/
+	/**display: inline;*/
+	/**zoom: 1;*/
+	/*width: 80%;*/
+	/*text-align: left;*/
+	/*padding-left: 8px*/
+/*}*/
+.beforehand-mian .beforehand-mian-top li.normal {line-height: normal}
+.beforehand-mian .beforehand-mian-top li .ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 72px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
 }
 .beforehand-mian .beforehand-mian-top .expense-icon{
 	width: 15px;
@@ -77,8 +129,8 @@
 }
 .beforehand-mian-bot li{
 	float: left;
-	width: 66px;
-	height: 33px;
+	width: 69px;
+	/*height: 33px;*/
 	font-size: 12px;
 	text-align: center;
 	margin-right: 4px;
@@ -98,6 +150,7 @@
 	*zoom:1;
 	*display: inline;
 	width: 100%;
+	padding-top: 7px;
 }
 .beforehand-mian-bot li span{
 	display: inline-block;
@@ -109,12 +162,14 @@
 .pending strong{
 	color: #ecb633;
 }
+.beforehand-mian-bot li.processed {margin-right:0}
 .processed strong{
 	color: #5296e0;
 }
 /* 必需事前 */
 .need-beforehand{
 	height: 409px;
+	height: auto;
 }
 .need-beforehand-list .beforehand-line{
 	width: 56px;
@@ -142,20 +197,30 @@
 	width: 3px;
 	height: 118px;
 	background: #e2e7eb;
-	margin-left: 221px;
+	/*margin-left: 221px;*/
+    margin-left:203px;
+	height:89px;
 }
 .long-string1{
 	height: 176px;
     margin-left: 307px;
     margin-top: -179px;
+	height: 141px;
 }
 .need-beforehand-list-bot{
-	margin-left: 224px;
-	margin-top: -105px;
+	/*margin-left: 224px;*/
+	/*margin-left: 204px;*/
+    /*margin-top: -89px*/
+    width:auto;
+    /*width:70%;*/
+    /*margin-top:0px;*/
+    /*margin-left:0;*/
 }
 .need-beforehand-list-bot .striping{
-	width: 127px;
+	width: 130px;
 	margin-top: 115px;
+	margin-top: 86px;
+    /*margin-top: 141px;*/
 }
 .need-beforehand-list-bot .beforehand-mian{
 	border: 1px solid #edbc53;
@@ -166,47 +231,180 @@
 /* 统计 */
 .content-main-box .statistics-container{
 	width: 100%;
-	height: 196px;
 	border: 1px solid #e2e7eb;
 	background: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	height:auto;
+	padding: 20px 0;
 }
 .statistics-box{
 	padding: 0 32px;
 	height: 100%;
-	margin-top: 90px;
+	/*margin-top: 90px;*/
 }
 .statistics-container .hori-line{
 	width: 32px; 
 	height: 3px;
 	background: #d9e0e5;
-	margin-top: 102px;
+	margin-top:46px;
 }
 .statistics-container ul .hori-line{
 	width: 54px;
 }
 .content-main-box .query-btn{
 	width: 116px;
+    width:96px;
 	height: 36px;
 	color: #3b3b3b;
 	text-align: center;
 	line-height: 36px;
 	border: 1px solid #e2e7eb;
-	margin-top: 83px;
+	margin-top: 37px;
 	border-radius: 30px;
 	font-size: 14px;
 }
+.content-main-box .query-btn.integrated {
+    margin-top: 27px;
+}
 .content-main-box .statistics-container ul{
 	width: 100%;
-	height: 196px;
-	margin-top: -100px;
+    width: auto;
+	height: auto;
+	margin-top:0;
 }
 .content-main-box .statistics-container ul li{
 	float: left;
-	width: 150px;
+	width: auto;
 	height: 100%;
 }
+/*.content-main-box .statistics-container li .statistics-list{*/
+	/*margin-left: 0px;*/
+	/*margin-top:0;*/
+    /*float:left;*/
+/*}*/
 .content-main-box .statistics-container li .statistics-list{
-	margin-left: 0px;
+    width: 112px;
+    height: 90px;
+    margin-left: 0px;
+    margin-top:0;
+    float:left;
+}
+
+/*请求帮助*/
+.ask-for-help {
+    position: absolute;
+    top:40%;
+    right: 10px;
+}
+.ask-help-btn {
+    height: 49px;
+    width: 49px;
+    text-align: center;
+    background: #5ec2bc;
+    color: #fff;
+}
+.ask-help-btn span {
+    display: inline-block;
+    *zoom:1;
+    *display: inline;
+    vertical-align: middle;
+    width: 50%;
+    margin-top: 6px;
+}
+/*帮助浮层*/
+.ask-help-content {
+    display:none;
+    position: absolute;
+    top: 0;
+    right: 60px;
+    width: 324px;
+    height: 327px;
+    background: #fff;
+    border: 1px solid #e8ebeb;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
+}
+.ask-help-content .help-content-top {
+    height: 38px;
+    line-height: 38px;
+    width: 100%;
+    background: #eef1f3;
+}
+.ask-help-content .title {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    colo: #27272;
+}
+.ask-help-content .help-content-top .right {
+    margin-right: 20px;
+}
+.ask-help-content .help-content-box .help-content {
+    margin: 15px auto 0;
+    width: 296px;
+    height: auto;
+}
+.ask-help-content .help-content-box .help-content .content-txt {
+    width: 100%;
+    height: 105px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #424242;
+    background: #fafafa;
+}
+.ask-help-content .help-content-box .content-txt span {
+    margin: 15px;
+    display: inline-block;
+    *zoom:1;
+    *display: inline;
+    line-height: 1.8
+}
+.ask-help-content .help-content-box .sent-time {
+    margin-top: 15px;
+    margin-left: 13px;
+    color: #868686;
+}
+.ask-help-content .help-bottom {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    background: #fafafa;
+}
+.ask-help-content .help-bottom .btns {
+    margin-top: 8px;
+    margin-right: 0;
+}
+.ask-help-content .inputBox {
+	min-height: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.ask-help-content .inputBox span.input-span {
+	width: 70px;
+	text-align: right;
+}
+.ask-help-content .inputBox textarea{
+	float:left;
+	padding: 5px 7px 5px 8px;
+	height: 50px;
+	border: 1px solid #e6eaec;
+}
+.ask-help-content .inputBox .btns{min-width:70px;line-height: normal;}
+.ask-help-content .inputBox .btns .add {font-size: 23px;vertical-align: middle;}
+.ask-help-content .inputBox .btns .txt{vertical-align: middle;}
+.ask-help-content .inputBox input.input, .ask-help-content .inputBox .selects,.ask-help-content .inputBox textarea{
+	width: 200px;
+}
+
+.ask-help-content.question-content-main  .help-bottom {
+	text-align: right;
+	
+}
+.ask-help-content.question-content-main  .help-bottom .btns {
+	margin-right: 20px;
+}
+.ask-help-content.question-content-main {
+	height: 350px;
 }
 

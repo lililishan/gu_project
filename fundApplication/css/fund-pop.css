@@ -7,23 +7,21 @@
     width: 100%;
     background: #000;
     filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
 
 }
 /*POP*/
 .fund-pop {
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     z-index: 100;
-    margin: auto;
+    margin: -395px 0 0 -560px;
     width: 1120px;
     height: 790px;
     box-sizing: border-box;
     background: #fff;
     box-shadow: 0 1px 4px 0 rgba(1,1,0,0.44);
-
     padding-bottom: 60px;
 }
 .fund-pop-top {
@@ -37,14 +35,20 @@
     background: #f7f7f7;
     color: #3b3b3b;
 }
+.fund-pop-top .right {
+    width: 16px;
+    height: 100%;
+    background-image: url(../images/close3.png);
+    background-repeat: no-repeat;
+    background-position-y: 14px;
+    cursor: pointer;
+}
 /*content*/
 .fund-pop-content {
     padding: 30px 20px;
-    width: 100%;
     box-sizing: border-box;
 }
 .pop-main-con .content-top {
-    padding-left: 20px;
     height: 38px;
     width: 100%;
     box-sizing: border-box;
@@ -53,6 +57,8 @@
     color: #fff;
     background: #51c4bc;
 }
+.pop-main-con .content-top span {padding-left: 20px;}
+
 .pop-main-con .content-box {
     padding: 20px;
 }
@@ -71,12 +77,12 @@
     width: 100%;
 }
 .pop-main-con .lab-con .search-people-box .search {
-    width: 290px;
+    width: 300px;
     border-bottom: 1px solid #e6e6e6;
 }
 .pop-main-con .lab-con .search-people-box .search input.input {
     padding: 0;
-    WIDTH: 82%;
+    width: 82%;
     border: 0;
 }
 .pop-main-con .lab-con .search-people-box .search .sea-line {
@@ -100,6 +106,7 @@
     line-height: 20px;
     color: #b1b1b1;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 .pop-main-con .lab-con .search-people-box .letter-box .letter-con.active {
     border-color: #51c4bc;
@@ -118,6 +125,7 @@
     color: #51c4bc;
     border-radius: 2px;
     border: 1px solid #51c4bc;
+    cursor: pointer;
 }
 .pop-main-con ul.people-box li img.close-img {
     margin-top:-2px;
@@ -135,9 +143,12 @@
 .pop-main-con .lab-con .people-box.people-list li {
     color: #4c4c4c;
     border-color: #ddd;
+    cursor: pointer;
 }
-
-/*行程安排*/
+.pop-main-con .lab-con .people-box.people-list li:hover {
+    border-color:  #51c4bc;
+}
+    /*行程安排*/
 .pop-main-con.routing-main {
     margin-top: 30px;
 }
@@ -145,7 +156,7 @@
     padding: 30px 0;
 }
 .pop-main-con.routing-main .content-box.routing-box .routing-lists {
-    padding: 0 12px;
+    padding: 0 24px;
 }
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .add {
     float:left;
@@ -162,11 +173,14 @@
 }
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle {position: relative; padding: 0 5px;}
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle img {
+    /*height: auto;*/
+    /*width: 30px;*/
     padding: 0;
 }
 .pop-main-con.routing-main .content-box.routing-box .routing-lists .vehicle .add-img {
     padding:0;
-    height: 20px;
+    /*height: 20px;*/
+    width: 20px;
     cursor: pointer;
 }
 
@@ -190,12 +204,15 @@
 交通工具*/
 .choose-vehicle {
     position: absolute;
+    top: 62px;
+    left: -10px;
     width: 107px;
     height: 104px;
     border: 1px solid #e8e8e8;
     background: #fff;
     z-index: 100;
     border-radius: 2px;
+    box-shadow: 0 0 3px 0 rgba(1,1,0,0.44);
 }
 .choose-vehicle .choose-top {
     height: 28px;
@@ -208,6 +225,7 @@
 }
 .choose-vehicle ul.choose-vehicle-list {margin-top: 15px;}
 .choose-vehicle ul.choose-vehicle-list li{
+    margin-left:-1px;
     float:left;
     margin-bottom: 12px;
     width: 50%;
@@ -216,7 +234,9 @@
     text-align: center;
     box-sizing: border-box;
     border-right: 1px solid #e8e8e8;
+    cursor: pointer;
 }
+.choose-vehicle ul.choose-vehicle-list li.unborder {border: none;}
 /**
 日历样式/
  */
