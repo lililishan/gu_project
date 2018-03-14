@@ -34,6 +34,7 @@
 	border: 1px solid #7ebafd;
 	/*margin-top: 30px;*/
 	position: relative;
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
 }
 .beforehand-mian .add-bills{
 	background: url(../images/danju.png) ;
