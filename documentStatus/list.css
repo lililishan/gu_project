@@ -14,6 +14,8 @@
 }
 .receipts-content .receipts-box {
     padding: 10px 20px 0;
+    width:100%;
+    padding-bottom: 20px;
     /*min-height: calc(100vh - 145px);*/
     background: #fff;
     /*border: 1px solid #e8ebeb;*/
@@ -100,8 +102,9 @@
     border:none;
 }
 .receipts-content .list-cons.receipts-list .cons-main-box {
-    padding: 0 20px;
+    margin: 0 20px;
     min-height: 635px;
+    width:1160px;
     overflow-x: auto;
 }
 
@@ -120,7 +123,7 @@
 }
 .receipts-content .list-cons.receipts-list .receipts-table tbody tr td,.receipts-content .list-cons.receipts-list .receipts-table thead tr th{
     white-space: nowrap;
-    padding-left: 20px;
+    padding-right: 20px;
 }
 .receipts-content .list-cons.receipts-list .receipts-table tbody tr.even-bg {
     background: #f3f7fa;
