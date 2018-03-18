@@ -10,46 +10,70 @@
 
 #header .header-logo-box {
     margin: 0 auto;
-    height: 60px;
+    height: 100px;
     width: 1200px;
-    line-height: 60px;
+    line-height: 100px;
     box-sizing: border-box;
 }
-#header .header-logo-box .logo-img {
+/*header左侧*/
+#header .header-logo-box .logo-left, #header .header-logo-box .logo-right{
     float: left;
+    height: 62px;
+    margin-top:19px;
 }
-#header .header-logo-box .logo-img img {
-    /*width: 360px;*/
-}
-
-#header .header-logo-box .logo-right {
-    height: 100%;
+#header .header-logo-box .logo-left .logo-img {
+    float:left;
     line-height: 60px;
 }
-#header .user-info-box {
+#header .header-logo-box .logo-left .line {
+    width: 1px;
+    height:36px;
+    margin: 13px 20px 0;
+    background: #e0e4e8;
+    float:left;
+}
+#header .header-logo-box .logo-left .login-name{
+    float:left;
+    margin-top: 5px;
+    line-height:normal;
+}
+#header .header-logo-box .logo-left .login-name .text-one {
+    font-size: 24px;
+    color: #212125;
+}
+#header .header-logo-box .logo-left .login-name .text-two {
+    font-size: 16px;
+    color: #767676;
+}
+/*header右侧*/
+#header .header-logo-box .logo-right {
+    float: right;
+}
+#header .logo-right .user-info-box {
     position:relative;
     height: 100%;
+    line-height: 62px;
     margin-right: 20px;
     border-right: 1px solid #ebf0f3;
 }
-#header .portrait {
+#header .logo-right .portrait {
     height: 38px;
     width: 38px;
     border-radius: 100%;
     float: left;
 }
-#header .portrait img{
+#header .logo-right .portrait img{
     height: 38px;
     width: 38px;
     border-radius: 100%;
 }
-#header .user-name{
+#header .logo-right .user-name{
     margin-left: 15px;
     margin-right: 20px;
     float: left;
-    line-height: 60px;
+    line-height: 62px;
 }
-#header .user-name .name-color {
+#header .logo-right .user-name .name-color {
     margin-right: 10px;
     color: #5ec2bc;
 }
@@ -136,7 +160,7 @@
 #header .user-inform  {
     position: relative;
     width: 24px;
-    height: 60px;
+    height: 62px;
     background: url("../images/tongzhi-01.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -144,7 +168,7 @@
 
 #header .user-inform:hover  {
     width: 24px;
-    height: 60px;
+    height: 62px;
     background: url("../images/tongzhi_hover.png");
     background-repeat: no-repeat;
     background-position: center;

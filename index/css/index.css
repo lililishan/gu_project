@@ -79,11 +79,32 @@
 	float: right;
 }
 /* main 代办事项 */
-.content-main-box .backlog-main{
-	width: 100%;
-	height: 134px;
+.content-main-box .commission-box {
 	border: 1px solid #e2e7eb;
 	background: #fff;
+}
+.content-main-box .commission-box .list-cons {
+	border: none;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+.content-main-box .commission-box .list-cons .cons-main-box table.regime-table tr td, 
+.content-main-box .commission-box .list-cons .cons-main-box table.regime-table tr th {
+	border-top: 1px solid #e8ebeb;
+	border-bottom: 0;
+}
+.content-main-box .commission-box .list-cons .cons-main-box {
+	position: relative;
+}
+.content-main-box .commission-box .list-cons .cons-main-box img.tab-arrow {
+	position:absolute;
+	top: -9px;
+	left: 22px;
+	display:block!important;
+}
+.content-main-box .commission-box .backlog-main{
+	width: 100%;
+	height: 125px;
 	margin-top: 10px;
 }
 .backlog-main ul{
@@ -94,7 +115,22 @@
 	float: left;
 	width: 18.9%;
 	height: 100%;
+	cursor: pointer;
 }
+.backlog-main ul li .zero-img{
+	height: 100%;
+	vertical-align: top;
+}
+.backlog-main ul li:hover .backlog-img {
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
+}
+.backlog-main ul li:hover .backlog-msg p strong {
+	text-shadow:0 1px 12px rgba(0,0,0,.15)
+}
+.backlog-main ul li:hover .backlog-msg p span {
+	text-shadow:0 1px 12px rgba(0,0,0,.15)
+}
+
 .backlog-main ul li.last-li{
 	width: 24%;
 }
@@ -228,28 +264,32 @@
 	background: #fafafa;
 }
 .content-right .budget-plan{
-	height: 196px;
+	/* height: 196px; */
+	height: auto;
 	border-bottom: 1px solid #d9e0e5;
-	padding: 0 23px;
+	/* padding: 0 23px; */
+	padding-bottom: 15px;
 }
 .content-right .budget-plan .plan-chart{
 	width: 128px;
 	height: 128px;
 	background: #60b9b3;
 	margin: 0 auto;
-	margin-top: 44px;
+	margin-top: 27px;
 }
 .content-right .budget-plan p{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
+	font-size: 14px;
 }
 .content-right .budget-ranking{
 	width: 100%;
-	/*height: 345px;*/
-	height: 282px;
+	/* height: 282px; */
+	height: auto;
+	padding-bottom: 18px;
 	background: url(../images/paiming.png) ;
 	background-repeat: no-repeat;
-	background-position: 50% 20%;
+	background-position: 50% 32%;
 	text-align: center;
 }
 .content-right .budget-ranking strong{
@@ -258,8 +298,29 @@
 	display: inline-block;
 	*zoom:1;
 	*display: inline;
-	margin-top: 84px;
+	margin-top: 45px;
 }
 .content-right .budget-ranking p{
-	margin-top: 35px;
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+.content-right.no-background {
+	background: none;
+	border: none;
+}
+.content-right .content-right-cons {
+	border: 1px solid #d9e0e5;
+	background: #fff;
+}
+.first-right-content-cons {
+	margin-bottom: 10px;
+}
+/* .first-right-content-cons.list-cons ul.cons-main-box {
+	padding-top: 10px;
+	padding-bottom: 10px;
+} */
+.first-right-content-cons.list-cons ul.cons-main-box li {
+	height: 25px;
+	line-height:25px;
 }

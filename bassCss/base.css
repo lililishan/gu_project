@@ -132,3 +132,6 @@ acronym {
 .relative {
     position: relative;
 }
+.display-none {
+	display: none;
+}

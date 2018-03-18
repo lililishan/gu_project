@@ -15,10 +15,19 @@
     <!--header-->
     <div id="header">
         <div class="header-logo-box clearfix">
-            <div class="logo-img">
-                <img src="./../images/logo_small.png" alt="">
+            <div class="logo-left">
+                <div class="logo-img">
+                    <img src="../images/logo_small@1x.png" alt="">
+                </div>
+                <div class="line"></div>
+                <div class="login-name">
+                    <p class="text-one">国土资源部内控系统平台</p>
+                    <p class="text-two">国土资源部网络信息中心</p>
+                </div>
+                <div class="both"></div>
             </div>
-            <div class="logo-right right">
+            
+            <div class="logo-right">
                 <div class="user-info-box left ">
                     <div class="portrait">
                         <img src="../images/avatar.gif" alt="">
@@ -29,7 +38,7 @@
                         <img src="../images/down_arrow.png" alt="">
 
                     </div>
-                    <div class="info-pop">
+                    <div class="info-pop" style="display:none;">
                         <div class="info-pop-top">
                             <img src="../images/s_icon_0@2x.png" alt="">
                             <span>岗位：办公室-经纪人</span>
@@ -66,6 +75,7 @@
                 </div>
                 <div class="user-help left cp"></div>
                 <div class="user-service left cp"></div>
+                <div class="both"></div>
             </div>
 
             <div class="both"></div>
@@ -155,56 +165,429 @@
                 </div>
 
                 <!-- 代办事项 -->
-                <div class="backlog-main">
-                    <ul class="clearfix">
-                        <li>
-                            <div class="backlog-img backlog-img1 left">
-                                <img src="./images/gt01.png" alt="">
-                            </div>
-                            <div class="backlog-msg left">
-                                <p><strong>15</strong></p>
-                                <p><span>待处理单据</span></p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="backlog-img backlog-img2 left">
-                                <img src="./images/gt02.png" alt="">
-                            </div>
-                            <div class="backlog-msg left">
-                                <p><strong>32</strong></p>
-                                <p><span>在流转</span></p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="backlog-img backlog-img3 left">
-                                <img src="./images/gt03.png" alt="">
-                            </div>
-                            <div class="backlog-msg left">
-                                <p><strong>6</strong></p>
-                                <p><span>已申请未报销</span></p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="backlog-img backlog-img4 left">
-                                <img src="./images/gt04.png" alt="">
-                            </div>
-                            <div class="backlog-msg left">
-                                <p><strong>12</strong></p>
-                                <p><span>借款未还</span></p>
-                            </div>
-                        </li>
-                        <li class="last-li">
-                            <div class="backlog-img backlog-img5 left">
-                                <img src="./images/gt05.png" alt="">
-                            </div>
-                            <div class="backlog-msg backlog-msg5 left">
-                                <p><strong>15</strong></p>
-                                <p><span>本月应开采购合同</span></p>
-                            </div>
-                        </li>
+                <div class="commission-box">
+                    <div class="backlog-main">
+                        <ul class="clearfix">
+                            <li>
+                                <div class="backlog-img backlog-img1 left" style="display:none;">
+                                    <img src="./images/gt01.png" alt="">
+                                </div>
+                                <!--数据为0 时-->
+                                <div class="backlog-img left">
+                                    <img class="zero-img" src="./images/s_icon_black_a@2x.png" alt="">
+                                </div>
+                                <div class="backlog-msg left">
+                                    <p><strong>0</strong></p>
+                                    <p><span>待处理单据</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="backlog-img backlog-img2 left">
+                                    <img src="./images/gt02.png" alt="">
+                                </div>
+                                <!--数据为0 时-->
+                                <div class="backlog-img left" style="display:none;">
+                                    <img class="zero-img" src="./images/s_icon_black_b@2x.png" alt="">
+                                </div>
+                                <div class="backlog-msg left">
+                                    <p><strong>32</strong></p>
+                                    <p><span>在流转</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="backlog-img backlog-img3 left">
+                                    <img src="./images/gt03.png" alt="">
+                                </div>
+                                <!--数据为0 时-->
+                                <div class="backlog-img left" style="display:none;">
+                                    <img class="zero-img" src="./images/s_icon_black_c@2x.png" alt="">
+                                </div>
+                                <div class="backlog-msg left">
+                                    <p><strong>6</strong></p>
+                                    <p><span>已申请未报销</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="backlog-img backlog-img4 left" >
+                                    <img src="./images/gt04.png" alt="">
+                                </div>
+                                <!--数据为0 时-->
+                                <div class="backlog-img left" style="display:none;">
+                                    <img class="zero-img" src="./images/s_icon_black_d@2x.png" alt="">
+                                </div>
+                                <div class="backlog-msg left">
+                                    <p><strong>12</strong></p>
+                                    <p><span>借款未还</span></p>
+                                </div>
+                            </li>
+                            <li class="last-li">
+                                <div class="backlog-img backlog-img5 left">
+                                    <img src="./images/gt05.png" alt="">
+                                </div>
+                                <!--数据为0 时-->
+                                <div class="backlog-img left" style="display:none;">
+                                    <img class="zero-img" src="./images/s_icon_black_e@2x.png" alt="">
+                                </div>
+                                <div class="backlog-msg backlog-msg5 left">
+                                    <p><strong>15</strong></p>
+                                    <p><span>本月应开采购合同</span></p>
+                                </div>
+                            </li>
 
-                        <div class="both"></div>
-                    </ul>
+                            <div class="both"></div>
+                        </ul>
+                    </div>
+                    <div class="list-cons">
+                        <div class="cons-main-box">
+                            <img class="tab-arrow" src="./images/tab_arrow.png" alt="">
+                            <table class="regime-table commission-list">
+                                <colgroup width="25%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="20%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="10%"></colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class="first-th" align="left">单据类型</th>
+                                        <th align="left">单据号</th>
+                                        <th align="left">标题</th>
+                                        <th align="left">金额 </th>
+                                        <th align="left">经办人</th>
+                                        <th align="left">状态</th>
+                                    </tr>
+                                    
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="regime-table commission-list display-none">
+                                <colgroup width="25%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="20%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="10%"></colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class="first-th" align="left">单据类型1</th>
+                                        <th align="left">单据号</th>
+                                        <th align="left">标题</th>
+                                        <th align="left">金额 </th>
+                                        <th align="left">经办人</th>
+                                        <th align="left">状态</th>
+                                    </tr>
+                                    
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="regime-table commission-list display-none">
+                                <colgroup width="25%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="20%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="10%"></colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class="first-th" align="left">单据类型2</th>
+                                        <th align="left">单据号</th>
+                                        <th align="left">标题</th>
+                                        <th align="left">金额 </th>
+                                        <th align="left">经办人</th>
+                                        <th align="left">状态</th>
+                                    </tr>
+                                    
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="regime-table commission-list display-none">
+                                <colgroup width="25%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="20%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="10%"></colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class="first-th" align="left">单据类型3</th>
+                                        <th align="left">单据号</th>
+                                        <th align="left">标题</th>
+                                        <th align="left">金额 </th>
+                                        <th align="left">经办人</th>
+                                        <th align="left">状态</th>
+                                    </tr>
+                                    
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="regime-table commission-list display-none">
+                                <colgroup width="25%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="20%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="15%"></colgroup>
+                                <colgroup width="10%"></colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class="first-th" align="left">单据类型4</th>
+                                        <th align="left">单据号</th>
+                                        <th align="left">标题</th>
+                                        <th align="left">金额 </th>
+                                        <th align="left">经办人</th>
+                                        <th align="left">状态</th>
+                                    </tr>
+                                    
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-td"><span>报销单</span></td>
+                                        <td><span>00123</span></td>
+                                        <td><span>财务司报销单</span></td>
+                                        <td><span>￥346</span></td>
+                                        <td><span>李萌</span></td>
+                                        <td><span>已处理</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                                  
+                        </div>
+                    </div>
                 </div>
 
                 <div class="list-container clearfix">
@@ -218,6 +601,12 @@
                         <ul class="cons-main-box">
                             <li>
                                 <!--<img src="./images/arrow.gif" alt="">-->
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
                                 <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
                             </li>
                             <li>
@@ -260,6 +649,12 @@
                             <li>
                                 <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
                             </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
+                            <li>
+                                <a href="">财务司：部办公厅、信息中心等5个单位的内控系统成功上线运行</a>
+                            </li>
 
                         </ul>
                     </div>
@@ -268,7 +663,7 @@
                 </div>
 
                 <!-- 相关统计 -->
-                <div class="statistics-container clearfix">
+                <!-- <div class="statistics-container clearfix">
                     <ul>
                         <li>
                             <div class="statistics-list clearfix">
@@ -315,22 +710,48 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> -->
 
             </div>
             <!---right-->
-            <div class="content-right content-right-width">
-                <div class="content-right-title">财务考核</div>
-                <!-- 预算执行进度 -->
-                <div class="budget-plan">
-                    <div class="plan-chart"></div>
-                    <p>预算执行进度</p>
+            <div class="content-right content-right-width no-background">
+                
+                <div class="list-cons  content-right-cons first-right-content-cons">
+                        <div class="content-right-title">常用功能</div>
+                        <ul class="cons-main-box">
+                            <li><a href="">费用申请</a></li>
+                            <li><a href="">呈批报销</a></li>
+                            <li><a href="">项目分解和采购登记</a></li>
+                            <li><a href="">招标书确认</a></li>
+                            <li><a href="">合同签订</a></li>
+                            <li><a href="">合同报销</a></li>
+                            <li><a href="">招标书确认</a></li>
+                            <li><a href="">合同签订</a></li>
+                            <li><a href="">合同报销</a></li>
+                            <li><a href="">招标书确认</a></li>
+                            <li><a href="">合同签订</a></li>
+                            <li><a href="">合同报销</a></li>
+                            <li><a href="">招标书确认</a></li>
+
+                        </ul>
+                    </div>
+                <div class="content-right-cons">
+                    <div class="content-right-title">财务考核</div>
+                    <!-- 预算执行进度 -->
+                    <div style="padding: 0 20px;">
+                        <div class="budget-plan">
+                            <div class="plan-chart"></div>
+                            <p>预算执行进度</p>
+                        </div>
+                        <!-- 预算进度排名 -->
+                        <div class="budget-ranking">
+                            <strong>14</strong>
+                            <p>预算进度排名</p>
+                            </div>
+                    </div>
+                    
                 </div>
-                <!-- 预算进度排名 -->
-                <div class="budget-ranking">
-                    <strong>14</strong>
-                    <p>预算进度排名</p>
-                </div>
+                
             </div>
 
             <div class="both"></div>
@@ -346,6 +767,18 @@
 <script src="js/jq_scroll.js"></script>
 <script>
     $(function(){
+        //tab
+        $(".backlog-main li").on('hover', function() {
+            var $index = $(this).index();
+            console.log($index);
+            
+            $(".commission-list").eq($index).show().siblings().hide();
+            $('.tab-arrow').css({'left':$index*180+22},{'display':'block'})
+            
+        });
+
+
+
         var lineH=$('.inform-msg').find("p:first").height();
         var $parent = $('.inform-msg');
         //gndong
