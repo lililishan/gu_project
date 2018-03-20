@@ -1,11 +1,12 @@
 /*step*/
-#header .fund-header .logo-img{
-    width: 100%;
+#header .fund-header .fund-title{
+    position:absolute;
+    left:50%;
+    top:0;
+    margin-left:-50px;
     text-align: center;
     font-size: 20px;
     color: #5ec2bc;
-    background: url(../../images/logo_small.png)  ;
-    background-repeat: no-repeat;
     background-position: 0;
 }
 .fund-content-box .content {

@@ -24,12 +24,12 @@
 	height: 3px;
 	background: #e2e7eb;
 	/*margin-top: 86px;*/
-	margin-top:56px;
+	margin-top:50px;
 }
 .beforehand-mian{
 
 	width: 148px;
-	height: 111px;
+	height: 102px;
 	border-radius: 20px;
 	border: 1px solid #7ebafd;
 	/*margin-top: 30px;*/
@@ -60,7 +60,7 @@
 .beforehand-mian .beforehand-mian-list{
 	position: relative;
 	width: 100%;
-	height: 55.5px;
+	height: 50.5px;
 }
 .beforehand-mian.beforehand-mar-top { margin-top: 30px;}
 .beforehand-mian .beforehand-mian-list li{
@@ -73,7 +73,7 @@
 .beforehand-mian .beforehand-mian-top{
 	background: #7ebafd;
 	border-radius: 19px 19px 0 0;
-	height: 55px;
+	height: 50px;
 }
 .beforehand-mian .beforehand-mian-top li{
 	line-height: 55px;
@@ -150,7 +150,7 @@
 	*zoom:1;
 	*display: inline;
 	width: 100%;
-	padding-top: 7px;
+	// padding-top: 7px;
 }
 .beforehand-mian-bot li span{
 	display: inline-block;
@@ -173,6 +173,11 @@
 }
 .need-beforehand-list .beforehand-line{
 	width: 56px;
+}
+.need-beforehand-list .beforehand-line.last-beforehand-line  {
+	margin-top: 81px;
+	 margin-left: -30px;
+	 width:59px;
 }
 .need-beforehand-list .beforehand-mian{
 	border: 1px solid #74c68b;
@@ -199,13 +204,13 @@
 	background: #e2e7eb;
 	/*margin-left: 221px;*/
     margin-left:203px;
-	height:89px;
+	height:84px;
 }
 .long-string1{
-	height: 176px;
-    margin-left: 307px;
-    margin-top: -179px;
-	height: 141px;
+ //    margin-left: 307px;
+ //    margin-top: -179px;
+	// height: 141px;
+	margin-top: -54px; margin-left: 27px;height:135px;
 }
 .need-beforehand-list-bot{
 	/*margin-left: 224px;*/
@@ -219,7 +224,7 @@
 .need-beforehand-list-bot .striping{
 	width: 130px;
 	margin-top: 115px;
-	margin-top: 86px;
+	margin-top: 81px;
     /*margin-top: 141px;*/
 }
 .need-beforehand-list-bot .beforehand-mian{
@@ -259,7 +264,7 @@
 	text-align: center;
 	line-height: 36px;
 	border: 1px solid #e2e7eb;
-	margin-top: 37px;
+	margin-top: 31px;
 	border-radius: 30px;
 	font-size: 14px;
 }
